@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "Although mutations occur at a regular and predictable rate, which of the following statements is the LEAST likely reason the frequency of mutation appears to be low?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Some mutations produce alleles that are recessive and may not be expressed."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Some undesirable phenotypic traits may be prevented from reproducing."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Some mutations cause such drastic phenotypic changes that they are removed from the gene pool."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The predictable rate of mutation results in ongoing variability in a gene pool."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id97"
+  },
+  {
+    "input": {
+      "text": "The structure of ATP synthase in the plasma membranes of bacteria is nearly identical to that in the mitochondria and chloroplasts of eukaryotic cells. This similarity best supports which of the following hypotheses?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Eukaryotic and prokaryotic cells share a common ancestor."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mitochondria are derived from ancient aerobic bacteria, and chloroplasts are derived from ancient photosynthetic bacteria."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The similarity of ATP synthase in bacteria, mitochondria, and chloroplasts is an example of convergent evolution."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mitochondria and chloroplasts escaped from eukaryotic cells and formed aerobic and photosynthetic prokaryotes."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id285"
+  },
+  {
+    "input": {
+      "text": "The nucleotide sequence of a DNA molecule is 5\u2032-C-A-T-3\u2032. A mRNA molecule with a complementary codon is transcribed from the DNA in the process of protein synthesis a tRNA pairs with a mRNA codon. What is the nucleotide sequence of the tRNA anticodon?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "5\u2032-G-T-A-3\u2032"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "5\u2032-G-U-A-3\u2032"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "5\u2032-C-A-U-3\u2032"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "5-\u2032U-A-C-3\u2032"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id137"
+  },
+  {
+    "input": {
+      "text": "Refer to question 15 for details on the squirrel population. Which of the following conditions is required to keep this population in Hardy-Weinberg equilibrium?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Random mating"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Genetic drift"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mutation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Gene flow"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id284"
+  },
+  {
+    "input": {
+      "text": "A fruit fly population has a gene with two alleles, A1 and A2. Tests show that 70% of the gametes produced in the population contain the A1 allele. If the population is in Hardy-Weinberg equilibrium, what proportion of the flies carry both A1 and A2?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.7"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.49"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.21"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.42"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id11"
+  },
+  {
+    "input": {
+      "text": "In the Tularosa Basin of New Mexico are black lava formations surrounded by light-colored sandy desert. Pocket mice inhabit both areas. Dark-colored ones inhabit the lava formations, while light-colored mice inhabit the desert. Which of the following statements is correct about this scenario?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The two varieties of mice descended from a recent common ancestor."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The mouse population was originally one population that diverged into two species because of mutations."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Selection favors some phenotypes over others."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Originally the mice were all dark colored. As the lava decomposed into sand, the color of some mice changed because that color was favored in that environment."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id306"
+  },
+  {
+    "input": {
+      "text": "In general, animal cells differ from plant cells in that animal cells have"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a cell wall made of cellulose"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "lysosomes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "large vacuoles that store water"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "centrioles within centrosomes"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id252"
+  },
+  {
+    "input": {
+      "text": "ADH is a hormone secreted by the kidneys that reduces the amount of water excreted in the urine. ADH is released in times of dehydration. This is an example of"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "innate behavior."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "maintaining homeostasis."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "failure to respond to the environment."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "positive feedback."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id60"
+  },
+  {
+    "input": {
+      "text": "If two modern organisms are distantly related in an evolutionary sense, then one should expect that"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "they live in very different habitats."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "they should share fewer homologous structures than two more closely related organisms."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "their chromosomes should be very similar."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "they shared a common ancestor relatively recently."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id233"
+  },
+  {
+    "input": {
+      "text": "Which of the following would most likely provide examples of mitotic cell divisions?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "cross section of muscle tissue"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "cross section of an anther (site of pollen production in a flower)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "longitudinal section of a shoot tip"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "cross section of a leaf"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "Male satin bowerbirds adorn structures that they build, called \"bowers,\" with parrot feathers, flowers, and other bizarre ornaments in order to attract females. Females inspect the bowers and, if suitably impressed, allow males to mate with them. The evolution of this male behavior is due to"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "frequency-dependent selection."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "artificial selection."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "sexual selection."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "natural selection."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id70"
+  },
+  {
+    "input": {
+      "text": "Energy is harvested during cellular respiration in stages. Which of the following correctly states which phase of cellular respiration harvests the most energy and the correct explanation why?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The most energy is released during the Krebs cycle because it is here that pyruvate is completely broken down into CO2."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The most energy is released during the Krebs cycle because in addition to the production of ATP, both FADH2 and NADH are produced. Each of those molecules will release 2 ATPs and 3 ATPs, respectively."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The most energy is released during oxidative phosphorylation because in addition to the phosphorylation of ADP into ATP, all the potential energy held in NADH and FADH is transferred to ATP."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The most energy is released during oxidative phosphorylation because H2O is completely broken down into H+ and O2."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id184"
+  },
+  {
+    "input": {
+      "text": "If neutral variation is truly \"neutral,\" then it should have no effect on"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "nucleotide diversity."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "average heterozygosity."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "our ability to measure the rate of evolution."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "relative fitness."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id172"
+  },
+  {
+    "input": {
+      "text": "No two people are genetically identical, except for identical twins. The chief cause of genetic variation among human individuals is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "new mutations that occurred in the preceding generation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the reshuffling of alleles in sexual reproduction."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "genetic drift due to the small size of the population."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "geographic variation within the population."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id107"
+  },
+  {
+    "input": {
+      "text": "Which of the following statements about photosynthesis is incorrect?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "H2O is an input to the light-dependent reactions."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "CO2 is an input to the Calvin cycle."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Photosystems I and II both play a role in the cyclic light reactions."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "O2 is a product of the light-dependent reactions."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "The sequence of amino acids in hemoglobin molecules of humans is more similar to the hemoglobin of chimpanzees than it is to the hemoglobin of dogs. This similarity suggests that"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "humans and dogs are more closely related than humans and chimpanzees"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "humans and chimpanzees are more closely related than humans and dogs"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "humans are related to chimpanzees but not to dogs"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "humans and chimpanzees are closely analogous"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id194"
+  },
+  {
+    "input": {
+      "text": "Which of the following statements correctly characterizes an autoimmune disease?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "T cells attack healthy body cells."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "An aneurysm is a weakness in the wall of a blood vessel that causes it to balloon out. The vessel can rupture and cause a hemorrhage."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Several factors cause hypertension: smoking, being overweight, lack of physical activity, and too much salt in the diet."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Alzheimer's disease is caused by the buildup of plaque within the brain, causing brain cells to die."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id201"
+  },
+  {
+    "input": {
+      "text": "Oligomycin is an antibiotic that blocks proton channels in the cristae of mitochondria by binding to ATP synthase. Which of the following would be the first expected response after the application of oligomycin to cells?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Water production would increase."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "H+ would increase inside the intermembrane space (the compartment between inner and outer membranes)."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "H+ would increase in the matrix (inside mitochondrial inner membrane)."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "H+ would increase outside mitochondria."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id171"
+  },
+  {
+    "input": {
+      "text": "The tandem back-and-forth evolution of closely related species, which is exemplified by predator-prey relationships."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Divergent evolution"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Convergent evolution"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Parallel evolution"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Coevolution"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id338"
+  },
+  {
+    "input": {
+      "text": "The upper forelimbs of humans and bats have fairly similar skeletal structures, whereas the corresponding bones in whales have very different shapes and proportions. However, genetic data suggest that all three kinds of organisms diverged from a common ancestor at about the same time. Which of the following is the most likely explanation for these data?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Humans and bats evolved by natural selection, and whales evolved by Lamarckian mechanisms."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Forelimb evolution was adaptive in people and bats, but not in whales."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Natural selection in an aquatic environment resulted in significant changes to whale forelimb anatomy."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Genes mutate faster in whales than in humans or bats."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id31"
+  }
+]

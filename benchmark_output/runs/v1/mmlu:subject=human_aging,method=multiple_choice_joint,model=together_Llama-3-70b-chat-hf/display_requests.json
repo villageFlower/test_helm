@@ -1,0 +1,382 @@
+[
+  {
+    "instance_id": "id94",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: The cause of Alzheimer's appears to be\nA. Mostly environmental\nB. Aluminum\nC. Mostly genetic\nD. Apo-E 4\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id113",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: One of the most important points made in this chapter is that physical changes\nA. Occur for everyone\nB. Occur more for some and less for others and, within the same person, more for some systems and less for others\nC. Usually occur for very old people but not for very young people\nD. Can be totally avoided if one learns enough about gerontology\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Quantitative analyses of TV shows have shown that\nA. Older adults are almost always portrayed in a negative way\nB. The more positive portrayals occur during commercials\nC. The proportion of older men is particularly low\nD. The proportion of older women is particularly low\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id114",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following forms of dementia has the highest prevalence rate?\nA. Alzheimer's\nB. Vascular\nC. Parkinson's\nD. Fronto-temporal lobe\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id76",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following hormones has not yet been claimed to ward off senescence?\nA. DHEA\nB. Human growth hormone\nC. Melatonin\nD. Viasterol\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id131",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Socioemotional selectivity theory says that older adults have smaller social networks because they\nA. Are more concerned with those closest to them\nB. Select new network members based on emotional factors\nC. Can no longer get out to select new network members\nD. Are too emotionally involved to spend time with others\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id109",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Hypokinesia refers to\nA. Severe obesity\nB. Loss of muscle strength and bone density\nC. Increased sensitivity to stress\nD. Social isolation and lack of support\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id143",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: As working people get closer to retirement they are more likely to\nA. Be absent from work\nB. Invest in craft and hobby books\nC. Do some informal planning\nD. Become irritated and anxious\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id159",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: After losing a spouse, the surviving spouse often dies within the first year because of\nA. Stress and loss of social support\nB. Having the same disorder as the deceased\nC. The inability to remarry quickly\nD. They have the same defective genes\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id204",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Life stories are more likely for people who have a sense of\nA. Well being\nB. Personal control\nC. Generativity\nD. Humor\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id238",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: A disadvantage of institutional care is that the staff frequently teach older residents to be\nA. Rude\nB. Dependent\nC. Independent\nD. Selfish\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id187",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following does NOT increase the risk of falling?\nA. Taking many prescription medications\nB. Visual impairment\nC. Having no emotional support\nD. A change in walking style or gait\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id128",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Our social network refers to\nA. Everyone we know\nB. Those who are closest to us\nC. Those who we have not yet met\nD. Family members\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following is more likely to be a cohort, rather than an age, difference?\nA. A higher proportion of older women have completed menopause\nB. A smaller proportion of older women report dreams about sex\nC. A higher proportion of older men are bald\nD. A higher proportion of older men and women are victims of cancer\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id205",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: The idea that the ability to complete a task depends on the fit between the environment and the person undertaking the task is a basic tenet of which of the following theories of aging?\nA. Environmental\nB. Ecological\nC. Fitness\nD. Congruence\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id199",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: The insurance program for poor people of all ages is called\nA. Hospice\nB. Medicaid\nC. Medicare\nD. Respite\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id242",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following has NOT been shown to be an effective treatment for depression in older adults?\nA. Rigorous exercise\nB. Life review\nC. Mental stimulation\nD. Anti-depressant drugs\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id42",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: A shortage of these two vitamins can produce symptoms that mimic dementia:\nA. A and C\nB. B6 and B12\nC. B6 and D\nD. B12 and E\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id80",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following groups of Americans have the lowest rate of alcohol abuse?\nA. African-American\nB. White\nC. Native-American\nD. Asian-American\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id68",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Some work on age stereotypes suggests that\nA. Positive ones are stronger\nB. Negative ones are stronger\nC. They never last very long\nD. They are very rare\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id81",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Alcohol dehydrogenase (ADH), cytochrome P450 2E1 (CYP2EI), catalase",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 636.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id275",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "An increase in basal metabolic rate that is not fully explained by a change in body composition during chronic overfeeding",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 628.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id229",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Consumption of a meal leads to suppression of lipase activity within adipose tissue leading to a decrease in plasma NEFA concentrations",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 677.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id164",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "'Exposure' refers to contact with some factor that may be harmful or beneficial to health.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 650.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id246",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "BP < 130/80, Trig <150, LDL < 100",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 659.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id334",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Muscle glycogen",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 601.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id20",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Synthesis of methionine from homocysteine",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 631.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id259",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "All of the options given are correct",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 598.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id69",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Lack of small intestinal lactase",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 649.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id286",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Dietary fibre",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 593.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id94",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Carboxylation of pyruvate to oxaloacetate",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 630.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id180",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Cytosine",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 600.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id73",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "66%",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 593.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id64",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Adipose tissue",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 595.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id175",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "60%",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 590.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id237",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Slice of bread",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 597.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id31",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Self-induced vomiting is the most frequent compensatory behaviour",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 619.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id204",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "figs",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 614.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id68",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Different amino acid scoring patterns are used for different age groups.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 655.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id42",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Vitamin E",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 592.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id118",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "more challenging",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 559.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id597",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "turnover",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 534.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id256",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "conditioned stimulus is repeatedly not followed by the unconditioned stimulus",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 564.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id558",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "Older parents have more physical energy and time to play with their young children",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 584.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id288",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "Explicit memory",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 532.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id431",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "reading chills usually do not reach normal levels as these children reach adulthood",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 558.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id80",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "the efficiency of controlled memory processes",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 545.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id518",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "release only that information you believe to be relevant to the school\u2019s concerns.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 644.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id499",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "sets challenging goals and encourage higher levels of performance",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 573.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id562",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "fluent but unintelligible speech.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 549.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id19",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "encouraged by the Ethics Code.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 534.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id344",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Working",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 539.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id572",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "the boy is more likely than the girl to manifest an immediate behavior problem",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 607.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id522",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Contemplation stage",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 546.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id501",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "results",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 554.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id619",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "the client.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 531.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id201",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Adler\u2019s individual psychology",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 566.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id248",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Avoidant",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 599.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id332",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "solution-focused",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 533.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id73",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "for a given task, there is an optimal level of motivation",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 574.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

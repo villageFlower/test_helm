@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id254",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "not guilty.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1607.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id11",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Accessory after the fact to burglary.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1587.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id222",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "fee simple subject to condition subsequent.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1574.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id971",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Yes, the fact that a person sees that action is needed for another's aid or protection does impose a legal duty to act.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1592.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id1679",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "lose, because the doctrine of after-acquired title controls.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1889.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id166",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Yes, because the hearsay rule does not exclude out-of-court statements if a declarant testifies and is available for cross- examination.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1643.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id1349",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Sells under 10 units a year to Roberta.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1542.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id691",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Yes, because a contrary appellate decision could terminate the action.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1565.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id637",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "The state must demonstrate that the law is rationally related to a legitimate state interest.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1641.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id267",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "No, because the printing company cured the October 10 defective shipment by its tender of conforming goods on October 25.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1742.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1499",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The killing, was accidental and unintended.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1604.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id923",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Fee simple subject to condition subsequent.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1864.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id398",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The friend has a life estate and the woman has a reversion, because the neighbor's remainder was void under the Rule Against Perpetuities.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1676.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id1239",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Both parties are excused from performance because of the supervening illegality, and neither can recover from the other.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1963.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id1540",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The market price on September 30.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1607.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id580",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "admissible as not hearsay.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1502.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id1645",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "No, because the plaintiff has promptly and diligently attempted to address the pleading defects.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1668.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id187",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "not prevail, because at an auction \"without reserve,\" the auctioneer invites offers, which he may accept or reject.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1743.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id1647",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Not having been recorded, the condition cannot be enforced against the son.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1803.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id430",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "requirements contract.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1721.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

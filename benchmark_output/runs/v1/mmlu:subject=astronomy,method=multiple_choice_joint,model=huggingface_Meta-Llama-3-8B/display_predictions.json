@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id156",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "radio infrared visible light ultraviolet X rays gamma rays",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 574.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id61",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "The force of attraction between any two objects decreases with the square of the distance between their centers.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 602.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id128",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Five pounds of bricks as measured on Earth",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 547.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id65",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "brightness measurements made during mutual eclipses of Pluto and Charon",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 572.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id105",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "size of the planet",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 551.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id56",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "it switches polarity every 11 years",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 579.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Opportunity may not be able to move its arm again; Spirit may not be able to drive out of Victoria Crater due to its broken sixth wheel.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 647.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Volcanic Heating",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 544.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id91",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Chicxulub Crater Yucatan Peninsula in Mexico.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 566.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id140",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "9.3 x 1010 meters",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 586.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id59",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 610.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id99",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "nitrogen methane and carbon monoxide ices which sublimate into an atmosphere near perihelion",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 576.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id162",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Their rapid rotation flings the mass near the equator outward.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 589.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id106",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Distance at which one astronomical unit measures one arcsecond from Earth.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 607.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id78",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "There is no solar day Planet X is tidally locked",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 584.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "metals sank to the center during a time when the interiors were molten throughout.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 577.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "Lower in the sky",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 552.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id102",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "A neutral atom always has equal numbers of neutrons and protons.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 574.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id144",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "molecules scatter blue light more effectively than red light.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 552.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id101",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "1.38 \u00d7 10\u221223 m^2 \u00b7 kg \u00b7 s^\u22122 \u00b7 K^\u22121",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 627.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

@@ -1,0 +1,1652 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about prehistory.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "huggingface/Meta-Llama-3-8B",
+    "model": "huggingface/Meta-Llama-3-8B",
+    "temperature": 0.0,
+    "max_tokens": 1,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "When did maize-based agriculture replace the traditional foraging subsistence system in the Southwest?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "500 B.P."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1000 B.P."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "2000 B.P."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "3000 B.P."
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id11"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "500 B.P.",
+        "B": "1000 B.P.",
+        "C": "2000 B.P.",
+        "D": "3000 B.P."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: When did maize-based agriculture replace the traditional foraging subsistence system in the Southwest?\nA. 500 B.P.\nB. 1000 B.P.\nC. 2000 B.P.\nD. 3000 B.P.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 37.51117396354675,
+        "request_datetime": 1716231775
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "There is evidence that premodern Homo sapiens existed:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "800,000 to 200,000 years ago."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "600,000 to 30,000 years ago."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "400,000 to 10,000 years ago."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "100,000 to 10,000 years ago."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id264"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "800,000 to 200,000 years ago.",
+        "B": "600,000 to 30,000 years ago.",
+        "C": "400,000 to 10,000 years ago.",
+        "D": "100,000 to 10,000 years ago."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: There is evidence that premodern Homo sapiens existed:\nA. 800,000 to 200,000 years ago.\nB. 600,000 to 30,000 years ago.\nC. 400,000 to 10,000 years ago.\nD. 100,000 to 10,000 years ago.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 21.372470140457153,
+        "request_datetime": 1716231775
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A design that is not painted upon but is etched into a rock face is called a:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "pictograph."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "petroglyph."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "pictorial."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "petrification."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id111"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "pictograph.",
+        "B": "petroglyph.",
+        "C": "pictorial.",
+        "D": "petrification."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: A design that is not painted upon but is etched into a rock face is called a:\nA. pictograph.\nB. petroglyph.\nC. pictorial.\nD. petrification.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 27.735271692276,
+        "request_datetime": 1716231775
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Recovery of more than 6,500 bones and bone fragments from 28 individuals of a single hominid species at the Cave of the Bones in Spain provides:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "little evidence of diversity, since each individual represents a different species."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "unusually good evidence to examine diversity within a hominid species."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "evidence of interbreeding between Homo neanderthalensis and Homo erectus."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "relatively little evidence to examine diversity within the species."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id220"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "little evidence of diversity, since each individual represents a different species.",
+        "B": "unusually good evidence to examine diversity within a hominid species.",
+        "C": "evidence of interbreeding between Homo neanderthalensis and Homo erectus.",
+        "D": "relatively little evidence to examine diversity within the species."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: Recovery of more than 6,500 bones and bone fragments from 28 individuals of a single hominid species at the Cave of the Bones in Spain provides:\nA. little evidence of diversity, since each individual represents a different species.\nB. unusually good evidence to examine diversity within a hominid species.\nC. evidence of interbreeding between Homo neanderthalensis and Homo erectus.\nD. relatively little evidence to examine diversity within the species.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.357359170913696,
+        "request_datetime": 1716231775
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The Chinese process of divining the future by examining fired animal bones is called:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "hang-t'u."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "sarsen divination"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "scapulimancy"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "cylinder seal prophecy"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id95"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "hang-t'u.",
+        "B": "sarsen divination",
+        "C": "scapulimancy",
+        "D": "cylinder seal prophecy"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: The Chinese process of divining the future by examining fired animal bones is called:\nA. hang-t'u.\nB. sarsen divination\nC. scapulimancy\nD. cylinder seal prophecy\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 24.20717453956604,
+        "request_datetime": 1716231795
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "One of the less obvious reasons for the Inca to fight so many wars may have been:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "to develop a story line for powerful epic poetry."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "to identify and cultivate talented leaders."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "to kill off a certain percentage of the young male population, thus preventing revolution."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "to appease the gods of war."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id121"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "to develop a story line for powerful epic poetry.",
+        "B": "to identify and cultivate talented leaders.",
+        "C": "to kill off a certain percentage of the young male population, thus preventing revolution.",
+        "D": "to appease the gods of war."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: One of the less obvious reasons for the Inca to fight so many wars may have been:\nA. to develop a story line for powerful epic poetry.\nB. to identify and cultivate talented leaders.\nC. to kill off a certain percentage of the young male population, thus preventing revolution.\nD. to appease the gods of war.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 23.014684677124023,
+        "request_datetime": 1716231796
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Based on the strontium isotope ratios in the teeth of people buried at Cop\u00e1n, who were the rulers?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "local elite who rose to power based on their popularity and knowledge of politics"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "foreigners from different regions across much of the Maya territory"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "an elite class of astronomer-priests who ate mostly vegetables and fish"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Egyptian emigrants who arrived on ships and taught the Maya how to build pyramids"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id236"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "local elite who rose to power based on their popularity and knowledge of politics",
+        "B": "foreigners from different regions across much of the Maya territory",
+        "C": "an elite class of astronomer-priests who ate mostly vegetables and fish",
+        "D": "Egyptian emigrants who arrived on ships and taught the Maya how to build pyramids"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: Based on the strontium isotope ratios in the teeth of people buried at Cop\u00e1n, who were the rulers?\nA. local elite who rose to power based on their popularity and knowledge of politics\nB. foreigners from different regions across much of the Maya territory\nC. an elite class of astronomer-priests who ate mostly vegetables and fish\nD. Egyptian emigrants who arrived on ships and taught the Maya how to build pyramids\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.697311401367188,
+        "request_datetime": 1716231802
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The Yang-shao culture gave way to the Lung-Shan sometime after:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "6,000 B.P."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "5,000 B.P."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "4,000 B.P."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "3,000 B.P."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id65"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "6,000 B.P.",
+        "B": "5,000 B.P.",
+        "C": "4,000 B.P.",
+        "D": "3,000 B.P."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: The Yang-shao culture gave way to the Lung-Shan sometime after:\nA. 6,000 B.P.\nB. 5,000 B.P.\nC. 4,000 B.P.\nD. 3,000 B.P.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 36.70411682128906,
+        "request_datetime": 1716231812
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "When anatomically modern humans first arrived in the Middle East, who did they encounter?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Neandertals, the evolutionary descendants of the premodern human inhabitants of Europe and Asia"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Homo erectus, the evolutionary descendants of the premodern human inhabitants of Europe and Asia"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Homo sapiens, who had evolved independently in Asia and arrived there by 200,000 years ago"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "All of the above"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id42"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Neandertals, the evolutionary descendants of the premodern human inhabitants of Europe and Asia",
+        "B": "Homo erectus, the evolutionary descendants of the premodern human inhabitants of Europe and Asia",
+        "C": "Homo sapiens, who had evolved independently in Asia and arrived there by 200,000 years ago",
+        "D": "All of the above"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: When anatomically modern humans first arrived in the Middle East, who did they encounter?\nA. Neandertals, the evolutionary descendants of the premodern human inhabitants of Europe and Asia\nB. Homo erectus, the evolutionary descendants of the premodern human inhabitants of Europe and Asia\nC. Homo sapiens, who had evolved independently in Asia and arrived there by 200,000 years ago\nD. All of the above\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.671854257583618,
+        "request_datetime": 1716231819
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Archaeological evidence for the domestication of cats suggests it occurred when and why?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "before 22,000 years ago, as a result of the shift from opportunistic foraging to logistical collecting"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "before 11,000 years ago, as a direct result of artificial selection"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "after 11,000 years ago, as an unintentional consequence of food production and storage"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "after 9,000 years ago, as an unintentional result of the domestication of cattle and production of milk and cheese"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id125"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "before 22,000 years ago, as a result of the shift from opportunistic foraging to logistical collecting",
+        "B": "before 11,000 years ago, as a direct result of artificial selection",
+        "C": "after 11,000 years ago, as an unintentional consequence of food production and storage",
+        "D": "after 9,000 years ago, as an unintentional result of the domestication of cattle and production of milk and cheese"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: Archaeological evidence for the domestication of cats suggests it occurred when and why?\nA. before 22,000 years ago, as a result of the shift from opportunistic foraging to logistical collecting\nB. before 11,000 years ago, as a direct result of artificial selection\nC. after 11,000 years ago, as an unintentional consequence of food production and storage\nD. after 9,000 years ago, as an unintentional result of the domestication of cattle and production of milk and cheese\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 22.375030279159546,
+        "request_datetime": 1716231819
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Who was part of the elite class in the Olmec culture?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "those who lived in the particularly rich farmlands"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "those who lived near resource-privileged areas"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "those who lived near the river where trading took place"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "those who lived near the volcanic rocks used in tool making"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id31"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "those who lived in the particularly rich farmlands",
+        "B": "those who lived near resource-privileged areas",
+        "C": "those who lived near the river where trading took place",
+        "D": "those who lived near the volcanic rocks used in tool making"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: Who was part of the elite class in the Olmec culture?\nA. those who lived in the particularly rich farmlands\nB. those who lived near resource-privileged areas\nC. those who lived near the river where trading took place\nD. those who lived near the volcanic rocks used in tool making\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 27.816231727600098,
+        "request_datetime": 1716231823
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which foods are included in the triad of plants that provided the subsistence base for indigenous New World civilizations?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "maize, beans, and squash"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "maize, lentils, and wheat"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "rice, beans, and squash"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "yams, maize, and millet"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id292"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "maize, beans, and squash",
+        "B": "maize, lentils, and wheat",
+        "C": "rice, beans, and squash",
+        "D": "yams, maize, and millet"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: Which foods are included in the triad of plants that provided the subsistence base for indigenous New World civilizations?\nA. maize, beans, and squash\nB. maize, lentils, and wheat\nC. rice, beans, and squash\nD. yams, maize, and millet\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 33.142338275909424,
+        "request_datetime": 1716231840
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In 1797, John Frere made a discovery that he described as:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "animal remains scattered on the surface of the ground."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the earliest written documents."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "primitive stone tools excavated at great depth."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "human skulls with ape-like features."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id175"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "animal remains scattered on the surface of the ground.",
+        "B": "the earliest written documents.",
+        "C": "primitive stone tools excavated at great depth.",
+        "D": "human skulls with ape-like features."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: In 1797, John Frere made a discovery that he described as:\nA. animal remains scattered on the surface of the ground.\nB. the earliest written documents.\nC. primitive stone tools excavated at great depth.\nD. human skulls with ape-like features.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 29.049467086791992,
+        "request_datetime": 1716231842
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The Younger Dryas was:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "a warming period at the end of the Pleistocene."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a period of glacial expansion between 12,900 and 11,600 years ago."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "a period of glacial retreat between 10,900 and 9,000 years ago."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a period of environmental change that caused humans to temporarily abandon much of northern Europe."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id281"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "a warming period at the end of the Pleistocene.",
+        "B": "a period of glacial expansion between 12,900 and 11,600 years ago.",
+        "C": "a period of glacial retreat between 10,900 and 9,000 years ago.",
+        "D": "a period of environmental change that caused humans to temporarily abandon much of northern Europe."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: The Younger Dryas was:\nA. a warming period at the end of the Pleistocene.\nB. a period of glacial expansion between 12,900 and 11,600 years ago.\nC. a period of glacial retreat between 10,900 and 9,000 years ago.\nD. a period of environmental change that caused humans to temporarily abandon much of northern Europe.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 33.136274576187134,
+        "request_datetime": 1716231849
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The New World, \u201cdiscovered\u201d by Christopher Columbus, was filled with approximately how many people?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "100,000"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "500,000"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,000,000"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "tens of millions"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id149"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "100,000",
+        "B": "500,000",
+        "C": "1,000,000",
+        "D": "tens of millions"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: The New World, \u201cdiscovered\u201d by Christopher Columbus, was filled with approximately how many people?\nA. 100,000\nB. 500,000\nC. 1,000,000\nD. tens of millions\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 27.594128131866455,
+        "request_datetime": 1716231851
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Pizarro was able to subdue the entire Inca empire largely because:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "his horses and guns frightened the Incas into submission."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "he was such a brilliant military strategist."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the empire had never won the allegiance of the peoples it had conquered."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "he arrived with a superior force of more than 80,000 soldiers."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id285"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "his horses and guns frightened the Incas into submission.",
+        "B": "he was such a brilliant military strategist.",
+        "C": "the empire had never won the allegiance of the peoples it had conquered.",
+        "D": "he arrived with a superior force of more than 80,000 soldiers."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: Pizarro was able to subdue the entire Inca empire largely because:\nA. his horses and guns frightened the Incas into submission.\nB. he was such a brilliant military strategist.\nC. the empire had never won the allegiance of the peoples it had conquered.\nD. he arrived with a superior force of more than 80,000 soldiers.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 18.965108633041382,
+        "request_datetime": 1716231871
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following characteristics of modern humans is the most ancient, pre-dating the Late Stone Age, the Upper Paleolithic and even anatomically modern humans?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "elaborate burials"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "larger sites with larger populations"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "improved stone tool technologies"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "symbolic expression through the production of art"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id141"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "elaborate burials",
+        "B": "larger sites with larger populations",
+        "C": "improved stone tool technologies",
+        "D": "symbolic expression through the production of art"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: Which of the following characteristics of modern humans is the most ancient, pre-dating the Late Stone Age, the Upper Paleolithic and even anatomically modern humans?\nA. elaborate burials\nB. larger sites with larger populations\nC. improved stone tool technologies\nD. symbolic expression through the production of art\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 29.47575330734253,
+        "request_datetime": 1716231873
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In rare cases, the residue of blood on ancient stone tools can:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "prevent archaeologists from doing their research, since only forensic anthropologists can study bloody tools."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "be used to identify the species of animals killed and likely eaten."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "be used to predict the types of weapons that were not used for hunting."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "none of the above; blood does not preserve and has never been identified on stone tools."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id163"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "prevent archaeologists from doing their research, since only forensic anthropologists can study bloody tools.",
+        "B": "be used to identify the species of animals killed and likely eaten.",
+        "C": "be used to predict the types of weapons that were not used for hunting.",
+        "D": "none of the above; blood does not preserve and has never been identified on stone tools."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: In rare cases, the residue of blood on ancient stone tools can:\nA. prevent archaeologists from doing their research, since only forensic anthropologists can study bloody tools.\nB. be used to identify the species of animals killed and likely eaten.\nC. be used to predict the types of weapons that were not used for hunting.\nD. none of the above; blood does not preserve and has never been identified on stone tools.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.32513999938965,
+        "request_datetime": 1716231879
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Teotihuac\u00e1n came to prominence in the Basin of Mexico after its rival, Cuicuilco,"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "was crippled by a volcanic eruption."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "succumbed to a civil war among its ruling families."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "suffered a blight on its crops."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "was flooded by a Gulf Coast hurricane."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id70"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "was crippled by a volcanic eruption.",
+        "B": "succumbed to a civil war among its ruling families.",
+        "C": "suffered a blight on its crops.",
+        "D": "was flooded by a Gulf Coast hurricane."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: Teotihuac\u00e1n came to prominence in the Basin of Mexico after its rival, Cuicuilco,\nA. was crippled by a volcanic eruption.\nB. succumbed to a civil war among its ruling families.\nC. suffered a blight on its crops.\nD. was flooded by a Gulf Coast hurricane.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 26.27942943572998,
+        "request_datetime": 1716231882
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "How do archaeologists characterize the peoples who built monumental structures at G\u00f6bekli Tepe, Watson Brake, and Poverty Point?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "agriculturalists"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "affluent foragers"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "archaic states"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "primitive civilizations"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id302"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "agriculturalists",
+        "B": "affluent foragers",
+        "C": "archaic states",
+        "D": "primitive civilizations"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about prehistory.\n\nQuestion: Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.\nAnswer: B\n\nQuestion: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.\nAnswer: A\n\nQuestion: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.\nAnswer: A\n\nQuestion: The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.\nAnswer: D\n\nQuestion: What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc\nAnswer: C\n\nQuestion: How do archaeologists characterize the peoples who built monumental structures at G\u00f6bekli Tepe, Watson Brake, and Poverty Point?\nA. agriculturalists\nB. affluent foragers\nC. archaic states\nD. primitive civilizations\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 18.215903282165527,
+        "request_datetime": 1716231890
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

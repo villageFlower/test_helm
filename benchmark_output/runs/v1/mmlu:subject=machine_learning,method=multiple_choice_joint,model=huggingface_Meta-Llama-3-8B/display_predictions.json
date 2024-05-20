@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id90",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Stuart Russell",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 632.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id103",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "True, True",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 653.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id15",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "True, True",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 668.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id76",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "True, True",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 673.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id13",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "P(X, Y, Z) = P(X) * P(Y|X) * P(Z|Y)",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 713.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Supervised learning",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 630.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id27",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "overfitting",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 629.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "lower",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 638.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id66",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "O( N )",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 634.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id96",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "True, True",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 666.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id119",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "\\texttt{5 + torch.randn(10,5) * 16} ; \\texttt{(torch.rand(10,10) - 0.5) / 0.5}",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 825.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id115",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "L1 norm",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 648.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id38",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "2",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 645.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id71",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "All of the above",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 624.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id7",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "True, True",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 671.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id95",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "True, True",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 647.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id94",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Whether we assume full class covariance matrices or diagonal class covariance matrices",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 689.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id29",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "True, False",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 667.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id127",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "True, True",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 710.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id35",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "True, True",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 653.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

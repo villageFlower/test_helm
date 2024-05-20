@@ -1,0 +1,300 @@
+[
+  {
+    "instance_id": "id144",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "The elderly",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 361.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id111",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Concurrently with antiretroviral drugs",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 387.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "a. and c. above",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 374.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id112",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "All of the above",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 363.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id65",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Acyclovir",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 366.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id102",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "As positive strand RNA viruses",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 367.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id66",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "China, the U.S. and Russia",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 373.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id171",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "ds RNA virus in segments",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 364.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id38",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "350 million",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 363.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id175",
+    "train_trial_index": 0,
+    "predicted_text": "C</BRESULT>",
+    "base64_images": [],
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 356.0,
+      "num_output_tokens": 5.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id168",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Effect modification (interaction)",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 371.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id76",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Confounding",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 451.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "100/10,000",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 443.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id118",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Chemistry of the DNA and RNA",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 371.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id156",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Median",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 454.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id151",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Direct-acting Antivirals such as daclatasvir and sofosbuvir",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 388.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id23",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "10",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 358.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id71",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Respiratory tract infections",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 376.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id155",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Unlinked anonymous",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 363.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "predicted_text": "A</DRESULT>",
+    "base64_images": [],
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 373.0,
+      "num_output_tokens": 5.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id53",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "It distinguishes social rules from mere group habits.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 429.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id99",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Because any definition of punishment should be value-neutral.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 427.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id100",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The social contract cannot be entered into unless there is peace.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 433.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id13",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Because Bentham recognizes the possibility of limiting the sovereign's power.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 450.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id102",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "It overlooks the historical struggle of women for justice.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 422.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id27",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Sociological",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 409.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Attempting to expose the gender consequence of rules and practices that may seem to be objective or neutral.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 435.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id15",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "This is an unjustifiably narrow view of the CRT agenda.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 454.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Donny will be liable for assault, but not battery.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 498.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id94",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "interpret",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 400.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id38",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "stare decisis",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 404.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id55",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "He rejects the idea of equality altogether.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 428.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id7",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "A soft positivist rejects the role of morality in the description of law.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 445.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id65",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The rule of recognition cannot fully account for legal validity.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 422.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id123",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Because he overlooks the role of law in economic relations.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 445.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Asserting that X has a right whenever the protection of his interest is recognized as a reason for imposing duties -only when they are actually imposed.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 492.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id35",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Positive law",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 400.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id48",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "It espouses the view that there is no necessary connection between morality and law.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 429.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id116",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Sanction.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 415.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id81",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "It rejects the Kantian concern with individual rights, equality, and justice.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 432.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

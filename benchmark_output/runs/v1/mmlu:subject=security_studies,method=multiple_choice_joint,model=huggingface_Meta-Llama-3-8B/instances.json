@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "Can armed forces be linked to environmental security and in what ways?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Military warfare enhances the ability of people's access to resources and to aid the development in ecologically sustainable ways; it can secure access routes and rights that would otherwise be denied; rebuild infrastructure and equitable access of resources; benefit the management of environmental problems; and also to bolster social institutions and cohesion."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It is when considering the military and the security institutions that some of the greatest contradictions with the concept of environmental security are raised. War impacts negatively on the sustainable growth of the nation but armed forces may be required to manage the effects."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Stronger militaries and technological advances have reduced the negative impact on the environment having greater impact with fewer materials, whilst the spectre of mass destruction warfare has been reduced with the ending of the Cold War."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of these options."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id222"
+  },
+  {
+    "input": {
+      "text": "How might global inequality present a threat to global security?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Human security is threatened by global inequality, because 3s of the world population do not share the benefits of globalisation. However, this inequality does not translate into political instability or involve military action."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Global inequality creates disenfranchised populations who, although discontent with their situation, lack the agency to rebel or protest."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Revolutionary uprisings are likely to occur; people of the world who have been left behind by neoliberal globalisation can become radicalised and rebel against those who have benefitted from the economic policies that have failed them."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Global inequality does not present a significant threat to global security."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id263"
+  },
+  {
+    "input": {
+      "text": "What are the specific elements of a comprehensive national defence trade control system?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Governments should include in their arms trade rules, laws, penalties for their violation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Governments should ensure that weapons producers mark their defence items with a unique marking."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Government police and military forces should establish appropriate weapons stockpile security measures and national authorities should collect and destroy old, outdated, and excess weaponry."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of these options."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id206"
+  },
+  {
+    "input": {
+      "text": "Which of the following is NOT one of the 3 forms of violence identified by postcolonialism?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Material violence."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Epistemic violence."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Structural violence."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Pervasive violence."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id116"
+  },
+  {
+    "input": {
+      "text": "How has the conceptualization of health as a security issue changed during the twentieth century?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Health has long been regarded as a security issue. During the 20th century there was an increasingly sense of panic about the potential damage of a serious pandemic disease outbreak in the newly globalised world. Medical advances and a series of successful contained outbreaks have largely allayed these fears."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Since the early 20th century there has been growing recognition of the success in medical and technological advancements that have the ability to keep infectious diseases at bay in the modern population."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Pandemic disease is a relatively new threat to security, emerging only in the early 19th century. Therefore, human populations are still formulating and testing new ways of controlling outbreaks and minimising their impact on security."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "During the 20th century, security analysts were predisposed to focus on the potential threat of nuclear confrontation and military combat. Since the reduction in these threats, there has emerged a series of pandemic diseases, and a sense of growing unease at the future impact of more serious outbreaks in an increasingly globalised population."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id242"
+  },
+  {
+    "input": {
+      "text": "Which of these statements concerning the study of identity is not applicable to social constructivism?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Identity defines actors, and tells us who they are, what their preferences and interests are, and how those preferences might inform their actions."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Identity is of fundamental importance to the social constructivist perspective because it is the basest principle in defining behaviour; it is a naturally bestowed quality comprised of certain unalterable behavioural characteristics."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The identities, interests and behaviour of political agents are socially constructed by shared ideas, collective meaning, and interpretations and assumptions about the world."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Actors form their identity through interaction, which in turn defines the types of relationship formed between these actors."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id166"
+  },
+  {
+    "input": {
+      "text": "What long-term trends can be foreseen in the concept of environmental security?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "In the post-9/11 reversion to traditional security thinking, environmental security as a concept is likely to enjoy continued attention from security analysts and policymakers."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Increasing evidence of the negative effects of environmental insecurity may increasingly govern national security interests and behaviour. The relevance will increase until national unilateralist initiatives are taken to retain the social organization of the nation which may have the adverse affect of increasing the prospect of conflict."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "National security practices are the most effective means to achieving environmental security reforms to consolidate the socio-economic organizational base of the country against threat. The state on a practical level remains the most capable body - having the monopolization over the instruments of violence, and centralization of resources - to enter into trans-national agreements for the management of environmental constraints."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The impact of environmental problems seems unlikely to diminish so that the relevance of environmental security for policy will likely increase, particularly multilateral action on common security concerns to achieve forms of social organization that are ecologically sustainable. In some sense, current practices of national security are an impediment to achieving environmental security for all people."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id94"
+  },
+  {
+    "input": {
+      "text": "In what ways did the Human Development Report, published by the United Nations Development Program in 1994, challenge the traditional security paradigm?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The report outlined seven areas or components of human security that policymakers should henceforth devote greater political attention and capital to: economic security, food security, health security, environmental security, personal security, community security, and political security."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The report highlighted the considerable burden that infectious diseases continue to pose in the developing world-including HIV/AIDS, tuberculosis, and malaria."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The report advocates a framework of human security analysis that aims to redress the perceived imbalance in security thinking that has been predominant in traditional security studies."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of these options."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id187"
+  },
+  {
+    "input": {
+      "text": "In what ways does gender shape the conceptualization of nationhood and conflict?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Although often missing from the traditional literature on war and security, women frequently serve the purposes of nationalise causes, with nationalism often presented in highly gendered and female terms, where women are symbols of statehood."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "A sense of national identity can be developed through a variety of shared experiences, including war. The glorification of iconic national figures such as political leaders is not noticeably gendered and men and women generally perform the same types of roles within the public realm."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Measures of national pride and success are biased towards the glorification of female attributes such as the ability to bear children. The restriction of women to the domestic sphere creates a sense of national identity that is founded on a celebration of home life, feminine strength, and maternal characteristics."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "When thinking about national identity, violence, physical strength, aggression, and the ability to use force are attributed as feminine characteristics. The male identity is imagined as being one of domesticity, nurturing, care, and child rearing."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id60"
+  },
+  {
+    "input": {
+      "text": "Which of the following reasons might influence a state's decision to join an alliance such as NATO?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "More powerful states may also create alliances in order to extend their protective umbrella over weaker friendly states."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "States may seek to join an alliance if they believe that their own resources are inadequate to maintain their sovereignty and security."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "An alliance can become attractive to states when a potential hegemonic power threatens the other states in that system."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of these options."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id249"
+  },
+  {
+    "input": {
+      "text": "Given current patterns of industrial development, what are the future prospects for energy security?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Whilst energy consumption is correlated to levels of industrialisation, developed states of the North continue to increase their demands for energy. This is balanced by a lesser demand from states in the South; due to their lack of industrialisation their demands on energy are forecast to remain low."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Energy demand in the industrialised states has peaked in recent years and data indicates that consumption levels in the North have become constant and are not likely to increase."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Whilst forecasts predict that energy consumption in the industrialised states of the North will continue to increase, the major increase in demand will come from the developing states of the South, posing major challenges to global energy security."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Although demand from developing states is set to increase the global consumption of dwindling energy resources, technological advancements in alternative energy sources, coupled with comprehensive understanding of current resource levels and access, will secure energy supply in the foreseeable future."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id215"
+  },
+  {
+    "input": {
+      "text": "To what extent and to what effect has the environment been securitized?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The securitization of environmental security concerns has raised the profile of environmental security issues among both foreign and domestic security policymakers and agencies. It is now uniformly recognized that environmental change can be considered as an issue of high security politics."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Environmental security has led to a 'trading off' of military security for environmental security with the allocation of resources committed to solving environmental problems. A particular emphasis has been placed on environmental change as the cause of violent conflict and addressing environmental threats from other factors than domestic causes."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The environment has been 'securitized' in the sense that environmental security has been used to make them matters of 'high politics'. This has to some degree raised the profile of critical issues among policymakers and agencies so that the environment can be considered an issue of security. But whilst the issue has been broadened there has been little change in policy and action in terms of the referent object of environmental security."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The national security perspective on environmental issues has undermined the utility of the concept of environmental security. The militarization of environmental problems has decreased the ability of policymakers to 'capture' the critical nature of environmental problems and the environmental dimensions to social vulnerability. The reconciliation of environmental security with national security, and global levels of international change cannot be made without trading in the security interests of the state."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id178"
+  },
+  {
+    "input": {
+      "text": "What is the function of sanctions?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "As a means of exerting economic power to advance peace and freedom."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "To end economic support for morally unacceptable regimes."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "To isolate dangerous regimes and weaken threats to regional or global security."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of these options."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id214"
+  },
+  {
+    "input": {
+      "text": "In defining the term 'historical materialism', which of the following statements best defines the term 'materialism'?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Materialism refers to HM's focus on class and the productive basis of societies, as well as the ways in which social structures have the capacity to change and produce change."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Materialism refers to the roots of HM in the postmodern schools of thought."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The term materialism refers to the focus of HM on consumerism and the centrality of economic power in the approach."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "In their rejection of class orientated political interaction, HM scholars refer to wealth instead as the accumulation or access to physical resources, coining the term materialism to describe this approach."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id131"
+  },
+  {
+    "input": {
+      "text": "Which of the following defines a Revolution in Military Affairs?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A coup in which established leaders are ousted by an internal military force."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A wholesale shift in the way warfare is conducted and understood."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A watershed in technological advancement, such as the creation of nuclear weaponry."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A watershed in technological advancement which alters the fundamental characteristics of war."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id102"
+  },
+  {
+    "input": {
+      "text": "Which of the following does not characterize the epistemology of traditional security studies?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Traditional security studies regards the search for empirically testable 'truths' to be detrimental to the pursuit of a practical analytical framework with which to study security, largely due to a recognition in the field that security was not limited to a narrow or easily defined set of 'real' principles."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Knowledge was regarded as subjective and doubts were cast on whether any empirically testable 'truths' or realities could be defined for certain."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Traditional security studies adopt a positivist approach, based in scientific objectivism that pursues the definition of specific 'truths' that can be empirically tested and validated."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Traditional security studies adopt a subjective approach to knowledge, based on the notion that what constitutes as a 'truth' or as a 'value' cannot be easily distinguished from one another."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "What are the differences between 'greedy state' and 'security seeker' states?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "'Greedy' states are those that seek to advance their power through territorial expansion, even when they are already secure in the status quo. 'Security seeker' states are those that only want to be secure in the status quo, although they might get drawn into arms races and war because of structural pressures in the anarchic international system."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "'Greedy states' seek territorial expansion as a result of pressures created by the international system. The anarchic nature of the international system makes states insecure, and greedy states seek to rectify this by any means necessary. 'Security seekers' on the other hand are those already secure in the status quo."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "There is no difference, the terms are synonymous."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "'Security seeker' states are those interested in achieving security in the international system, whilst 'greedy states' are interested only in amassing power, land, and other resources."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "During the 20th century, how has the focus of security studies changed regarding military security?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Security studies has always favoured a wide range of subjects when considering the field of security. Different types of security, most notably of human security and economic security, have enjoyed a great deal of attention in traditional security studies, alongside military security. After the Cold War this approach was broadened to include other types of security such as environmental and personal security."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Military security has emerged since the Cold War as the dominant sector within security analysis; both scholars and practitioners recognise the paramount importance of pursuing military security, based on the idea that military capabilities pose the greatest threat to human and state survival."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Prior to the Cold War the focus of security studies lay in the military sector, although environmental security was rapidly emerging as a serious threat to security, forcing analysts to reconsider the state-centric frameworks they had previously employed."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "During the Cold War most security analysts agreed that military security should be the focus of security studies; as a result, there was not much discussion about what security entailed, other than the military sector. Following this period security studies have been broadened to include the wider range of sectors that we see today, including environmental and political security."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id157"
+  },
+  {
+    "input": {
+      "text": "What are the practical problems associated with applying coercive diplomacy in the West?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Different natures of the adversaries complicate the use of Western coercion. Their tendency to rely on irregular or asymmetric military strategies makes it hard to threaten or even defeat their opponent's military strategy. Those actors deny forces the ability to win quickly with little cost."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Increased verification capabilities brought in with the technological and communication revolution have resulted in a practical difficulty for practitioners, enabling the verification of tactical/temporary and strategic/lasting - only the latter of which constituting a compliance success. The capacity to verify processes have highlighted instances of non-compliance following inconclusive coercive diplomacy exchanges."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Coalitional coercive diplomacy is the only credible means for Western democracies to gain the sincerity required to make a threat of force real in the mind of the adversary. However, past efforts of coalitional building have proved to be extremely limited. Disagreements over the means and coordination of the policy often result in splits and consequently states are reluctant to employ it. Where it has been employed it collapses under the weight of its own inadequacy."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of these options."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id64"
+  },
+  {
+    "input": {
+      "text": "How does Buzan's concept of 'societal security' mark a departure from traditional understandings of security?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Securing the sustainable development of the state was dependent on societal security as an independent interest that was not secondary or dependent on the other sectors, including the military."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The end of the Cold War allowed security studies to move beyond the confines of the dominant realist and neorealist perspectives, with an emerging interest in other, non-military, conceptions of security. Those who wished to broaden the scope of security studies advocated the inclusion of resource, environment, and other referent points for analysis."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Societal security referred to the sustainable development of traditional patterns of military capabilities. Military threats could be subdivided to include the infrastructural strength, the technology, personnel, the economic base and the political base of the military security sector."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Contemporary processes of globalization and societal conflict required the development of new conceptual tools beyond the state as the referent object. Security was dependent on factors beyond geographically conceived survival: survival of the state was superseded by survival of the nation (ethnic) state."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id181"
+  }
+]

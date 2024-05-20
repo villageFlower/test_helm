@@ -1,0 +1,382 @@
+[
+  {
+    "instance_id": "id113",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: What does \"Mahavira\" mean?\nA. \"Great Hero\"\nB. \"Master\"\nC. \"The Lesser One\"\nD. \"Mendicant\"\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: Which of the following does the term \"Arhats\" refer to?\nA. Enlightened being\nB. Worthy ones\nC. Saintly ones\nD. Sages\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id166",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: What is the term for commentary on the Qur'an, which means \"unveiling\"?\nA. fiqh\nB. dhikr\nC. ijtihad\nD. tafsir\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id100",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: The title Dalai Lama means which of the following?\nA. Ocean of Love\nB. Lover of Wisdom\nC. Ocean of Wisdom\nD. Stillness of Love\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id128",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: Which term is usually associated with women in Hindu traditions?\nA. Polluted\nB. Ideal\nC. Auspiciousness\nD. Kind\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id76",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: Which monk developed Pure Land Buddhism as we know it today?\nA. Genshin\nB. Dogen\nC. Honen\nD. Shinran\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id23",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion:  Which Jewish group demanded a narrow and literal interpretation of the Torah?\nA. Sadducees\nB. Pharisees\nC. Essenes\nD. Zealots\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id129",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: What is another name for Enuma Elish?\nA. Epic of Creation\nB. Epic of Destruction\nC. Epic of Egypt\nD. Epic of Origins\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id148",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion:  Which of the following is the timespan for Japan's closure to Christianity and Europe?\nA. 1749-1945\nB. 1052-1616\nC. 1641-1853\nD. 1517-1870\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion:  Which form of Buddhism was the first to make significant inroads in North America?\nA. Zen\nB. Pure Land\nC. Theravada\nD. Tibetan\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: What is the name of the theologian who argued against Pelagius?\nA. John\nB. Anselm\nC. Arius\nD. Augustine\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id192",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion:  The theological term homoousios means which of the following?\nA. of a similar substance\nB. of the same substance\nC. of like substance\nD. of human substance\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id161",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: Which deity is the Roman counterpart to the Greek god Zeus?\nA. Jupiter\nB. Juno\nC. Dionysius\nD. Neptune\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id173",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion:  Where was the most famous site of the mystery cults in Greece?\nA. Ephesus\nB. Corinth\nC. Athens\nD. Eleusis\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id190",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: What has been a central focus of religious traditions in China and Korea?\nA. Peace and harmony\nB. Power and influence\nC. Truth and love\nD. Wisdom and ethics\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id118",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: Which of the following is NOT included in the Islamic understanding of jurisprudence?\nA. Consensus\nB. Personal reasoning\nC. Interpretation\nD. Divine inspiration\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id42",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion:  Which Jaina group only allows women to lead a life of semi-renunciation?\nA. Svetambara\nB. Jina\nC. Agama\nD. Digambara\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id71",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion:  The Maccabean Revolt is associated with which ruler?\nA. Julius Caesar\nB. Alexander the Great\nC. Cyrus of Persia\nD. Antiochus IV Epiphanes\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id141",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion:  Which of the following does the Qur'an permit?\nA. Honor Killing\nB. Stoning\nC. Adultery\nD. Polygyny\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id136",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about world religions.\n\nQuestion: How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories\nAnswer: B\n\nQuestion:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji\nAnswer: D\n\nQuestion:  What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah\nAnswer: B\n\nQuestion:  In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia\nAnswer: B\n\nQuestion: What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva\nAnswer: A\n\nQuestion: For whom are the Hindu Vedas most significant?\nA. Brahmins\nB. Kshatriyas\nC. Shiva\nD. Yogis\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

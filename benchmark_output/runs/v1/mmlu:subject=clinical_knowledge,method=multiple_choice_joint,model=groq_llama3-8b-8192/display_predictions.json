@@ -1,0 +1,301 @@
+[
+  {
+    "instance_id": "id221",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "No variation with posture",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 433.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id217",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "48 hours.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 413.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "A functioning nodule on isotope scanning is unlikely to be due to cancer",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 454.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id235",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "lysosomes.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 411.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id27",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Document catheterization in the patient's notes.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 430.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id244",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": ". . . asthma.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 431.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id189",
+    "train_trial_index": 0,
+    "predicted_text": "D. Touch, pinch, grasp</DRESULT>",
+    "base64_images": [],
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 422.0,
+      "num_output_tokens": 11.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id204",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Expiratory component louder and longer with a gap between expiration and inspiration",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 453.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id64",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Pregnancy is a cause of loss of lordosis of the lumbar spine",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 454.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id78",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "A moon face and a buffalo hump are characteristic of the disease",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 441.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id20",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "drowsiness.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 411.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id17",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "increased sympathetic nerve activity.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 419.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id293",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "To ensure best lung expansion and accuracy and consistency of readings.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 454.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id134",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "A raised TSH level",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 424.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id144",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "When the Korotkoff sounds do not disappear when the cuff is fully deflated.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 476.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id268",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Impulses for pain travel principally up the dorsal columns",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 454.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id94",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "failure of the ATP supply to match the demand.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 427.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id149",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "blood volume is lost due to trauma or burns.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 434.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id129",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "assess for 30 seconds.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 440.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id162",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "renal failure.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 415.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  }
+]

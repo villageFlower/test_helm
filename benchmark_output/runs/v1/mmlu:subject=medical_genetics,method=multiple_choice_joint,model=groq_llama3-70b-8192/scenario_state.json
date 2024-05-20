@@ -1,0 +1,1712 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about medical genetics.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "groq/llama3-70b-8192",
+    "model": "groq/llama3-70b-8192",
+    "temperature": 0.0,
+    "max_tokens": 20,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "The presence of two or more cell lines from different zygotes in a single individual is known as:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "mosaicism."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "diploidy."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "aneuploidy."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "chimaerism."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id104"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "mosaicism.",
+        "B": "diploidy.",
+        "C": "aneuploidy.",
+        "D": "chimaerism."
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: The presence of two or more cell lines from different zygotes in a single individual is known as:\nA. mosaicism.\nB. diploidy.\nC. aneuploidy.\nD. chimaerism.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 13.191678047180176,
+        "request_datetime": 1716209837
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following statements about heritability are true?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "is a measure of the level of heterozygotes in a population"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "is a measure of the proportion of variation that is due to genetic causes"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "is a measure of proportion of repeated DNA in an organism"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "is a measure of level of gene linkage"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id15"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "is a measure of the level of heterozygotes in a population",
+        "B": "is a measure of the proportion of variation that is due to genetic causes",
+        "C": "is a measure of proportion of repeated DNA in an organism",
+        "D": "is a measure of level of gene linkage"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Which of the following statements about heritability are true?\nA. is a measure of the level of heterozygotes in a population\nB. is a measure of the proportion of variation that is due to genetic causes\nC. is a measure of proportion of repeated DNA in an organism\nD. is a measure of level of gene linkage\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8595876693725586,
+        "request_datetime": 1716209837
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Simple tandem repeat polymorphisms in humans are most useful for"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "solving criminal and paternity cases"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "reconstructing the relationships of humans and chimps."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "estimating relationships of humans and Neanderthals"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "transferring disease resistance factors into bone marrow cells"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id81"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "solving criminal and paternity cases",
+        "B": "reconstructing the relationships of humans and chimps.",
+        "C": "estimating relationships of humans and Neanderthals",
+        "D": "transferring disease resistance factors into bone marrow cells"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Simple tandem repeat polymorphisms in humans are most useful for\nA. solving criminal and paternity cases\nB. reconstructing the relationships of humans and chimps.\nC. estimating relationships of humans and Neanderthals\nD. transferring disease resistance factors into bone marrow cells\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 12.085023880004883,
+        "request_datetime": 1716209860
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Repeat core sequences consisting of 2, 3, or 4 base pairs are known as what?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Single nucleotide polymorphisms (SNPs)"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Microsatellites"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Minisatellites"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Satellites"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id7"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Single nucleotide polymorphisms (SNPs)",
+        "B": "Microsatellites",
+        "C": "Minisatellites",
+        "D": "Satellites"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Repeat core sequences consisting of 2, 3, or 4 base pairs are known as what?\nA. Single nucleotide polymorphisms (SNPs)\nB. Microsatellites\nC. Minisatellites\nD. Satellites\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5409228801727295,
+        "request_datetime": 1716209837
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The mutation in sickle-cell disease consists of:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "a deletion."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a duplication."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "an insertion."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a point mutation."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id29"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "a deletion.",
+        "B": "a duplication.",
+        "C": "an insertion.",
+        "D": "a point mutation."
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: The mutation in sickle-cell disease consists of:\nA. a deletion.\nB. a duplication.\nC. an insertion.\nD. a point mutation.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 5.693807363510132,
+        "request_datetime": 1716209837
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Consanguinity shows a strong association with which pattern of inheritance?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Autosomal dominant"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Autosomal recessive"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "X-linked dominant"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "X-linked recessive"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id107"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Autosomal dominant",
+        "B": "Autosomal recessive",
+        "C": "X-linked dominant",
+        "D": "X-linked recessive"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Consanguinity shows a strong association with which pattern of inheritance?\nA. Autosomal dominant\nB. Autosomal recessive\nC. X-linked dominant\nD. X-linked recessive\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 9.266498565673828,
+        "request_datetime": 1716209941
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The proportion of babies that have an abnormality identifiable at birth is _____."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "1 in 10"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1 in 40"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "1 in 100"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1 in 500"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id50"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "1 in 10",
+        "B": "1 in 40",
+        "C": "1 in 100",
+        "D": "1 in 500"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: The proportion of babies that have an abnormality identifiable at birth is _____.\nA. 1 in 10\nB. 1 in 40\nC. 1 in 100\nD. 1 in 500\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 15.525811433792114,
+        "request_datetime": 1716209843
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Assuming that the level of glucose is low, a mutation in the repressor of the lac operon in E. coli, preventing binding of the repressor to the operator, should result in:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "constitutive expression of the lac operon genes"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "lack of expression or reduced expression of the lac operon genes under all circumstances"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "expression of the genes only when lactose is present"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "expression of the genes only when lactose is absent"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id12"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "constitutive expression of the lac operon genes",
+        "B": "lack of expression or reduced expression of the lac operon genes under all circumstances",
+        "C": "expression of the genes only when lactose is present",
+        "D": "expression of the genes only when lactose is absent"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Assuming that the level of glucose is low, a mutation in the repressor of the lac operon in E. coli, preventing binding of the repressor to the operator, should result in:\nA. constitutive expression of the lac operon genes\nB. lack of expression or reduced expression of the lac operon genes under all circumstances\nC. expression of the genes only when lactose is present\nD. expression of the genes only when lactose is absent\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 15.109255313873291,
+        "request_datetime": 1716209850
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Mapping of human chromosomes:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "has been restricted to the sex chromosomes because of small family sizes"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "proceeded much more successfully as large numbers of DNA markers became available."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "has determined that the number of linkage groups is about twice the number of chromosomes"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "has demonstrated that almost all of the DNA is involved in coding for genes"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id21"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "has been restricted to the sex chromosomes because of small family sizes",
+        "B": "proceeded much more successfully as large numbers of DNA markers became available.",
+        "C": "has determined that the number of linkage groups is about twice the number of chromosomes",
+        "D": "has demonstrated that almost all of the DNA is involved in coding for genes"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Mapping of human chromosomes:\nA. has been restricted to the sex chromosomes because of small family sizes\nB. proceeded much more successfully as large numbers of DNA markers became available.\nC. has determined that the number of linkage groups is about twice the number of chromosomes\nD. has demonstrated that almost all of the DNA is involved in coding for genes\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 11.093482732772827,
+        "request_datetime": 1716209882
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following is not a recognized complication of cystic fibrosis?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Cancer of the oesophagus"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Congenital absence of the vas deferens"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Diabetes mellitus"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Liver cirrhosis"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id95"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Cancer of the oesophagus",
+        "B": "Congenital absence of the vas deferens",
+        "C": "Diabetes mellitus",
+        "D": "Liver cirrhosis"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Which of the following is not a recognized complication of cystic fibrosis?\nA. Cancer of the oesophagus\nB. Congenital absence of the vas deferens\nC. Diabetes mellitus\nD. Liver cirrhosis\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 10.837385654449463,
+        "request_datetime": 1716209921
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which component of transcribed RNA in eukaryotes is present in the initial transcript but is removed before translation occurs?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Intron"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "3\u2019 Poly A tail"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Ribosome binding site"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "5\u2019 cap"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id94"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Intron",
+        "B": "3\u2019 Poly A tail",
+        "C": "Ribosome binding site",
+        "D": "5\u2019 cap"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Which component of transcribed RNA in eukaryotes is present in the initial transcript but is removed before translation occurs?\nA. Intron\nB. 3\u2019 Poly A tail\nC. Ribosome binding site\nD. 5\u2019 cap\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 7.893676280975342,
+        "request_datetime": 1716209872
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Normal adult haemoglobin (Hb A) consists of:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "two \u03b1 (alpha) and two \u03b2 (beta) chains."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "two \u03b1 and two \u03b3 (gamma) chains."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "two \u03b1 and two \u03b4 (delta) chains."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "four \u03b3 chains."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id27"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "two \u03b1 (alpha) and two \u03b2 (beta) chains.",
+        "B": "two \u03b1 and two \u03b3 (gamma) chains.",
+        "C": "two \u03b1 and two \u03b4 (delta) chains.",
+        "D": "four \u03b3 chains."
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Normal adult haemoglobin (Hb A) consists of:\nA. two \u03b1 (alpha) and two \u03b2 (beta) chains.\nB. two \u03b1 and two \u03b3 (gamma) chains.\nC. two \u03b1 and two \u03b4 (delta) chains.\nD. four \u03b3 chains.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 9.21422004699707,
+        "request_datetime": 1716209880
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Familial hypercholesterolaemia is caused by mutations in the gene which encodes what?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "High density lipoprotein"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "HMG-CoA reductase"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Low density lipoprotein"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Low density lipoprotein receptor"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id48"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "High density lipoprotein",
+        "B": "HMG-CoA reductase",
+        "C": "Low density lipoprotein",
+        "D": "Low density lipoprotein receptor"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Familial hypercholesterolaemia is caused by mutations in the gene which encodes what?\nA. High density lipoprotein\nB. HMG-CoA reductase\nC. Low density lipoprotein\nD. Low density lipoprotein receptor\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 13.64784574508667,
+        "request_datetime": 1716209889
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Severe anaemia at birth is a feature of what?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Alpha-thalassaemia"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Beta-thalassaemia"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Hereditary persistence of fetal haemoglobin"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Sickle cell disease"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id56"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Alpha-thalassaemia",
+        "B": "Beta-thalassaemia",
+        "C": "Hereditary persistence of fetal haemoglobin",
+        "D": "Sickle cell disease"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Severe anaemia at birth is a feature of what?\nA. Alpha-thalassaemia\nB. Beta-thalassaemia\nC. Hereditary persistence of fetal haemoglobin\nD. Sickle cell disease\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 4.364036321640015,
+        "request_datetime": 1716209919
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following is a feature of X-linked dominant inheritance?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Parental consanguinity"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Male to male transmission"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Transmission only by females"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Transmitted by males only to females"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id66"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Parental consanguinity",
+        "B": "Male to male transmission",
+        "C": "Transmission only by females",
+        "D": "Transmitted by males only to females"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Which of the following is a feature of X-linked dominant inheritance?\nA. Parental consanguinity\nB. Male to male transmission\nC. Transmission only by females\nD. Transmitted by males only to females\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 7.221872329711914,
+        "request_datetime": 1716209903
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A nonsense mutation involves:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "a regulatory sequence."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "an AG splice acceptor site."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the creation of a different amino acid."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the creation of a stop codon."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id59"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "a regulatory sequence.",
+        "B": "an AG splice acceptor site.",
+        "C": "the creation of a different amino acid.",
+        "D": "the creation of a stop codon."
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: A nonsense mutation involves:\nA. a regulatory sequence.\nB. an AG splice acceptor site.\nC. the creation of a different amino acid.\nD. the creation of a stop codon.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 5.931633949279785,
+        "request_datetime": 1716209910
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "If the frequency of males affected with an X-linked recessive condition in a human population is .10 (one in ten), what will be the expected frequency of affected females?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "0.01"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "0.001"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "0.02"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "0.0001"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id18"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "0.01",
+        "B": "0.001",
+        "C": "0.02",
+        "D": "0.0001"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: If the frequency of males affected with an X-linked recessive condition in a human population is .10 (one in ten), what will be the expected frequency of affected females?\nA. 0.01\nB. 0.001\nC. 0.02\nD. 0.0001\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 3.392183780670166,
+        "request_datetime": 1716209971
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "An Hfr strain of E. coli contains:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "a vector of yeast or bacterial origin which is used to make many copies of a particular DNA sequence"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a bacterial chromosome with a human gene inserted"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a bacterial chromosome with the F factor inserted"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "a human chromosome with a transposable element inserted"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id79"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "a vector of yeast or bacterial origin which is used to make many copies of a particular DNA sequence",
+        "B": "a bacterial chromosome with a human gene inserted",
+        "C": "a bacterial chromosome with the F factor inserted",
+        "D": "a human chromosome with a transposable element inserted"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: An Hfr strain of E. coli contains:\nA. a vector of yeast or bacterial origin which is used to make many copies of a particular DNA sequence\nB. a bacterial chromosome with a human gene inserted\nC. a bacterial chromosome with the F factor inserted\nD. a human chromosome with a transposable element inserted\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "C",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 13.08919644355774,
+        "request_datetime": 1716209923
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following conditions is a peroxisomal disorder?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Acute intermittent porphyria"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Maple syrup urine disease"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Medium chain acyl-CoA dehydrogenase deficiency"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Zellweger syndrome"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id97"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Acute intermittent porphyria",
+        "B": "Maple syrup urine disease",
+        "C": "Medium chain acyl-CoA dehydrogenase deficiency",
+        "D": "Zellweger syndrome"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Which of the following conditions is a peroxisomal disorder?\nA. Acute intermittent porphyria\nB. Maple syrup urine disease\nC. Medium chain acyl-CoA dehydrogenase deficiency\nD. Zellweger syndrome\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 3.734327793121338,
+        "request_datetime": 1716209954
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following is not a tumour suppressor gene?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "APC"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "NF1"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "RB1"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "RET"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id65"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "APC",
+        "B": "NF1",
+        "C": "RB1",
+        "D": "RET"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about medical genetics.\n\nQuestion: DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches\nAnswer: A\n\nQuestion: Large triplet repeat expansions can be detected by:\nA. polymerase chain reaction.\nB. single strand conformational polymorphism analysis.\nC. Southern blotting.\nD. Western blotting.\nAnswer: C\n\nQuestion: Which of the following conditions does not show multifactorial inheritance?\nA. Pyloric stenosis\nB. Schizophrenia\nC. Spina bifida (neural tube defects)\nD. Marfan syndrome\nAnswer: D\n\nQuestion: The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II\nAnswer: A\n\nQuestion: A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development\nAnswer: A\n\nQuestion: Which of the following is not a tumour suppressor gene?\nA. APC\nB. NF1\nC. RB1\nD. RET\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 7.963097810745239,
+        "request_datetime": 1716209936
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

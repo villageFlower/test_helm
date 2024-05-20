@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id89",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Gas chromatographic separation of the air sample on a capillary column followed by electron capture detection",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 612.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id15",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "3",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 509.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id80",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "7.081 x 10^7 T-1 s-1",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 573.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id7",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "helium cation, He+",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 567.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id29",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "I and III only",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 525.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id105",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "9 lines",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 545.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id112",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "SCl2",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 509.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "Each hybrid orbital may hold four electrons.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 546.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id21",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "1:3",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 556.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id91",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "It has little effect.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 543.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id73",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "CH3F",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 526.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id27",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "steady state concentration of free radical intermediates is often too low to enable direct detection by EPR",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 557.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "21.2 Hz",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 528.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id65",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "15.5 MHz = 11.104 mT = 27.201 Gauss = 0.862 x 10^-4 cm-1",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 653.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id81",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "helium atom",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 510.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id57",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Q = 1012",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 523.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id18",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "9 lines",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 545.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id78",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "No information about either position or momentum can be known.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 556.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id90",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "B12 icosahedra",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 527.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id59",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "0.050 M CaCl2",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 531.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  }
+]

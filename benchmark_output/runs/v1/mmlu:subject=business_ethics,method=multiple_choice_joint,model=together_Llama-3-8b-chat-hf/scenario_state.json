@@ -1,0 +1,1692 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about business ethics.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "together/Llama-3-8b-chat-hf",
+    "model": "together/Llama-3-8b-chat-hf",
+    "temperature": 0.0,
+    "max_tokens": 20,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "_______ is a system of exchange based on guaranteeing producers in developing countries a living wage, decent working conditions and opportunities for community development."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Sustainable sourcing"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Fair trade"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Ethical sourcing"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Supply chain responsibility"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id104"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Sustainable sourcing",
+        "B": "Fair trade",
+        "C": "Ethical sourcing",
+        "D": "Supply chain responsibility"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: _______ is a system of exchange based on guaranteeing producers in developing countries a living wage, decent working conditions and opportunities for community development.\nA. Sustainable sourcing\nB. Fair trade\nC. Ethical sourcing\nD. Supply chain responsibility\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: The final answer is B. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5386745929718018
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "______, ________ and _______ are all factors which can impinge upon stakeholder communication and collaboration."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Resource intensity, Culture clash, Accountability"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Resource clash, Culture intensity, Accountability"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Resource intensity, Culture clash, Coordinative fluidity"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Resource clash, Culture clash, Coordinative fluidity"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id15"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Resource intensity, Culture clash, Accountability",
+        "B": "Resource clash, Culture intensity, Accountability",
+        "C": "Resource intensity, Culture clash, Coordinative fluidity",
+        "D": "Resource clash, Culture clash, Coordinative fluidity"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: ______, ________ and _______ are all factors which can impinge upon stakeholder communication and collaboration.\nA. Resource intensity, Culture clash, Accountability\nB. Resource clash, Culture intensity, Accountability\nC. Resource intensity, Culture clash, Coordinative fluidity\nD. Resource clash, Culture clash, Coordinative fluidity\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5454163551330566
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Replacing supply chains with _______ enhances the importance of product _______as well as a fundamental redesign of every activity a firm engages in that produces _______."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Supply loops, Recapture, Waste"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Supply loops, Redesign, Profit"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Global production networks, Recapture, Waste"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Global production networks, Redesign, Profit"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id81"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Supply loops, Recapture, Waste",
+        "B": "Supply loops, Redesign, Profit",
+        "C": "Global production networks, Recapture, Waste",
+        "D": "Global production networks, Redesign, Profit"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: Replacing supply chains with _______ enhances the importance of product _______as well as a fundamental redesign of every activity a firm engages in that produces _______.\nA. Supply loops, Recapture, Waste\nB. Supply loops, Redesign, Profit\nC. Global production networks, Recapture, Waste\nD. Global production networks, Redesign, Profit\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5598795413970947
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Ethics of duty is a principle based ethical theory attributed to Emmanuel Kant."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "1,3"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "2,3"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,2"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,2,3"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id7"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "1,3",
+        "B": "2,3",
+        "C": "1,2",
+        "D": "1,2,3"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: Ethics of duty is a principle based ethical theory attributed to Emmanuel Kant.\nA. 1,3\nB. 2,3\nC. 1,2\nD. 1,2,3\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nFinal Answer: <RESULT>A</RESULT> \n\nI hope this",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5439414978027344
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "When the true cost an item is deliberately obscured by a company this is known as?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Predatory pricing"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Deceptive pricing"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Price fixing"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Skimming"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id29"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Predatory pricing",
+        "B": "Deceptive pricing",
+        "C": "Price fixing",
+        "D": "Skimming"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: When the true cost an item is deliberately obscured by a company this is known as?\nA. Predatory pricing\nB. Deceptive pricing\nC. Price fixing\nD. Skimming\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: The final answer is B. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5195217132568359
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The purposes for which the information is used is in the public's interest."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "1,2"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "1,3"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "2,3"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,2,3"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id107"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "1,2",
+        "B": "1,3",
+        "C": "2,3",
+        "D": "1,2,3"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: The purposes for which the information is used is in the public's interest.\nA. 1,2\nB. 1,3\nC. 2,3\nD. 1,2,3\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8181359767913818
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Pick the correct description of the following term: Utilitarianism is\u2026"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "A theory which states that an action is morally incorrect if it promotes the greatest good for the greatest number"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A theory which states that an action is morally right if it promotes the greatest good for the decision maker"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A theory which states that an action is morally right if it promotes the greatest good for the smallest number"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A theory which states that an action is morally right if it promotes the greatest good for the greatest number"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id50"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "A theory which states that an action is morally incorrect if it promotes the greatest good for the greatest number",
+        "B": "A theory which states that an action is morally right if it promotes the greatest good for the decision maker",
+        "C": "A theory which states that an action is morally right if it promotes the greatest good for the smallest number",
+        "D": "A theory which states that an action is morally right if it promotes the greatest good for the greatest number"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: Pick the correct description of the following term: Utilitarianism is\u2026\nA. A theory which states that an action is morally incorrect if it promotes the greatest good for the greatest number\nB. A theory which states that an action is morally right if it promotes the greatest good for the decision maker\nC. A theory which states that an action is morally right if it promotes the greatest good for the smallest number\nD. A theory which states that an action is morally right if it promotes the greatest good for the greatest number\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: <RESULT>D</RESULT> \n\nI hope this",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8080825805664062
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The recent global sustainability agenda has been dominated by which of the following organisations sustainability goals?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Marks & Spencer's 'Plan A'"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "United Nations 'Sustainable Development Goals'"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "The Alibaba Group's 'Sustainability Initiatives'"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Unilever's 'Sustainable Living Plan'"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id12"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Marks & Spencer's 'Plan A'",
+        "B": "United Nations 'Sustainable Development Goals'",
+        "C": "The Alibaba Group's 'Sustainability Initiatives'",
+        "D": "Unilever's 'Sustainable Living Plan'"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: The recent global sustainability agenda has been dominated by which of the following organisations sustainability goals?\nA. Marks & Spencer's 'Plan A'\nB. United Nations 'Sustainable Development Goals'\nC. The Alibaba Group's 'Sustainability Initiatives'\nD. Unilever's 'Sustainable Living Plan'\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: The final answer is B. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8659729957580566
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "________, where for example one party possess more resources, unfair distribution of ________, where one party gains more from the relationship, and CSOs being ________, are all limitations and risks of business-CSO collaborations."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Power imbalance, Benefits, Hoodwinked"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Power imbalance, Resources, Co-opted"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Informational asymmetries, Benefits, Hoodwinked"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Informational asymmetries, Resources, Co-opted"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id21"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Power imbalance, Benefits, Hoodwinked",
+        "B": "Power imbalance, Resources, Co-opted",
+        "C": "Informational asymmetries, Benefits, Hoodwinked",
+        "D": "Informational asymmetries, Resources, Co-opted"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: ________, where for example one party possess more resources, unfair distribution of ________, where one party gains more from the relationship, and CSOs being ________, are all limitations and risks of business-CSO collaborations.\nA. Power imbalance, Benefits, Hoodwinked\nB. Power imbalance, Resources, Co-opted\nC. Informational asymmetries, Benefits, Hoodwinked\nD. Informational asymmetries, Resources, Co-opted\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: <RESULT>D</RESULT> \n\nI hope this",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.6782355308532715
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Businesses engage in social accounting due to demands from _________, in order to identify ________, to improve ___________ and to encourage _________ and ___________"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Stakeholders, Risks, Stakeholder management, Accountability, Transparency"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Stakeholders, Accountability, Transparency, Risks, Stakeholder Management"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Stakeholders, Accountability, Risks, Stakeholders, Stakeholder Management"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Stakeholders, Stakeholder Management, Transparency, Risks, Accountability"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id95"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Stakeholders, Risks, Stakeholder management, Accountability, Transparency",
+        "B": "Stakeholders, Accountability, Transparency, Risks, Stakeholder Management",
+        "C": "Stakeholders, Accountability, Risks, Stakeholders, Stakeholder Management",
+        "D": "Stakeholders, Stakeholder Management, Transparency, Risks, Accountability"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: Businesses engage in social accounting due to demands from _________, in order to identify ________, to improve ___________ and to encourage _________ and ___________\nA. Stakeholders, Risks, Stakeholder management, Accountability, Transparency\nB. Stakeholders, Accountability, Transparency, Risks, Stakeholder Management\nC. Stakeholders, Accountability, Risks, Stakeholders, Stakeholder Management\nD. Stakeholders, Stakeholder Management, Transparency, Risks, Accountability\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6200675964355469
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "What are, according to Wood (1991), the three outcomes of CSR?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Social policies, Social programmes and Social impacts"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Social evaluations, Social programmes and Social impacts"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Social policies, Social evidencing and Social impacts"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Social policies, Social programmes and Social analysis"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id94"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Social policies, Social programmes and Social impacts",
+        "B": "Social evaluations, Social programmes and Social impacts",
+        "C": "Social policies, Social evidencing and Social impacts",
+        "D": "Social policies, Social programmes and Social analysis"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: What are, according to Wood (1991), the three outcomes of CSR?\nA. Social policies, Social programmes and Social impacts\nB. Social evaluations, Social programmes and Social impacts\nC. Social policies, Social evidencing and Social impacts\nD. Social policies, Social programmes and Social analysis\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5315051078796387
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A corporation is ________ from its managers, employees, investors and customers. It therefore has _______ succession and also ________."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Indistinguishable, Perpetual, Does not own its own assets"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Independent, Limited, Owns its own assets"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Independent, Perpetual, Owns its own assets"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Indistinguishable, Perpetual, Owns its own assets"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id27"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Indistinguishable, Perpetual, Does not own its own assets",
+        "B": "Independent, Limited, Owns its own assets",
+        "C": "Independent, Perpetual, Owns its own assets",
+        "D": "Indistinguishable, Perpetual, Owns its own assets"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: A corporation is ________ from its managers, employees, investors and customers. It therefore has _______ succession and also ________.\nA. Indistinguishable, Perpetual, Does not own its own assets\nB. Independent, Limited, Owns its own assets\nC. Independent, Perpetual, Owns its own assets\nD. Indistinguishable, Perpetual, Owns its own assets\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: <RESULT>B</RESULT> \n\nI hope this",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7891778945922852
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Predatory pricing."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "1,2,4"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,2,3,4"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,2"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,4"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id48"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "1,2,4",
+        "B": "1,2,3,4",
+        "C": "1,2",
+        "D": "1,4"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: Predatory pricing.\nA. 1,2,4\nB. 1,2,3,4\nC. 1,2\nD. 1,4\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5591745376586914
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Demand reduction."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "1,3,4"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "2,3,4"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,2,3"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1,2,4"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id56"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "1,3,4",
+        "B": "2,3,4",
+        "C": "1,2,3",
+        "D": "1,2,4"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: Demand reduction.\nA. 1,3,4\nB. 2,3,4\nC. 1,2,3\nD. 1,2,4\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.1445913314819336
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Affirmative action involves ________ attempts to target ______ who are _________ within an organisation's workforce, for instance by trying to ______ the proportion of women, disabled or racial minorities in senior management positions."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Proactive, Groups, Under-represented, Increase"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Passive, Groups, Under-represented, Retain"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Proactive, Individuals, Represented, Increase"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Passive, Individuals, Represented, Retain"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id66"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Proactive, Groups, Under-represented, Increase",
+        "B": "Passive, Groups, Under-represented, Retain",
+        "C": "Proactive, Individuals, Represented, Increase",
+        "D": "Passive, Individuals, Represented, Retain"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: Affirmative action involves ________ attempts to target ______ who are _________ within an organisation's workforce, for instance by trying to ______ the proportion of women, disabled or racial minorities in senior management positions.\nA. Proactive, Groups, Under-represented, Increase\nB. Passive, Groups, Under-represented, Retain\nC. Proactive, Individuals, Represented, Increase\nD. Passive, Individuals, Represented, Retain\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nFinal Answer: <RESULT>A</RESULT> \n\nI hope this",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.9682323932647705
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "When negotiating using unethical practices, businesses can risk _______, if the negotiations are part of a longer-term business association, as well as a ___________ and __________, as negotiations can impact company image and stymy progress."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Rigid negotiations, Enhanced reputation, Greater opportunities"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Damaged relationships, Sullied reputation, Lost opportunities"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Rigid negotiations, Sullied Reputation, Lost opportunities"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Damaged relationships, Rigid negotiations, Lost opportunities"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id59"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Rigid negotiations, Enhanced reputation, Greater opportunities",
+        "B": "Damaged relationships, Sullied reputation, Lost opportunities",
+        "C": "Rigid negotiations, Sullied Reputation, Lost opportunities",
+        "D": "Damaged relationships, Rigid negotiations, Lost opportunities"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: When negotiating using unethical practices, businesses can risk _______, if the negotiations are part of a longer-term business association, as well as a ___________ and __________, as negotiations can impact company image and stymy progress.\nA. Rigid negotiations, Enhanced reputation, Greater opportunities\nB. Damaged relationships, Sullied reputation, Lost opportunities\nC. Rigid negotiations, Sullied Reputation, Lost opportunities\nD. Damaged relationships, Rigid negotiations, Lost opportunities\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: <RESULT>B</RESULT> \n\nI hope this",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.764610767364502
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "______ are the obligations of workers towards their employer, based on individual contracts and wider employment laws."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Employee rights"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Employee rights"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Employer duties"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Employee duties"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id18"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Employee rights",
+        "B": "Employee rights",
+        "C": "Employer duties",
+        "D": "Employee duties"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: ______ are the obligations of workers towards their employer, based on individual contracts and wider employment laws.\nA. Employee rights\nB. Employee rights\nC. Employer duties\nD. Employee duties\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5577113628387451
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The race to the ______ is when, due to increased ________, countries compete for foreign investment through companies' relocation decisions by weakening their ______ and _____ standards."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Bottom, Globalisation, Social, Environmental"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Top, Globalisation, Political, Environmental"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Bottom, Standardisation, Social, Economic"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Top, Standardisation, Political, Economic"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id79"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Bottom, Globalisation, Social, Environmental",
+        "B": "Top, Globalisation, Political, Environmental",
+        "C": "Bottom, Standardisation, Social, Economic",
+        "D": "Top, Standardisation, Political, Economic"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: The race to the ______ is when, due to increased ________, countries compete for foreign investment through companies' relocation decisions by weakening their ______ and _____ standards.\nA. Bottom, Globalisation, Social, Environmental\nB. Top, Globalisation, Political, Environmental\nC. Bottom, Standardisation, Social, Economic\nD. Top, Standardisation, Political, Economic\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.9808783531188965
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The focus on issues, the intended audience extending beyond shareholders and the voluntary nature of ___________ distinguish it from _________."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Financial accounting, Environmental management initiatives"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Financial accounting, Social accounting."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Social accounting, Financial accounting."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Annual report publication, Social accounting"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id97"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Financial accounting, Environmental management initiatives",
+        "B": "Financial accounting, Social accounting.",
+        "C": "Social accounting, Financial accounting.",
+        "D": "Annual report publication, Social accounting"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: The focus on issues, the intended audience extending beyond shareholders and the voluntary nature of ___________ distinguish it from _________.\nA. Financial accounting, Environmental management initiatives\nB. Financial accounting, Social accounting.\nC. Social accounting, Financial accounting.\nD. Annual report publication, Social accounting\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nFinal Answer: <RESULT>C</RESULT> \n\nI hope this",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.1578197479248047
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "According Carroll what four categories or aspects can corporate social responsibility be broken down into?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Political, Legal, Ethical and Philanthropic"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Economic, Legal, Ethical and Philanthropic"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Economic, Legal, Cultural and Philanthropic"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Economic, Legal, Ethical and Environmental"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id65"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Political, Legal, Ethical and Philanthropic",
+        "B": "Economic, Legal, Ethical and Philanthropic",
+        "C": "Economic, Legal, Cultural and Philanthropic",
+        "D": "Economic, Legal, Ethical and Environmental"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about business ethics.\n\nQuestion: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.\nA. Externalities, Power, Independence\nB. Publicity, Insubstantial resources, Mutual dependence\nC. Publicity, Power, Independence\nD. Externalities, Power, Mutual dependence\nAnswer: D\n\nQuestion: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nA. Corporate social responsibility\nB. Business ethics management\nC. Sustainability\nD. Environmental management\nAnswer: B\n\nQuestion: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nA. Buycotts, Boycotts, Blockchain technology, Charitable donations\nB. Buycotts, Boycotts, Digital technology, Increased Sales\nC. Boycotts, Buyalls, Blockchain technology, Charitable donations\nD. Boycotts, Buycotts, Digital technology, Increased Sales\nAnswer: D\n\nQuestion: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.\nA. Outside, Limited, Independently\nB. Inside, Limited, Intermittently\nC. Outside, Unlimited, Intermittently\nD. Inside, Unlimited, Independently\nAnswer: A\n\nQuestion: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.\nA. Non-violent direct action, Violent direct action, Indirect action, Boycott\nB. Indirect action, Instrumental action, Non-violent direct action, Information campaign\nC. Indirect action, Violent direct action, Non-violent direct-action Boycott\nD. Non-violent direct action, Instrumental action, Indirect action, Information campaign\nAnswer: C\n\nQuestion: According Carroll what four categories or aspects can corporate social responsibility be broken down into?\nA. Political, Legal, Ethical and Philanthropic\nB. Economic, Legal, Ethical and Philanthropic\nC. Economic, Legal, Cultural and Philanthropic\nD. Economic, Legal, Ethical and Environmental\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.4931142330169678
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

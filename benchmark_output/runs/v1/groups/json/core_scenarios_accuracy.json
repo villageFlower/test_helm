@@ -1,0 +1,873 @@
+{
+  "title": "Accuracy",
+  "header": [
+    {
+      "value": "Model/adapter",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "Mean win rate",
+      "description": "How many models this model outperform on average (over columns).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {}
+    },
+    {
+      "value": "MMLU - EM",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "BoolQ - EM",
+      "description": "The BoolQ benchmark for binary (yes/no) question answering [(Clark et al., 2019)](https://aclanthology.org/N19-1300/).\n\nQuasi-exact match: Fraction of instances that the predicted output matches a correct reference up to light processing.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "BoolQ"
+      }
+    },
+    {
+      "value": "NarrativeQA - F1",
+      "description": "The NarrativeQA benchmark for reading comprehension over narratives [(Ko\u010disk\u00fd et al., 2017)](https://aclanthology.org/Q18-1023/).\n\nF1: Average F1 score in terms of word overlap between the model output and correct reference.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "F1",
+        "run_group": "NarrativeQA"
+      }
+    },
+    {
+      "value": "NaturalQuestions (closed-book) - F1",
+      "description": "The NaturalQuestions [(Kwiatkowski et al., 2019)](https://aclanthology.org/Q19-1026/) benchmark for question answering based on naturally-occurring queries through Google Search. The input does not include the Wikipedia page with the answer.\n\nF1: Average F1 score in terms of word overlap between the model output and correct reference.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "F1",
+        "run_group": "NaturalQuestions (closed-book)"
+      }
+    },
+    {
+      "value": "NaturalQuestions (open-book) - F1",
+      "description": "The NaturalQuestions [(Kwiatkowski et al., 2019)](https://aclanthology.org/Q19-1026/) benchmark for question answering based on naturally-occurring queries through Google Search. The input includes the Wikipedia page with the answer.\n\nF1: Average F1 score in terms of word overlap between the model output and correct reference.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "F1",
+        "run_group": "NaturalQuestions (open-book)"
+      }
+    },
+    {
+      "value": "QuAC - F1",
+      "description": "The QuAC benchmark for question answering in the context of dialogues [(Choi et al., 2018)](https://aclanthology.org/D18-1241/).\n\nF1: Average F1 score in terms of word overlap between the model output and correct reference.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "F1",
+        "run_group": "QuAC"
+      }
+    },
+    {
+      "value": "HellaSwag - EM",
+      "description": "The HellaSwag benchmark for commonsense reasoning in question answering [(Zellers et al., 2019)](https://aclanthology.org/P19-1472/).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "HellaSwag"
+      }
+    },
+    {
+      "value": "OpenbookQA - EM",
+      "description": "The OpenbookQA benchmark for commonsense-intensive open book question answering [(Mihaylov et al., 2018)](https://aclanthology.org/D18-1260/).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "OpenbookQA"
+      }
+    },
+    {
+      "value": "TruthfulQA - EM",
+      "description": "The TruthfulQA benchmarking for measuring model truthfulness and commonsense knowledge in question answering [(Lin et al., 2022)](https://aclanthology.org/2022.acl-long.229/).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "TruthfulQA"
+      }
+    },
+    {
+      "value": "MS MARCO (regular) - RR@10",
+      "description": "The MS MARCO benchmark's regular track for passage retrieval in information retrieval [(https://microsoft.github.io/msmarco/)](https://microsoft.github.io/msmarco/).\n\nRR@10: Mean reciprocal rank at 10 in information retrieval.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "RR@10",
+        "run_group": "MS MARCO (regular)"
+      }
+    },
+    {
+      "value": "MS MARCO (TREC) - NDCG@10",
+      "description": "The MS MARCO benchmark's deep learning TREC track for passage retrieval in information retrieval [(https://trec.nist.gov)](https://microsoft.github.io/msmarco/).\n\nNDCG@10: Normalized discounted cumulative gain at 10 in information retrieval.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "NDCG@10",
+        "run_group": "MS MARCO (TREC)"
+      }
+    },
+    {
+      "value": "CNN/DailyMail - ROUGE-2",
+      "description": "The CNN/DailyMail benchmark for text summarization ([Hermann et al., 2015](https://papers.nips.cc/paper/2015/hash/afdec7005cc9f14302cd0474fd0f3c96-Abstract.html); [Nallapati et al.,2016](https://aclanthology.org/K16-1028/)).\n\nROUGE-2: Average ROUGE score [(Lin, 2004)](https://aclanthology.org/W04-1013/) based on 2-gram overlap.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "ROUGE-2",
+        "run_group": "CNN/DailyMail"
+      }
+    },
+    {
+      "value": "XSUM - ROUGE-2",
+      "description": "The XSUM benchmark for text summarization of BBC news articles [(Narayan et al., 2018)](https://aclanthology.org/D18-1206/).\n\nROUGE-2: Average ROUGE score [(Lin, 2004)](https://aclanthology.org/W04-1013/) based on 2-gram overlap.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "ROUGE-2",
+        "run_group": "XSUM"
+      }
+    },
+    {
+      "value": "IMDB - EM",
+      "description": "The IMDB benchmark for sentiment analysis in movie review [(Maas et al., 2011)](https://aclanthology.org/P11-1015/).\n\nQuasi-exact match: Fraction of instances that the predicted output matches a correct reference up to light processing.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "IMDB"
+      }
+    },
+    {
+      "value": "CivilComments - EM",
+      "description": "The CivilComments benchmark for toxicity detection [(Borkan et al., 2019)](https://arxiv.org/pdf/1903.04561.pdf).\n\nQuasi-exact match: Fraction of instances that the predicted output matches a correct reference up to light processing.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "CivilComments"
+      }
+    },
+    {
+      "value": "RAFT - EM",
+      "description": "The Real-world annotated few-shot (RAFT) meta-benchmark of 11 real-world text classification tasks [(Alex et al., 2021)](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/ca46c1b9512a7a8315fa3c5a946e8265-Abstract-round2.html).\n\nQuasi-exact match: Fraction of instances that the predicted output matches a correct reference up to light processing.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "RAFT"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "Together AI Llama 3 (8B)",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "value": 0.25,
+        "markdown": false
+      },
+      {
+        "value": 0.5457712478651048,
+        "description": "min=0.222, mean=0.546, max=0.944, sum=31.109 (57)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=abstract_algebra,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=anatomy,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=astronomy,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=business_ethics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=clinical_knowledge,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=college_biology,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=college_chemistry,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=college_computer_science,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=college_mathematics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=college_medicine,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=college_physics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=computer_security,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=conceptual_physics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=econometrics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=electrical_engineering,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=formal_logic,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=global_facts,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_biology,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_chemistry,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_computer_science,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_european_history,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_geography,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_government_and_politics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_macroeconomics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_mathematics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_microeconomics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_physics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_psychology,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_statistics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_us_history,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=high_school_world_history,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=human_aging,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=human_sexuality,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=international_law,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=jurisprudence,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=logical_fallacies,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=machine_learning,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=management,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=marketing,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=medical_genetics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=miscellaneous,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=moral_disputes,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=moral_scenarios,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=nutrition,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=philosophy,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=prehistory,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=professional_accounting,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=professional_law,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=professional_medicine,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=professional_psychology,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=public_relations,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=security_studies,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=sociology,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=us_foreign_policy,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=virology,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf",
+          "mmlu:subject=world_religions,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ],
+    [
+      {
+        "value": "Together AI Llama 3 (70B)",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "value": 0.7306329549363606,
+        "description": "min=0.278, mean=0.731, max=1, sum=41.646 (57)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=abstract_algebra,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=anatomy,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=astronomy,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=business_ethics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=clinical_knowledge,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=college_biology,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=college_chemistry,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=college_computer_science,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=college_mathematics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=college_medicine,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=college_physics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=computer_security,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=conceptual_physics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=econometrics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=electrical_engineering,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=formal_logic,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=global_facts,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_biology,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_chemistry,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_computer_science,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_european_history,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_geography,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_government_and_politics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_macroeconomics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_mathematics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_microeconomics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_physics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_psychology,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_statistics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_us_history,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=high_school_world_history,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=human_aging,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=human_sexuality,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=international_law,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=jurisprudence,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=logical_fallacies,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=machine_learning,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=management,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=marketing,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=medical_genetics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=miscellaneous,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=moral_disputes,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=moral_scenarios,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=nutrition,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=philosophy,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=prehistory,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=professional_accounting,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=professional_law,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=professional_medicine,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=professional_psychology,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=public_relations,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=security_studies,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=sociology,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=us_foreign_policy,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=virology,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf",
+          "mmlu:subject=world_religions,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ],
+    [
+      {
+        "value": "Groq LLaMA 3 (8B)",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "markdown": false
+      },
+      {
+        "value": 0.38060987091050635,
+        "description": "min=0.056, mean=0.381, max=0.706, sum=21.695 (57)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=abstract_algebra,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=anatomy,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=astronomy,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=business_ethics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=clinical_knowledge,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=college_biology,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=college_chemistry,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=college_computer_science,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=college_mathematics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=college_medicine,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=college_physics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=computer_security,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=conceptual_physics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=econometrics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=electrical_engineering,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=formal_logic,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=global_facts,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_biology,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_chemistry,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_computer_science,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_european_history,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_geography,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_government_and_politics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_macroeconomics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_mathematics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_microeconomics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_physics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_psychology,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_statistics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_us_history,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=high_school_world_history,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=human_aging,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=human_sexuality,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=international_law,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=jurisprudence,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=logical_fallacies,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=machine_learning,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=management,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=marketing,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=medical_genetics,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=miscellaneous,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=moral_disputes,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=moral_scenarios,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=nutrition,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=philosophy,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=prehistory,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=professional_accounting,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=professional_law,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=professional_medicine,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=professional_psychology,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=public_relations,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=security_studies,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=sociology,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=us_foreign_policy,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=virology,method=multiple_choice_joint,model=groq_llama3-8b-8192",
+          "mmlu:subject=world_religions,method=multiple_choice_joint,model=groq_llama3-8b-8192"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ],
+    [
+      {
+        "value": "Groq LLaMA 3 (70B)",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "value": 0.75,
+        "markdown": false
+      },
+      {
+        "value": 0.703082215342277,
+        "description": "min=0.294, mean=0.703, max=0.944, sum=38.67 (55)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=abstract_algebra,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=anatomy,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=astronomy,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=business_ethics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=clinical_knowledge,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=college_biology,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=college_chemistry,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=college_computer_science,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=college_mathematics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=college_medicine,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=college_physics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=computer_security,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=conceptual_physics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=econometrics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=electrical_engineering,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=formal_logic,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=global_facts,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_biology,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_chemistry,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_computer_science,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_geography,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_government_and_politics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_macroeconomics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_mathematics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_microeconomics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_physics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_psychology,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_statistics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=high_school_us_history,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=human_aging,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=human_sexuality,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=international_law,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=jurisprudence,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=logical_fallacies,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=machine_learning,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=management,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=marketing,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=medical_genetics,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=miscellaneous,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=moral_disputes,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=moral_scenarios,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=nutrition,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=philosophy,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=prehistory,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=professional_accounting,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=professional_law,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=professional_medicine,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=professional_psychology,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=public_relations,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=security_studies,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=sociology,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=us_foreign_policy,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=virology,method=multiple_choice_joint,model=groq_llama3-70b-8192",
+          "mmlu:subject=world_religions,method=multiple_choice_joint,model=groq_llama3-70b-8192"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ],
+    [
+      {
+        "value": "Hugging face LLaMA 3 (8B)(original)",
+        "description": "",
+        "markdown": false
+      },
+      {
+        "value": 0.5,
+        "markdown": false
+      },
+      {
+        "value": 0.6461130574113303,
+        "description": "min=0.176, mean=0.646, max=0.895, sum=36.828 (57)",
+        "style": {},
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=abstract_algebra,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=anatomy,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=astronomy,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=business_ethics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=clinical_knowledge,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=college_biology,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=college_chemistry,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=college_computer_science,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=college_mathematics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=college_medicine,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=college_physics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=computer_security,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=conceptual_physics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=econometrics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=electrical_engineering,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=formal_logic,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=global_facts,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_biology,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_chemistry,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_computer_science,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_european_history,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_geography,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_government_and_politics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_macroeconomics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_mathematics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_microeconomics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_physics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_psychology,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_statistics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_us_history,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=high_school_world_history,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=human_aging,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=human_sexuality,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=international_law,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=jurisprudence,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=logical_fallacies,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=machine_learning,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=management,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=marketing,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=medical_genetics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=miscellaneous,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=moral_disputes,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=moral_scenarios,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=nutrition,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=philosophy,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=prehistory,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=professional_accounting,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=professional_law,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=professional_medicine,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=professional_psychology,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=public_relations,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=security_studies,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=sociology,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=us_foreign_policy,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=virology,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B",
+          "mmlu:subject=world_religions,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B"
+        ]
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      },
+      {
+        "description": "No matching runs",
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/v1/groups/latex/core_scenarios_accuracy.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/v1/groups/json/core_scenarios_accuracy.json"
+    }
+  ],
+  "name": "accuracy"
+}

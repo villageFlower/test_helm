@@ -1,0 +1,1692 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about college medicine.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "together/Llama-3-8b-chat-hf",
+    "model": "together/Llama-3-8b-chat-hf",
+    "temperature": 0.0,
+    "max_tokens": 20,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "In order to determine the doppler shift in perceived sound frequency, the following variables must be known:\nI. speed of sound in medium\nII. Time of interaction between sound source and detector\nIII. distance between source and detector\nIV. frequency of emitted sound"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "I only"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "I and III"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "II and IV"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "I and IV"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id88"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "I only",
+        "B": "I and III",
+        "C": "II and IV",
+        "D": "I and IV"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: In order to determine the doppler shift in perceived sound frequency, the following variables must be known:\nI. speed of sound in medium\nII. Time of interaction between sound source and detector\nIII. distance between source and detector\nIV. frequency of emitted sound\nA. I only\nB. I and III\nC. II and IV\nD. I and IV\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7921910285949707
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Cystic Fibrosis (CF) patients often have a loss of pancreas activity during their adolescent years. Loss of which enzyme, if isolated would lead to the most extensive effects on nutrient absorption?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Lipase"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Elastinogen"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Trypsinogen"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Carboxypeptidase"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id17"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Lipase",
+        "B": "Elastinogen",
+        "C": "Trypsinogen",
+        "D": "Carboxypeptidase"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Cystic Fibrosis (CF) patients often have a loss of pancreas activity during their adolescent years. Loss of which enzyme, if isolated would lead to the most extensive effects on nutrient absorption?\nA. Lipase\nB. Elastinogen\nC. Trypsinogen\nD. Carboxypeptidase\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nFinal Answer: The final answer is C. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.0852160453796387
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A descript amount of 2-bromobutane is placed into a strong solution of ethanol and allowed to complete a reaction. The result of this reaction produces a major product of 2-butene and a minor product of 1-butene. Which of the following descriptions of the starting compound explains why 2-butene is the major product?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Carbon 3 has less hydrogen atoms"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "1-butene rearranges to 2-butene in solution"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Ethanol prefers the second carbon in any chain"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Cyclic aromatization"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id38"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Carbon 3 has less hydrogen atoms",
+        "B": "1-butene rearranges to 2-butene in solution",
+        "C": "Ethanol prefers the second carbon in any chain",
+        "D": "Cyclic aromatization"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: A descript amount of 2-bromobutane is placed into a strong solution of ethanol and allowed to complete a reaction. The result of this reaction produces a major product of 2-butene and a minor product of 1-butene. Which of the following descriptions of the starting compound explains why 2-butene is the major product?\nA. Carbon 3 has less hydrogen atoms\nB. 1-butene rearranges to 2-butene in solution\nC. Ethanol prefers the second carbon in any chain\nD. Cyclic aromatization\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nFinal Answer: <RESULT>A</RESULT> \n```\nI",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.4656972885131836
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "What type of covalent bonds link the amino acids in a protein?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Peptide bonds"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Hydrogen bonds"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Ionic bonds"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Glycosidic bonds"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id118"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Peptide bonds",
+        "B": "Hydrogen bonds",
+        "C": "Ionic bonds",
+        "D": "Glycosidic bonds"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: What type of covalent bonds link the amino acids in a protein?\nA. Peptide bonds\nB. Hydrogen bonds\nC. Ionic bonds\nD. Glycosidic bonds\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nFinal Answer: The final answer is <RESULT>A</RESULT>.",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5454552173614502
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Creatine is synthesized from:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "amino acids in the muscles."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "amino acids in the liver."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "amino acids in the kidneys."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "creatinine in the kidneys."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id176"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "amino acids in the muscles.",
+        "B": "amino acids in the liver.",
+        "C": "amino acids in the kidneys.",
+        "D": "creatinine in the kidneys."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Creatine is synthesized from:\nA. amino acids in the muscles.\nB. amino acids in the liver.\nC. amino acids in the kidneys.\nD. creatinine in the kidneys.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nPlease let me know if you need any further assistance. I'll",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6160733699798584
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Assuming the circulatory system in humans obeys Bernoulli\u2019s principle of fluid dynamics, which of the statements most accurately compares the blood pressure in a capillary of the neck to a capillary with an equal crosssectional area in the right knee?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "The pressure in the neck is greater than the pressure in the knee because of the increase in pressure head"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The pressure in the neck is equal to the pressure in the knee because of the equal dynamic pressure according to the continuity equation"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The pressure in the knee is greater than the pressure in the neck because of the increase in pressure head"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "An accurate comparison cannot be given without knowledge of the fluid\u2019s density and viscosity"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id139"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "The pressure in the neck is greater than the pressure in the knee because of the increase in pressure head",
+        "B": "The pressure in the neck is equal to the pressure in the knee because of the equal dynamic pressure according to the continuity equation",
+        "C": "The pressure in the knee is greater than the pressure in the neck because of the increase in pressure head",
+        "D": "An accurate comparison cannot be given without knowledge of the fluid\u2019s density and viscosity"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Assuming the circulatory system in humans obeys Bernoulli\u2019s principle of fluid dynamics, which of the statements most accurately compares the blood pressure in a capillary of the neck to a capillary with an equal crosssectional area in the right knee?\nA. The pressure in the neck is greater than the pressure in the knee because of the increase in pressure head\nB. The pressure in the neck is equal to the pressure in the knee because of the equal dynamic pressure according to the continuity equation\nC. The pressure in the knee is greater than the pressure in the neck because of the increase in pressure head\nD. An accurate comparison cannot be given without knowledge of the fluid\u2019s density and viscosity\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nFinal Answer: The final answer is C. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.4156286716461182
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A study examined admissions to exceptionally selective colleges. When examining the correlates of admission acceptance, two obvious factors that strongly correlated with admissions were GPA and standardized test scores, with correlation values of +0.41 and +0.55 respectively. However, the study also demonstrated that those students who had social networks that overlapped with the alumni networks of the selective colleges were even more likely to be admitted, with a correlation between social network and alumni network of +0.61. This correlation demonstrates:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "the value of cultural capital."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a meritocracy. "
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "he value of social capital."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "a false association."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id168"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "the value of cultural capital.",
+        "B": "a meritocracy. ",
+        "C": "he value of social capital.",
+        "D": "a false association."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: A study examined admissions to exceptionally selective colleges. When examining the correlates of admission acceptance, two obvious factors that strongly correlated with admissions were GPA and standardized test scores, with correlation values of +0.41 and +0.55 respectively. However, the study also demonstrated that those students who had social networks that overlapped with the alumni networks of the selective colleges were even more likely to be admitted, with a correlation between social network and alumni network of +0.61. This correlation demonstrates:\nA. the value of cultural capital.\nB. a meritocracy. \nC. he value of social capital.\nD. a false association.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nFinal Answer: The final answer is C. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5444552898406982
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Oxygen is used:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "in glycolysis."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "in the conversion of fatty acids to acetyl CoA."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "in the tricarboxylic acid cycle (Krebs' cycle)."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "in glycogenolysis."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id129"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "in glycolysis.",
+        "B": "in the conversion of fatty acids to acetyl CoA.",
+        "C": "in the tricarboxylic acid cycle (Krebs' cycle).",
+        "D": "in glycogenolysis."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Oxygen is used:\nA. in glycolysis.\nB. in the conversion of fatty acids to acetyl CoA.\nC. in the tricarboxylic acid cycle (Krebs' cycle).\nD. in glycogenolysis.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nPlease let me know if you need any further assistance. Thank you",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5041787624359131
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Approximately how many kJ of energy are expended if an athlete's steady-rate oxygen uptake averages 3.0 l/min for 5 minutes of exercise?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "60 kJ"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "150 kJ"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "300 kJ"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "500 kJ"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id79"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "60 kJ",
+        "B": "150 kJ",
+        "C": "300 kJ",
+        "D": "500 kJ"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Approximately how many kJ of energy are expended if an athlete's steady-rate oxygen uptake averages 3.0 l/min for 5 minutes of exercise?\nA. 60 kJ\nB. 150 kJ\nC. 300 kJ\nD. 500 kJ\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nFinal Answer: The final answer is C. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.49808597564697266
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "An allele that is masked is referred to as:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "recessive."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "redundant."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "repressed."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "reclusive."
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id23"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "recessive.",
+        "B": "redundant.",
+        "C": "repressed.",
+        "D": "reclusive."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: An allele that is masked is referred to as:\nA. recessive.\nB. redundant.\nC. repressed.\nD. reclusive.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nFinal Answer: The final answer is <RESULT>A</RESULT>.",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.4746088981628418
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "During exercise, adrenaline secretion from the adrenal glands is stimulated by:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "increased plasma glucose."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "increased plasma fatty acids."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "increased plasma ACTH."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "increased sympathetic nerve activity."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "valid",
+        "id": "id12"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "increased plasma glucose.",
+        "B": "increased plasma fatty acids.",
+        "C": "increased plasma ACTH.",
+        "D": "increased sympathetic nerve activity."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: During exercise, adrenaline secretion from the adrenal glands is stimulated by:\nA. increased plasma glucose.\nB. increased plasma fatty acids.\nC. increased plasma ACTH.\nD. increased sympathetic nerve activity.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6472890377044678
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following would be the most accurate definition of Nietzsche\u2019s Will to Truth?\""
+        },
+        "references": [
+          {
+            "output": {
+              "text": "An intrinsic desire to know the truth."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Moral drive to act toward what is good."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A subset of our ego that acts towards what is right."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Our desire for love."
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id10"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "An intrinsic desire to know the truth.",
+        "B": "Moral drive to act toward what is good.",
+        "C": "A subset of our ego that acts towards what is right.",
+        "D": "Our desire for love."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Which of the following would be the most accurate definition of Nietzsche\u2019s Will to Truth?\"\nA. An intrinsic desire to know the truth.\nB. Moral drive to act toward what is good.\nC. A subset of our ego that acts towards what is right.\nD. Our desire for love.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nFinal Answer: <RESULT>A</RESULT> \n\nI hope this",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5573825836181641
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Mutations are errors in DNA that:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "are always harmful."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "only occur in the presence of carcinogens."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "increase tumour growth."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "occur spontaneously at a low rate."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id130"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "are always harmful.",
+        "B": "only occur in the presence of carcinogens.",
+        "C": "increase tumour growth.",
+        "D": "occur spontaneously at a low rate."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Mutations are errors in DNA that:\nA. are always harmful.\nB. only occur in the presence of carcinogens.\nC. increase tumour growth.\nD. occur spontaneously at a low rate.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.525996208190918
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Lactate and hydrogen ions leave the muscle:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "via a cotransport mechanism with carnosine."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "via an active transport mechanism."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "via a protein transporter molecule."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "by simple diffusion."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id166"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "via a cotransport mechanism with carnosine.",
+        "B": "via an active transport mechanism.",
+        "C": "via a protein transporter molecule.",
+        "D": "by simple diffusion."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Lactate and hydrogen ions leave the muscle:\nA. via a cotransport mechanism with carnosine.\nB. via an active transport mechanism.\nC. via a protein transporter molecule.\nD. by simple diffusion.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.508080005645752
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "According to attachment theory, which of the following children is most likely to attach to a male psychologist, previously unknown to the child, in the course of a psychological study?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "A two month old female infant raised in a safe, stable environment"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "A five month old male infant raised in a safe, stable environment"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "An eight month old male infant raised by a single caregiver who frequently neglect the child"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A thirteen month old female infant raised by two caregivers who occasionally neglect the child"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id175"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "A two month old female infant raised in a safe, stable environment",
+        "B": "A five month old male infant raised in a safe, stable environment",
+        "C": "An eight month old male infant raised by a single caregiver who frequently neglect the child",
+        "D": "A thirteen month old female infant raised by two caregivers who occasionally neglect the child"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: According to attachment theory, which of the following children is most likely to attach to a male psychologist, previously unknown to the child, in the course of a psychological study?\nA. A two month old female infant raised in a safe, stable environment\nB. A five month old male infant raised in a safe, stable environment\nC. An eight month old male infant raised by a single caregiver who frequently neglect the child\nD. A thirteen month old female infant raised by two caregivers who occasionally neglect the child\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nFinal Answer: The final answer is C. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.626267910003662
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Anaerobic metabolism refers to the generation of ATP:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "without the involvement of ADP."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "without the use of glycogen."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "without the use of oxygen."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "in the absence of available oxygen."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id186"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "without the involvement of ADP.",
+        "B": "without the use of glycogen.",
+        "C": "without the use of oxygen.",
+        "D": "in the absence of available oxygen."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Anaerobic metabolism refers to the generation of ATP:\nA. without the involvement of ADP.\nB. without the use of glycogen.\nC. without the use of oxygen.\nD. in the absence of available oxygen.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nPlease let me know if you need any further assistance. I'll",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5140542984008789
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Alterations in which neurotransmitters in the brain by pharmacological agents has been shown to influence fatigue development?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Acetyl choline and noradrenaline."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Dopamine and acetyl choline."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Glutamate and serotonin."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Dopamine and serotonin."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id128"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Acetyl choline and noradrenaline.",
+        "B": "Dopamine and acetyl choline.",
+        "C": "Glutamate and serotonin.",
+        "D": "Dopamine and serotonin."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Alterations in which neurotransmitters in the brain by pharmacological agents has been shown to influence fatigue development?\nA. Acetyl choline and noradrenaline.\nB. Dopamine and acetyl choline.\nC. Glutamate and serotonin.\nD. Dopamine and serotonin.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 5.970451831817627
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "During muscular contraction, interactions between myosin and actin allow for shortening of each sarcomere. In addition to the power stroke, what other process of muscle contraction requires ATP?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Tropomyosin-troponin interaction"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Myosin-actin interaction"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Calcium-troponin interaction"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Myosin-actin detachment"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id65"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Tropomyosin-troponin interaction",
+        "B": "Myosin-actin interaction",
+        "C": "Calcium-troponin interaction",
+        "D": "Myosin-actin detachment"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: During muscular contraction, interactions between myosin and actin allow for shortening of each sarcomere. In addition to the power stroke, what other process of muscle contraction requires ATP?\nA. Tropomyosin-troponin interaction\nB. Myosin-actin interaction\nC. Calcium-troponin interaction\nD. Myosin-actin detachment\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5131096839904785
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following factors can affect enzyme activity?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Temperature."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "pH."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The presence of certain metal ions."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "All of the above."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id49"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Temperature.",
+        "B": "pH.",
+        "C": "The presence of certain metal ions.",
+        "D": "All of the above."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Which of the following factors can affect enzyme activity?\nA. Temperature.\nB. pH.\nC. The presence of certain metal ions.\nD. All of the above.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8018925189971924
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Codons are composed of:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "triplet sequences of nucleotide bases in mRNA or DNA ."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "quadruplet sequences of nucleotide bases in mRNA or DNA."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "triplet sequences of amino acids in polypeptide chains."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "triplet sequences of deoxyribose sugars in DNA."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id146"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "triplet sequences of nucleotide bases in mRNA or DNA .",
+        "B": "quadruplet sequences of nucleotide bases in mRNA or DNA.",
+        "C": "triplet sequences of amino acids in polypeptide chains.",
+        "D": "triplet sequences of deoxyribose sugars in DNA."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about college medicine.\n\nQuestion: Which of the following is not a true statement?\nA. Muscle glycogen is broken down enzymatically to glucose-1-phosphate\nB. Elite endurance runners have a high proportion of Type I fibres in their leg muscles\nC. Liver glycogen is important in the maintenance of the blood glucose concentration\nD. Insulin promotes glucose uptake by all tissues in the body\nAnswer: D\n\nQuestion: A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume\nAnswer: A\n\nQuestion: In a genetic test of a newborn, a rare genetic disorder is found that has X-linked recessive transmission. Which of the following statements is likely true regarding the pedigree of this disorder?\nA. All descendants on the maternal side will have the disorder.\nB. Females will be approximately twice as affected as males in this family.\nC. All daughters of an affected male will be affected.\nD. There will be equal distribution of males and females affected.\nAnswer: C\n\nQuestion: Glucose is transported into the muscle cell:\nA. via protein transporters called GLUT4.\nB. only in the presence of insulin.\nC. via hexokinase.\nD. via monocarbylic acid transporters.\nAnswer: A\n\nQuestion: An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.\nAnswer: B\n\nQuestion: Codons are composed of:\nA. triplet sequences of nucleotide bases in mRNA or DNA .\nB. quadruplet sequences of nucleotide bases in mRNA or DNA.\nC. triplet sequences of amino acids in polypeptide chains.\nD. triplet sequences of deoxyribose sugars in DNA.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nFinal Answer: The final answer is <RESULT>A</RESULT>.",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7448091506958008
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

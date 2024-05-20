@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id97",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The predictable rate of mutation results in ongoing variability in a gene pool.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 573.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id285",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Mitochondria are derived from ancient aerobic bacteria, and chloroplasts are derived from ancient photosynthetic bacteria.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 614.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id137",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "5\u2032-G-U-A-3\u2032",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 591.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id284",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Random mating",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 526.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id11",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "0.42",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 566.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id306",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Selection favors some phenotypes over others.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 605.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id252",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "centrioles within centrosomes",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 526.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id60",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "maintaining homeostasis.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 540.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id233",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "they should share fewer homologous structures than two more closely related organisms.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 540.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id42",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "longitudinal section of a shoot tip",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 533.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id70",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "sexual selection.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 560.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id184",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "The most energy is released during oxidative phosphorylation because in addition to the phosphorylation of ADP into ATP, all the potential energy held in NADH and FADH is transferred to ATP.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 657.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id172",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "relative fitness.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 522.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id107",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "the reshuffling of alleles in sexual reproduction.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 542.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id20",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Photosystems I and II both play a role in the cyclic light reactions.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 543.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id194",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "humans and chimpanzees are more closely related than humans and dogs",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 570.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id201",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "T cells attack healthy body cells.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 578.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id171",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "H+ would increase inside the intermembrane space (the compartment between inner and outer membranes).",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 574.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id338",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Coevolution",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 523.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id31",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Natural selection in an aquatic environment resulted in significant changes to whale forelimb anatomy.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 610.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

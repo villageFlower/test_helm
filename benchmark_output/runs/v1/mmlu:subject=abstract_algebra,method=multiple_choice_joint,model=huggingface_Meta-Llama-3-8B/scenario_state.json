@@ -1,0 +1,1652 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about abstract algebra.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "huggingface/Meta-Llama-3-8B",
+    "model": "huggingface/Meta-Llama-3-8B",
+    "temperature": 0.0,
+    "max_tokens": 1,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "Compute the product in the given ring. (12)(16) in Z_24"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "0"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "1"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "4"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "6"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id104"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "0",
+        "B": "1",
+        "C": "4",
+        "D": "6"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Compute the product in the given ring. (12)(16) in Z_24\nA. 0\nB. 1\nC. 4\nD. 6\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 21.85241723060608,
+        "request_datetime": 1716225462
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | If a group has an element of order 10, then the number of elements of order 10 is divisible by 4. Statement 2 | If m and n are positive integers and phi is the Euler phi function, then phi(mn) = phi(m)phi(n)."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id15"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | If a group has an element of order 10, then the number of elements of order 10 is divisible by 4. Statement 2 | If m and n are positive integers and phi is the Euler phi function, then phi(mn) = phi(m)phi(n).\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 26.55222201347351,
+        "request_datetime": 1716225462
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | Every field is also a ring. Statement 2 | Every ring has a multiplicative identity."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id81"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | Every field is also a ring. Statement 2 | Every ring has a multiplicative identity.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 26.40510368347168,
+        "request_datetime": 1716225462
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | A permutation that is a product of m even permutations and n odd permutations is an even permutation if and only if n is even. Statement 2 | Every group is isomorphic to a group of permutations."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id7"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | A permutation that is a product of m even permutations and n odd permutations is an even permutation if and only if n is even. Statement 2 | Every group is isomorphic to a group of permutations.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 24.534318685531616,
+        "request_datetime": 1716225462
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The polynomial x^3 + 2x^2 + 2x + 1 can be factored into linear factors in Z_7[x]. Find this factorization."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "(x \u2212 2)(x + 2)(x \u2212 1)"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "(x + 1)(x + 4)(x \u2212 2)"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "(x + 1)(x \u2212 4)(x \u2212 2)"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "(x - 1)(x \u2212 4)(x \u2212 2)"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id29"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "(x \u2212 2)(x + 2)(x \u2212 1)",
+        "B": "(x + 1)(x + 4)(x \u2212 2)",
+        "C": "(x + 1)(x \u2212 4)(x \u2212 2)",
+        "D": "(x - 1)(x \u2212 4)(x \u2212 2)"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: The polynomial x^3 + 2x^2 + 2x + 1 can be factored into linear factors in Z_7[x]. Find this factorization.\nA. (x \u2212 2)(x + 2)(x \u2212 1)\nB. (x + 1)(x + 4)(x \u2212 2)\nC. (x + 1)(x \u2212 4)(x \u2212 2)\nD. (x - 1)(x \u2212 4)(x \u2212 2)\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 28.603924989700317,
+        "request_datetime": 1716225484
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Find all cosets of the subgroup 4Z of 2Z."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "4Z"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "4Z, 2 + 4Z"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "2Z"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Z"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id107"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "4Z",
+        "B": "4Z, 2 + 4Z",
+        "C": "2Z",
+        "D": "Z"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Find all cosets of the subgroup 4Z of 2Z.\nA. 4Z\nB. 4Z, 2 + 4Z\nC. 2Z\nD. Z\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 21.0606529712677,
+        "request_datetime": 1716225487
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | If T: V -> W is a linear transformation and dim(V ) < dim(W) < 1, then T must be injective. Statement 2 | Let dim(V) = n and suppose that T: V -> V is linear. If T is injective, then it is a bijection."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id50"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | If T: V -> W is a linear transformation and dim(V ) < dim(W) < 1, then T must be injective. Statement 2 | Let dim(V) = n and suppose that T: V -> V is linear. If T is injective, then it is a bijection.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 31.926369428634644,
+        "request_datetime": 1716225489
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | If f is a homomorphism from G to K and H is normal in G then f(H) is normal in K. Statement 2 | If f is a homomorphism from G to a group and H is finite subgroup of G, then |f(H)| divides |H|."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "valid",
+        "id": "id12"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | If f is a homomorphism from G to K and H is normal in G then f(H) is normal in K. Statement 2 | If f is a homomorphism from G to a group and H is finite subgroup of G, then |f(H)| divides |H|.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 27.779794692993164,
+        "request_datetime": 1716225489
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | If a group has an element of order 15 it must have at least 8 elements of order 15. Statement 2 | If a group has more than 8 elements of order 15, it must have at least 16 elements of order 15."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id21"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | If a group has an element of order 15 it must have at least 8 elements of order 15. Statement 2 | If a group has more than 8 elements of order 15, it must have at least 16 elements of order 15.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 25.692955255508423,
+        "request_datetime": 1716225508
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | If K is a nonzero subgroup of a finitely generated free abelian group, then K is free abelian. Statement 2 | If K is a nonzero subgroup of a finitely generated free abelian group, then G / K is free abelian."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id95"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | If K is a nonzero subgroup of a finitely generated free abelian group, then K is free abelian. Statement 2 | If K is a nonzero subgroup of a finitely generated free abelian group, then G / K is free abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 25.1936514377594,
+        "request_datetime": 1716225513
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | For n > 1, the set {1,2, ..., n-1} is a group under multiplication modulo n. Statement 2 | There is an integer x such that 63x mod 100 = 1."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id94"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | For n > 1, the set {1,2, ..., n-1} is a group under multiplication modulo n. Statement 2 | There is an integer x such that 63x mod 100 = 1.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 27.09278154373169,
+        "request_datetime": 1716225516
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "If A = {1, 2, 3} then relation S = {(1, 1), (2, 2)} is"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "symmetric only"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "anti-symmetric only"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "both symmetric and anti-symmetric"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "an equivalence relation"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id27"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "symmetric only",
+        "B": "anti-symmetric only",
+        "C": "both symmetric and anti-symmetric",
+        "D": "an equivalence relation"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: If A = {1, 2, 3} then relation S = {(1, 1), (2, 2)} is\nA. symmetric only\nB. anti-symmetric only\nC. both symmetric and anti-symmetric\nD. an equivalence relation\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 28.44626235961914,
+        "request_datetime": 1716225521
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | In a finite dimensional vector space every linearly independent set of vectors is contained in a basis. Statement 2 | If B_1 and B_2 are bases for the same vector space, then |B_1| = |B_2|."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id48"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | In a finite dimensional vector space every linearly independent set of vectors is contained in a basis. Statement 2 | If B_1 and B_2 are bases for the same vector space, then |B_1| = |B_2|.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 26.53361177444458,
+        "request_datetime": 1716225534
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The set of integers Z with the binary operation \"*\" defined as a*b =a +b+ 1 for a, b in Z, is a group. The identity element of this group is"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "0"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "-1"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "12"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id56"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "12"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: The set of integers Z with the binary operation \"*\" defined as a*b =a +b+ 1 for a, b in Z, is a group. The identity element of this group is\nA. 0\nB. 1\nC. -1\nD. 12\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 24.913612127304077,
+        "request_datetime": 1716225538
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | Every solvable group is of prime-power order. Statement 2 | Every group of prime-power order is solvable."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id66"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | Every solvable group is of prime-power order. Statement 2 | Every group of prime-power order is solvable.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 26.247623205184937,
+        "request_datetime": 1716225544
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | Every integral domain with characteristic 0 is infinite. Statement 2 | Every integral domain with prime characteristic is finite."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id59"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | Every integral domain with characteristic 0 is infinite. Statement 2 | Every integral domain with prime characteristic is finite.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 25.506026029586792,
+        "request_datetime": 1716225549
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^5 + 3x^3 + x^2 + 2x in Z_5"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "0"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "1"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "0,1"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "0,4"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id18"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "0",
+        "B": "1",
+        "C": "0,1",
+        "D": "0,4"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^5 + 3x^3 + x^2 + 2x in Z_5\nA. 0\nB. 1\nC. 0,1\nD. 0,4\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 24.84551477432251,
+        "request_datetime": 1716225560
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "If A = (1, 2, 3, 4). Let ~= {(1, 2), (1, 3), (4, 2)}. Then ~ is"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "not anti-symmetric"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "transitive"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "reflexive"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "symmetric"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id79"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "not anti-symmetric",
+        "B": "transitive",
+        "C": "reflexive",
+        "D": "symmetric"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: If A = (1, 2, 3, 4). Let ~= {(1, 2), (1, 3), (4, 2)}. Then ~ is\nA. not anti-symmetric\nB. transitive\nC. reflexive\nD. symmetric\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 24.408742904663086,
+        "request_datetime": 1716225563
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statement 1 | Every nonzero free abelian group has an infinite number of bases. Statement 2 | Every free abelian group of rank at least 2 has an infinite number of bases."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "True, True"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "True, False"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "False, True"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id97"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Statement 1 | Every nonzero free abelian group has an infinite number of bases. Statement 2 | Every free abelian group of rank at least 2 has an infinite number of bases.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 19.48806381225586,
+        "request_datetime": 1716225570
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Find the maximum possible order for some element of Z_8 x Z_10 x Z_24."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "8"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "120"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "240"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "24"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id65"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "8",
+        "B": "120",
+        "C": "240",
+        "D": "24"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about abstract algebra.\n\nQuestion: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: B\n\nQuestion: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.\nA. 0\nB. 1\nC. 2\nD. 3\nAnswer: B\n\nQuestion: Find the characteristic of the ring 2Z.\nA. 0\nB. 3\nC. 12\nD. 30\nAnswer: A\n\nQuestion: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: A\n\nQuestion: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.\nA. True, True\nB. False, False\nC. True, False\nD. False, True\nAnswer: C\n\nQuestion: Find the maximum possible order for some element of Z_8 x Z_10 x Z_24.\nA. 8\nB. 120\nC. 240\nD. 24\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 15.144179344177246,
+        "request_datetime": 1716225575
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

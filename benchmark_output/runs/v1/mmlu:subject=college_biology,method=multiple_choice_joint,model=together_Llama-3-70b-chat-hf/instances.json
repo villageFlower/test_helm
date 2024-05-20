@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "Which of the following is encoded by the src oncogene and catalyzes the specific addition of phosphate groups to cellular proteins?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Protein phosphatase"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Adenylate cyclase"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "G protein-linked receptor"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Tyrosine kinase"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id115"
+  },
+  {
+    "input": {
+      "text": "Which of the following depicts the correct sequence of membranes of the chloroplast, beginning with the innermost membrane and ending with the outermost membrane?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Thylakoid membrane, inner membrane, outer membrane"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Inner membrane, outer membrane, thylakoid membrane"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Outer membrane, inner membrane, thylakoid membrane"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Strama, outer membrane, inner membrane"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id117"
+  },
+  {
+    "input": {
+      "text": "Mutation of homeotic cluster genes often results in which of the following developmental defects in Drosophila?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Absence of a group of contiguous segments"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Transformation of one segment into another"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Polarity defects in every segment along the anterior-posterior axis"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Tumor formation in imaginal discs"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id148"
+  },
+  {
+    "input": {
+      "text": "Which of the following is NOT a characteristic of an oligotrophic lake?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Low nutrient levels"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "High altitudes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Shallow water"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Sand or gravel bottom"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "According to Hamilton\u2019s rule, an altruistic trait can evolve if c < br, where c is the fitness cost of the altruistic behavior to the donor, b is the fitness benefit to the recipient, and r is the"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "coefficient of relatedness"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "frequency of the altruistic allele"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "inbreeding coefficient"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "rate of reciprocity"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "Mammals are homeostatic for all of the following EXCEPT"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "body temperature"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "blood glucose concentration"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "blood pH"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "metabolic rate"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id106"
+  },
+  {
+    "input": {
+      "text": "Which of the following statements about embryonic cleavage is NOT true?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The presence of yolk inhibits cleavage."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Telolecithal eggs undergo meroblastic cleavage."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The vegetal pole undergoes cleavage more readily than does the animal pole"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The rapid mitotic divisions of cleavage directly give rise to blastomeres."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id127"
+  },
+  {
+    "input": {
+      "text": "Chemosynthetic bacteria can produce their own food despite their lack of photonabsorbing pigments because the chemosynthetic bacteria derive energy by"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "oxidizing inorganic substances such as ammonia, sulfur, or hydrogen"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "reducing inorganic substances such as ammonia, sulfur, or hydrogen"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "oxidizing organic compounds"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "transducing light energy into chemical energy"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id71"
+  },
+  {
+    "input": {
+      "text": "A species of goose nests on both cliffs and beaches near the ocean. Soon after hatching, all chicks must make their way to the ocean. Chicks from cliff nests must tumble down the cliff to get to the ocean, and many are killed by the fall. Which of the following is most consistent with the hypothesis that cliff nesting is adaptive in this goose species?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Many more geese nest on the beaches than on the cliffs."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Cliff-side nesting confers a higher fitness than does beach nesting."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Chicks from cliff nests instinctively step off the cliffs at the appropriate time."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "More chicks survive the fall from the cliffs than are killed."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id90"
+  },
+  {
+    "input": {
+      "text": "Immunoglobulins having epsilon heavy chains and located on the plasma membranes of mast cells and basophilic leukocytes belong to the class of antibodies called"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "IgE"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "IgA"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "IgD"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "IgM"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id91"
+  },
+  {
+    "input": {
+      "text": "Which of the following is the best explanation for why net primary productivity in terrestrial ecosystems tends to increase toward the tropics?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The higher species diversity in the tropics tends to increase plant growth."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "There are lower metabolic costs to plant growth in the tropics."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The availability of water and warm temperatures in the tropics fosters photosynthesis."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The tropics have more predators that minimize herbivory."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id138"
+  },
+  {
+    "input": {
+      "text": "The section of chromosome that serves as the site of attachment by the mitotic spindle during cell division is the"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "chromatophore"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "chromomere"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "kinetochore"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "centriole"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id97"
+  },
+  {
+    "input": {
+      "text": "Cleavage symmetry arising from early cell divisions that occur at an oblique angle to the polar axis is known as"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "meroblastic cleavage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "radial cleavage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "spiral cleavage"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "superficial cleavage"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id31"
+  },
+  {
+    "input": {
+      "text": "Two xylem plant cell types that provide support and conduct water and minerals are the"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "collenchyma and sclerenchyma"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "sieve tube members and companion cells"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "tracheids and vessel elements"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "vessel elements and companion cells"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id151"
+  },
+  {
+    "input": {
+      "text": "The target of digestion of a nucleosome dimer to nucleosome monomers by DNase is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the H1 histone"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "histones H2A, H2B, H3, and H4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the nucleosome core"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "linker DNA"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id124"
+  },
+  {
+    "input": {
+      "text": "A healthy person sitting at rest consciously begins to breathe too fast. Which of the following describes the change in the person\u2019s blood caused by this hyperventilation?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A decrease in partial pressure of carbon dioxide and an increase in concentration of hydrogen ions"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A decrease in partial pressure of carbon dioxide and a decrease in concentration of hydrogen ions"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "An increase in partial pressure of carbon dioxide and an increase in concentration of hydrogen ions"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "An increase in partial pressure of carbon dioxide and a decrease in concentration of hydrogen ions"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id67"
+  },
+  {
+    "input": {
+      "text": "Ferns undergo alternation of generations in which a"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "dominant sporophyte alternates with an independent gametophyte"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "dominant gametophyte alternates with a dependent sporophyte"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "sporophyte and a gametophyte have equal life spans"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "gametophyte produces gametes by meiosis"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  },
+  {
+    "input": {
+      "text": "Which of the following techniques could be used to demonstrate protein binding to specific DNA sequences?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Western blot hybridization"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Northern blot hybridization"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Southern blot hybridization"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Electrophoretic mobility shift assay"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id102"
+  },
+  {
+    "input": {
+      "text": "From an evolutionary perspective, the optimality theory as applied to a given trait is best represented by the idea that"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "if the benefits gained from the trait exceed the cost of the trait to the animal performing them, that trait will persist in the genome"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "if the trait reaps the best return for the cost relative to alternative forms of the trait, that trait will win out over the alternative forms"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "beneficial traits are always worth the cost to the organism in energy and physiology, so those traits will persist in the genome"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the relative fitness of an organism must be improved due to a specific trait in order for the trait to remain in a population's gene pool"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id133"
+  },
+  {
+    "input": {
+      "text": "Which of the following statements is true of air as compared to water?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Air provides more physical support."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Air has a higher O2 concentration."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Air offers more resistance to motion."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Air has more thermal inertia."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  }
+]

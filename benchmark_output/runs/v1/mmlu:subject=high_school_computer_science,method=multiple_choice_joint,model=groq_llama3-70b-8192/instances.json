@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "This question is based on the following declarations: String strA = \"CARROT\", strB = \"Carrot\", strC = \"car\"; Given that all uppercase letters precede all lowercase letters when considering alphabetical order, which is true?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "strA.compareTo(strB) < 0 && strB.compareTo(strC) > 0"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "strC.compareTo(strB) < 0 && strB.compareTo(strA) < 0"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "strB.compareTo(strC) < 0 && strB.compareTo(strA) > 0"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "!(strA.compareTo(strB) == 0) && strB.compareTo(strA) < 0"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id89"
+  },
+  {
+    "input": {
+      "text": "In Python 3, which of the following function convert a string to an int in python?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "int(x [,base])"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "long(x [,base] )"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "float(x)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "str(x)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "An algorithm will be used to identify the maximum value in a list of one or more integers. Consider the two versions of the algorithm below.\n\n Algorithm I :  Set the value of a variable max to -1. Iterate through the list of integer\n   values. If a data value is greater than the value of the variable max, set\n  max to the data value.\n Algorithm II : Set the value of a variable max to the first data value. Iterate through the\n   remaining values in the list of integers. If a data value is greater than the\n   value of the variable max, set max to the data value.\n\n Which of the following statements best describes the behavior of the two algorithms?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Both algorithms work correctly on all input values."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Algorithm I always works correctly, but Algorithm II only works correctly when the maximum value is not the first value in the list."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Algorithm II always works correctly, but Algorithm I only works correctly when the maximum value is greater than or equal to -l."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Neither algorithm will correctly identify the maximum value when the input contains both positive and negative input values."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id80"
+  },
+  {
+    "input": {
+      "text": "A user purchased a new smart home device with embedded software and connected the device to a home network. The user then registered the device with the manufacturer, setting up an account using a personal e-mail and password. Which of the following explains how a phishing attack could occur against the user of the smart home device?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A vulnerability in the device\u2019s software is exploited to gain unauthorized access to other devices on the user\u2019s home network."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A vulnerability in the device\u2019s software is exploited to install software that reveals the user\u2019s password to an unauthorized individual."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The user is sent an e-mail appearing to be from the manufacturer, asking the user to confirm the account password by clicking on a link in the e-mail and entering the password on the resulting page."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The user\u2019s account is sent an overwhelming number of messages in an attempt to disrupt service on the user\u2019s home network."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "In Python 3, which of the following function checks in a string that all characters are in uppercase?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "isupper()"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "join(seq)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "len(string)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "ljust(width[, fillchar])"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "Refer to the nextIntInRangemethod below:\n /** @return a random integer in the range low to high, inclusive */\n public int nextIntInRange(int low, int high)\n {\n return /* expression */\n }\n Which /* expression */ will always return a value that satisfies the postcondition?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "(int) (Math.random() * high) + low;"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(int) (Math.random() * (high - low)) + low;"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(int) (Math.random() * (high - low + 1)) + low;"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "(int) (Math.random() * (high + low)) + low;"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id105"
+  },
+  {
+    "input": {
+      "text": "Which of the following activities poses the greatest personal cybersecurity risk?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Making a purchase at an online store that uses public key encryption to transmit credit card information"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Paying a bill using a secure electronic payment system"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Reserving a hotel room by e~mailing a credit card number to a hotel"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Withdrawing money from a bank account using an automated teller machine (ATM)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id113"
+  },
+  {
+    "input": {
+      "text": "Which is a valid expression in Python 3.5?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "sort('ab')"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "sorted('ab')"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "\"ab\".sort()"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1/0"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "The code segment below uses the procedure IsFound (list, item), which returns true if item appears in list and returns false otherwise. The list resultList is initially empty.\n  FOR EACH item IN inputList1{\n IF (isFound (inputList2, item) )\n APPEND (resultList, item)\n }\n Which of the following best describes the contents of resultList after the code segment is executed?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "All elements in inputListl followed by all elements in inputList2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Only elements that appear in both inputListl and inputList2"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Only elements that appear in either inputListl or inputList2 but not in both lists"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Only elements that appear in inputListl but not in inputList2"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "An Insect class is to be written, containing the following data fields: age, which will be initialized to 0 when an Insect is constructed. nextAvailableID, which will be initialized to 0 outside the constructor and incremented each time an Insect is constructed. idNum, which will be initialized to the current value of nextAvailableID when an Insect is constructed. position, which will be initialized to the location in a garden where the Insect is placed when it is constructed. direction, which will be initialized to the direction the Insect is facing when placed in the garden. Which variable in the Insect class should be static?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "age"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "nextAvailableID"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "idNum"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "position"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id91"
+  },
+  {
+    "input": {
+      "text": "Let l = [1,2,3,4]. What is min(l) in Python3?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id73"
+  },
+  {
+    "input": {
+      "text": "A computer simulation is created to simulate the growth of a certain plant species in different conditions. Which of the following actions could be used to validate the model used in the simulation?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Express the simulation software using both recursive and iterative algorithms. Compare the results of the recursive algorithm to those of the iterative algorithm."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Perform real-world experiments on the plant species' growth in different environments. Compare the experimental results to the results provided by the simulation."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Remove any unnecessary details from the model. Compare the running times of the original simulation and the simplified simulation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Run the simulation software on multiple devices. Compare the results obtained from each of the devices."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "Each student that enrolls at a school is assigned a unique ID number, which is stored as a binary number. The ID numbers increase sequentially by 1 with each newly enrolled student. If the ID number assigned to the last student who enrolled was the binary number 1001 0011, what binary number will be assigned to the next student who enrolls?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1001 0100"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1001 0111"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1101 0100"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1101 0111"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "In Python 3, what is the following function returns item from the list with max value?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "cmp(list)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "len(list)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "max(list)"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "min(list)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  },
+  {
+    "input": {
+      "text": "Consider the following instance variable and methods in the same class.\n private int[][] matrix;\n /** Precondition: array.length > 0.\n * @return the largest integer in array\n */\n private int max(int[] array)\n { /* implementation not shown */ }\n /** @return num1 if num1 >= num2; otherwise return num2\n */\n public int max(int num1, int num2)\n { /* implementation not shown */ }\n Suppose matrix has a current value of\n 2 1 4 8\n 6 0 3 9\n 5 7 7 6\n 1 2 3 4\n What will be returned by the following method call in the same class?\n max(max(matrix[2]), max(matrix[3]))"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id81"
+  },
+  {
+    "input": {
+      "text": "A sorted list of 120 integers is to be searched to determine whether the value 100 is in the list. Assuming that the most efficient searching algorithm is used, what is the maximum number of elements that must be examined?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "20"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "100"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id57"
+  },
+  {
+    "input": {
+      "text": "A programmer is writing a program that is intended to be able to process large amounts of data. Which of the following considerations is LEAST likely to affect the ability of the program to process larger data sets?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "How long the program takes to run"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "How many programming statements the program contains"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "How much memory the program requires as it runs"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "How much storage space the program requires as it runs"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "Which of the following is the most likely data privacy concern of the upgraded system?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Customers\u2019 personal information could be compromised if an unauthorized individual gains access to the call session database."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Storing information in the call session database makes it easy for individuals to trick the system using malicious links."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The system design increases the chance that customers will unknowingly install malware on their devices that will share their data with unauthorized individuals."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The system design makes it easy for unauthorized individuals to acquire customers\u2019 private encryption keys."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id78"
+  },
+  {
+    "input": {
+      "text": "In the procedure Mystery below, the parameter number is a positive integer.\n\n PROCEDURE Mystery (number)\n {\n  REPEAT UNTIL (number <= 0)\n  {\n   number \u2190 number - 2\n  }\n  IF (number = 0)\n  {\n   RETURN (true)\n  }\n  ELSE\n  {\n   RETURN (false)\n  }\n }\n\n Which of the following best describes the result of running the procedure Mystery?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The procedure returns true when the initial value of number is 2, and it otherwise returns false."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The procedure returns true when the initial value of number is greater than 2, and it otherwise returns false."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The procedure returns true when the initial value of number is even, and it otherwise returns false."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The procedure returns true when the initial value of number is odd, and it otherwise returns false."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id90"
+  },
+  {
+    "input": {
+      "text": "Let x = 8. What is x>>1 in Python 3?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "8"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  }
+]

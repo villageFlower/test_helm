@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "U.S.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 308.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id123",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "declined for men, and remained the same for women",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 357.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id21",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "evolutionary selection has favored the development of males who respond to novel sexual stimuli",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 349.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id61",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "both a and b",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 336.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id27",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "between the ages of 3 and 6",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 322.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Integration",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 311.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id113",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "He is overcome with feelings of self doubt and his sadomasochistic behaviour allows him a safe outlet for that self doubt.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 466.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id139",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "anxiety inhibits the sympathetic system",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 374.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id135",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "20",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 314.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id106",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "300 million",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 316.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id99",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "proliferative",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 323.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id132",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "egg",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 310.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id13",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "masturbation produces genital deformities",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 326.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id101",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "both A and B",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 359.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id145",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "genital warts",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 342.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id38",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "5 inches",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 312.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id89",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "blood accumulation in the genitals",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 315.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id125",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "affective, cognitive, and physical",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 339.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id124",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "They typically want to observe strangers' activities.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 327.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id29",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Fundamentalist Protestants",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 320.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  }
+]

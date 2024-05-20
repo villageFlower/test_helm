@@ -1,0 +1,382 @@
+[
+  {
+    "instance_id": "id578",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: What is the major difference between negative reinforcement and punishment?\nA. Punishments are used with nonhuman animals, and negative reinforcements are used with humans.\nB. Negative reinforcements are used in classical conditioning, and punishments are used in operant conditioning.\nC. Punishments are primarily used when training an organism to perform a behavior and negative reinforcements are used to train an organism to stop performing a behavior.\nD. Punishments decrease the frequency of a behavior and negative reinforcements increase the frequency of a behavior.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id57",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Faye believes that victims of natural disasters are foolish because they should have developed better advance detection and warning systems. Faye is manifesting the\nA. false consensus effect.\nB. self-fulfilling prophecy effect.\nC. self-serving bias.\nD. just-world bias.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id533",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Although they disagreed with his personal infidelities, many Americans supported President Bill Clinton's position and policy decisions during his term in office. This dichotomy of opinion demonstrates a split in\nA. external locus of control\nB. internal validity\nC. self-representation\nD. attitudinal coherence\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id348",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Because Al doesn't care how well he does at school but does care about having enough money to pay for a car, Al's mother gives him money for every \"A\" and \"B\" he earns on school tests and projects. For which of the following theories is the mother's behavior an exemplary application?\nA. Cannon-Bard\nB. instinct\nC. drive reduction\nD. incentive\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id60",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Which of the following conditions best characterizes the focus of a behavioral model of school intervention?\nA. Underlying psychological processes\nB. Relationships among children\nC. Events during the child's infancy\nD. Observable events\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id67",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Abraham Maslow proposed the idea that some motives are more imperative to survival than others. Which of the following approaches expresses this?\nA. Homeostatic regulation\nB. Goal-setting\nC. Expectancy-value\nD. Hierarchy of needs\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id351",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Complete the following example using deductive reasoning: All students who attend the Peddie School study Latin. Some students who study Latin also study calculus. Jerome is a student at the Peddie School. It can therefore be determined that\nA. Jerome studies calculus\nB. Jerome studies Latin\nC. Jerome studies both calculus and Latin\nD. Jerome studies either calculus or Latin\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id309",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Ryan suffers from nearly constant, low-level arousal of his autonomic nervous system. Ryan is most likely to be classified as suffering from\nA. GAD.\nB. major depressive disorder.\nC. hypochondriasis.\nD. obsessive-compulsive personality disorder.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id211",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: The smallest units of meaning in a language are\nA. phonemes\nB. phenotypes\nC. semantics\nD. morphemes\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id410",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Which of the following LEAST influences sexual behavior?\nA. hypothalamus\nB. pituitary\nC. gonads\nD. reticular formation\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id311",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Seeing someone in line at the grocery store and remembering her or his name is an example of which kind of retrieval?\nA. recognition\nB. recall\nC. episodic\nD. semantic\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id507",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Which of the following terms is most closely associated with creativity?\nA. hypothesis testing\nB. contextual intelligence\nC. divergent thinking\nD. habituation\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id186",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Extinction occurs when the conditioned stimulus\nA. precedes the unconditioned stimulus\nB. succeeds the unconditioned stimulus\nC. evokes the conditioned response\nD. no longer evokes the conditioned response\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id360",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: A child is frightened by the sudden barking of a neighbor's dog. Once her mother picks her up, the child begins to calm down as which of the following biological processes occurs?\nA. The parasympathetic nervous system resumes control and reverses the sympathetic responses.\nB. The sympathetic nervous system resumes control and reverses the parasympathetic responses.\nC. The autonomic nervous system resumes control and reverses the peripheral responses.\nD. The peripheral nervous system resumes control and reverses the autonomic responses.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id420",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Dr. Scarlett conducted experiments in which she electrically stimulated parts of a cat's brain. A cat that became terrified in the presence of a mouse was most likely stimulated in the\nA. limbic system\nB. thalamus\nC. medulla\nD. cerebellum\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id560",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Jay suffers from periods of amnesia and frequent loss of a sense of personal identity. It is likely Jay has a(n)\nA. schizophrenic disorder\nB. associative disorder\nC. antisocial personality disorder\nD. dissociative disorder\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id445",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Knowledge of different categories of trees and where they grow best is an example of what kind of long-term memory?\nA. episodic memory\nB. semantic memory\nC. procedural memory\nD. eidetic memory\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id383",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Which of the following is most likely to lead to a constructed memory?\nA. brain injury\nB. serial position effect\nC. leading questions\nD. proactive interference\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id468",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: Research has shown a possible connection between the neurotransmitter acetylcholine and which of the following mental disorders?\nA. Parkinson's disease\nB. Alzheimer's disease\nC. Schizophrenia\nD. Mania\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id550",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-8b-8192",
+      "model": "groq/llama3-8b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school psychology.\n\nQuestion: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.\nAnswer: D\n\nQuestion: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nA. Give the child a trial period in the new environment\nB. Notify the parents in writing\nC. Obtain school board approval\nD. Obtain parental consent\nAnswer: B\n\nQuestion: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?\nA. Messages are sent from the thalamus directly to the amygdala.\nB. Messages are sent from the thalamus to the \"what\" and \"where\" pathways.\nC. Messages are sent from the parasympathetic nervous system to the cerebral cortex.\nD. Messages are sent from the frontal lobes to the pituitary gland.\nAnswer: A\n\nQuestion: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nA. identifying the causes and solutions of the client's presenting problems\nB. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nC. establishing a hierarchy of authority to enable effective decision making\nD. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nAnswer: B\n\nQuestion: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nA. sociocultural\nB. clinical\nC. cognitive\nD. behaviorist\nAnswer: C\n\nQuestion: An educational psychologist is administering a basic skills exam to second-graders of two different schools in order to compare the students' performance. The researcher administers the exam to the students of the Antrim School on a Wednesday morning and then administers the same exam in exactly the same fashion on that same Wednesday afternoon to the second-graders of the Barton School. Which of the following best identifies a confounding variable in the psychologist's research?\nA. The psychologist is comparing two different schools.\nB. The psychologist is comparing the same grade in each school.\nC. The psychologist is testing the students in the two schools at two different times.\nD. The psychologist is testing the students in the two schools on the same day.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

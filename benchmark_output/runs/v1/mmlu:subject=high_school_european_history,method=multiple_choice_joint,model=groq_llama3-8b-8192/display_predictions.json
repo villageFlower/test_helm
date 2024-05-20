@@ -1,0 +1,301 @@
+[
+  {
+    "instance_id": "id99",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "He was so concerned with ceremonies and appearances that he did not rule his country well.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2968.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id23",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "a supernatural phenomenon",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2728.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id38",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "the role of a woman in running her own domestic household",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2693.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id103",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "an inevitable result of fundamental economic change",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2713.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id178",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "By encouraging the use of French as the universal language",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2744.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id174",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "the importance of the revolutions of 1848 in modern German history",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2747.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "had grave doubts about France's ability to win the coming war",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2730.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id143",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "They initiated an armed resistance against Western interests in Northern China.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2737.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id66",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "a restructuring of socialist society was necessary in order to avoid the collapse of the Soviet Union",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2695.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "mass conscription",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2805.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Create a united Europe under the leadership of France",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2855.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id117",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "The emancipation terms relegated former serfs to communal farming, thus keeping them in perpetual poverty, and made wealthy conservatives nervous.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 3035.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id183",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "A series of revolutions that gripped Europe in the same year",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2722.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id135",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Freeing the peasants from their landlords in exchange for their support",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2804.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id169",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "The change from a divinely-ordained monarch to a constitutionally-approved monarch",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2835.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id155",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Europeans expanded the African slave trade in response to the establishment of a plantation economy in the Americas and to demographic catastrophes among indigenous peoples.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2855.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id123",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Bartholomew Dias",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2879.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id111",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "women were denied power and responsibility within the domestic sphere of social life",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2707.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id85",
+    "train_trial_index": 0,
+    "predicted_text": "D. blamed Germany for World War I",
+    "base64_images": [],
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2643.0,
+      "num_output_tokens": 8.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id160",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "the onset of the October Revolution",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2806.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

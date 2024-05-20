@@ -1,0 +1,1652 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about professional psychology.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "huggingface/Meta-Llama-3-8B",
+    "model": "huggingface/Meta-Llama-3-8B",
+    "temperature": 0.0,
+    "max_tokens": 1,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "Research in the workplace has shown that a subordinate\u2019s participation in goal setting leads to the selection of goals that, when compared to goals set for subordinates unilaterally by their supervisors, are"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "more challenging"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Of about the same level of difficulty"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "never accomplished"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "less challenging"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id118"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "more challenging",
+        "B": "Of about the same level of difficulty",
+        "C": "never accomplished",
+        "D": "less challenging"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: Research in the workplace has shown that a subordinate\u2019s participation in goal setting leads to the selection of goals that, when compared to goals set for subordinates unilaterally by their supervisors, are\nA. more challenging\nB. Of about the same level of difficulty\nC. never accomplished\nD. less challenging\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 18.792495489120483,
+        "request_datetime": 1716232267
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In organizations, the level of affective commitment is likely to be least predictive of which of the following?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "job satisfaction"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "productivity"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "job motivation"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "turnover"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id597"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "job satisfaction",
+        "B": "productivity",
+        "C": "job motivation",
+        "D": "turnover"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: In organizations, the level of affective commitment is likely to be least predictive of which of the following?\nA. job satisfaction\nB. productivity\nC. job motivation\nD. turnover\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.77479648590088,
+        "request_datetime": 1716232267
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In classical conditioning, experimental extinction will occur when the"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "conditioned stimulus is repeatedly not followed by the unconditioned stimulus"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "unconditioned stimulus is repeatedly not followed by the conditioned stimulus"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "conditioned stimulus is repeatedly followed by the unconditioned response"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "unconditioned stimulus is repeatedly followed by the conditioned response"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id256"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "conditioned stimulus is repeatedly not followed by the unconditioned stimulus",
+        "B": "unconditioned stimulus is repeatedly not followed by the conditioned stimulus",
+        "C": "conditioned stimulus is repeatedly followed by the unconditioned response",
+        "D": "unconditioned stimulus is repeatedly followed by the conditioned response"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: In classical conditioning, experimental extinction will occur when the\nA. conditioned stimulus is repeatedly not followed by the unconditioned stimulus\nB. unconditioned stimulus is repeatedly not followed by the conditioned stimulus\nC. conditioned stimulus is repeatedly followed by the unconditioned response\nD. unconditioned stimulus is repeatedly followed by the conditioned response\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 23.564851760864258,
+        "request_datetime": 1716232267
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Compared to individuals in their 20s, which of the following is an advantage to having children after the age of 30?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Older parents typically have more income for additional expenses due to established careers"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Older mothers have fewer medical complications during pregnancy and birth"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Older parents have not had time to build up expectations about children\u2019s behavior"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Older parents have more physical energy and time to play with their young children"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id558"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Older parents typically have more income for additional expenses due to established careers",
+        "B": "Older mothers have fewer medical complications during pregnancy and birth",
+        "C": "Older parents have not had time to build up expectations about children\u2019s behavior",
+        "D": "Older parents have more physical energy and time to play with their young children"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: Compared to individuals in their 20s, which of the following is an advantage to having children after the age of 30?\nA. Older parents typically have more income for additional expenses due to established careers\nB. Older mothers have fewer medical complications during pregnancy and birth\nC. Older parents have not had time to build up expectations about children\u2019s behavior\nD. Older parents have more physical energy and time to play with their young children\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.044570207595825,
+        "request_datetime": 1716232267
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The most automatic of the proposed memory systems is ___________."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Episodic memory"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Semantic memory"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Declarative memory"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Explicit memory"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id288"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Episodic memory",
+        "B": "Semantic memory",
+        "C": "Declarative memory",
+        "D": "Explicit memory"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: The most automatic of the proposed memory systems is ___________.\nA. Episodic memory\nB. Semantic memory\nC. Declarative memory\nD. Explicit memory\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 18.44165802001953,
+        "request_datetime": 1716232286
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Longitudinal studies of children with specific reading disabilities show that"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "these children usually have subtle hearing disorders"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "reading chills usually do not reach normal levels as these children reach adulthood"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "these children usually excel in sports"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the reading impairments usually accompanied by a low vocabulary level"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id431"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "these children usually have subtle hearing disorders",
+        "B": "reading chills usually do not reach normal levels as these children reach adulthood",
+        "C": "these children usually excel in sports",
+        "D": "the reading impairments usually accompanied by a low vocabulary level"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: Longitudinal studies of children with specific reading disabilities show that\nA. these children usually have subtle hearing disorders\nB. reading chills usually do not reach normal levels as these children reach adulthood\nC. these children usually excel in sports\nD. the reading impairments usually accompanied by a low vocabulary level\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.683603286743164,
+        "request_datetime": 1716232287
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In regard to memory, aging is most closely associated with a decline in"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "the efficiency of controlled memory processes"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "metamemory skills, or knowledge about memory"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "recognition memory"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the amount of factual memory knowledge available"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id80"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "the efficiency of controlled memory processes",
+        "B": "metamemory skills, or knowledge about memory",
+        "C": "recognition memory",
+        "D": "the amount of factual memory knowledge available"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: In regard to memory, aging is most closely associated with a decline in\nA. the efficiency of controlled memory processes\nB. metamemory skills, or knowledge about memory\nC. recognition memory\nD. the amount of factual memory knowledge available\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.420041799545288,
+        "request_datetime": 1716232288
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A couple brings their ten-year-old son to therapy at the suggestion of his school counselor who is concerned because the boy has started arguing with his teacher and getting into physical fights with his classmates. After several sessions with the boy and his family, you receive a letter from the school principal requesting information about the boy's condition, and a signed release from the boy's parents is included with the letter. As an ethical psychologist, you should:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "refuse to release the records to anyone but a licensed psychologist."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "refuse to release the records to anyone but the boy\u2019s parents."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "release only that information you believe to be relevant to the school\u2019s concerns."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "release photocopies of your complete file on the boy and his family."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id518"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "refuse to release the records to anyone but a licensed psychologist.",
+        "B": "refuse to release the records to anyone but the boy\u2019s parents.",
+        "C": "release only that information you believe to be relevant to the school\u2019s concerns.",
+        "D": "release photocopies of your complete file on the boy and his family."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: A couple brings their ten-year-old son to therapy at the suggestion of his school counselor who is concerned because the boy has started arguing with his teacher and getting into physical fights with his classmates. After several sessions with the boy and his family, you receive a letter from the school principal requesting information about the boy's condition, and a signed release from the boy's parents is included with the letter. As an ethical psychologist, you should:\nA. refuse to release the records to anyone but a licensed psychologist.\nB. refuse to release the records to anyone but the boy\u2019s parents.\nC. release only that information you believe to be relevant to the school\u2019s concerns.\nD. release photocopies of your complete file on the boy and his family.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 25.613724946975708,
+        "request_datetime": 1716232291
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "HOUSE\u2019S PATH-GOAL THEORY OF LEADERSHIP predicts that subordinate satisfaction and motivation are maximized when they believe the leader is helping. How is the Instrumental leadership style?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "establishes supportive relationships with subordinates"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "includes subordinates in decision-making"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "provides specific guidelines and clear rules and procedures"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "sets challenging goals and encourage higher levels of performance"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id499"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "establishes supportive relationships with subordinates",
+        "B": "includes subordinates in decision-making",
+        "C": "provides specific guidelines and clear rules and procedures",
+        "D": "sets challenging goals and encourage higher levels of performance"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: HOUSE\u2019S PATH-GOAL THEORY OF LEADERSHIP predicts that subordinate satisfaction and motivation are maximized when they believe the leader is helping. How is the Instrumental leadership style?\nA. establishes supportive relationships with subordinates\nB. includes subordinates in decision-making\nC. provides specific guidelines and clear rules and procedures\nD. sets challenging goals and encourage higher levels of performance\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 19.221616506576538,
+        "request_datetime": 1716232305
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A person with Wernicke's aphasia has impaired language comprehension and:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "nonfluent and unintelligible speech."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "nonfluent but intelligible speech."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "fluent but unintelligible speech."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "fluent and intelligible speech."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id562"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "nonfluent and unintelligible speech.",
+        "B": "nonfluent but intelligible speech.",
+        "C": "fluent but unintelligible speech.",
+        "D": "fluent and intelligible speech."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: A person with Wernicke's aphasia has impaired language comprehension and:\nA. nonfluent and unintelligible speech.\nB. nonfluent but intelligible speech.\nC. fluent but unintelligible speech.\nD. fluent and intelligible speech.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.978564739227295,
+        "request_datetime": 1716232308
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Pro bono work is:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "required by the Ethics Code."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "encouraged by the Ethics Code."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "prohibited by the Ethics Code."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "not addressed by the Ethics Code."
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id19"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "required by the Ethics Code.",
+        "B": "encouraged by the Ethics Code.",
+        "C": "prohibited by the Ethics Code.",
+        "D": "not addressed by the Ethics Code."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: Pro bono work is:\nA. required by the Ethics Code.\nB. encouraged by the Ethics Code.\nC. prohibited by the Ethics Code.\nD. not addressed by the Ethics Code.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 18.333436250686646,
+        "request_datetime": 1716232309
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "__________ memory is the aspect of memory that is involved in the recall of information acquired within the past few hours to days."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Working"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Sensory"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Long-term"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Prospective"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id344"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Working",
+        "B": "Sensory",
+        "C": "Long-term",
+        "D": "Prospective"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: __________ memory is the aspect of memory that is involved in the recall of information acquired within the past few hours to days.\nA. Working\nB. Sensory\nC. Long-term\nD. Prospective\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " A",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 17.84315514564514,
+        "request_datetime": 1716232317
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Carol and Jim are experiencing marital difficulties. They have two school-aged children, a boy and a gid. According to meta-analysis of research on the relationship between marital discord and child behavior problems, it would be expected that"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "neither child is more likely to manifest an immediate behavior problem than are children of stable marriages"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the girl is more likely than the boy to manifest an immediate behavior problem"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the boy is more likely than the girl to manifest an immediate behavior problem"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "both children ore equally likely to manifest an immediate behavior problem"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id572"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "neither child is more likely to manifest an immediate behavior problem than are children of stable marriages",
+        "B": "the girl is more likely than the boy to manifest an immediate behavior problem",
+        "C": "the boy is more likely than the girl to manifest an immediate behavior problem",
+        "D": "both children ore equally likely to manifest an immediate behavior problem"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: Carol and Jim are experiencing marital difficulties. They have two school-aged children, a boy and a gid. According to meta-analysis of research on the relationship between marital discord and child behavior problems, it would be expected that\nA. neither child is more likely to manifest an immediate behavior problem than are children of stable marriages\nB. the girl is more likely than the boy to manifest an immediate behavior problem\nC. the boy is more likely than the girl to manifest an immediate behavior problem\nD. both children ore equally likely to manifest an immediate behavior problem\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 22.649921894073486,
+        "request_datetime": 1716232324
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A person who recognizes a need to change certain behavior but exhibits ambivalence would most likely be in which stage of change?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Precontemplation stage"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Indicative stage"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Contemplation stage"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Maintenance stage"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id522"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Precontemplation stage",
+        "B": "Indicative stage",
+        "C": "Contemplation stage",
+        "D": "Maintenance stage"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: A person who recognizes a need to change certain behavior but exhibits ambivalence would most likely be in which stage of change?\nA. Precontemplation stage\nB. Indicative stage\nC. Contemplation stage\nD. Maintenance stage\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 21.544280290603638,
+        "request_datetime": 1716232327
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In terms of training program evaluation, Kirkpatrick (1976) contends that _______ criteria are the most important criteria to evaluate but are often the most difficult to develop and, therefore, the most infrequently used."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "learning"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "behavioral"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "reaction"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "results"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id501"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "learning",
+        "B": "behavioral",
+        "C": "reaction",
+        "D": "results"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: In terms of training program evaluation, Kirkpatrick (1976) contends that _______ criteria are the most important criteria to evaluate but are often the most difficult to develop and, therefore, the most infrequently used.\nA. learning\nB. behavioral\nC. reaction\nD. results\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 19.198374032974243,
+        "request_datetime": 1716232329
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In most situations, the \u201cholder of the privilege\u201d is:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "the therapist."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the client."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "the therapist and client jointly."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the court."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id619"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "the therapist.",
+        "B": "the client.",
+        "C": "the therapist and client jointly.",
+        "D": "the court."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: In most situations, the \u201cholder of the privilege\u201d is:\nA. the therapist.\nB. the client.\nC. the therapist and client jointly.\nD. the court.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 17.405816793441772,
+        "request_datetime": 1716232334
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The belief that a child's misbehavior has one of four goals \u2014 i.e., attention, revenge, power, or to display inadequacy \u2014 is most consistent with:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Beck\u2019s cognitive-behavioral therapy."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Adler\u2019s individual psychology"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Perls\u2019s Gestalt therapy."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Mahler\u2019s object relations theory."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id201"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Beck\u2019s cognitive-behavioral therapy.",
+        "B": "Adler\u2019s individual psychology",
+        "C": "Perls\u2019s Gestalt therapy.",
+        "D": "Mahler\u2019s object relations theory."
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: The belief that a child's misbehavior has one of four goals \u2014 i.e., attention, revenge, power, or to display inadequacy \u2014 is most consistent with:\nA. Beck\u2019s cognitive-behavioral therapy.\nB. Adler\u2019s individual psychology\nC. Perls\u2019s Gestalt therapy.\nD. Mahler\u2019s object relations theory.\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 18.669564723968506,
+        "request_datetime": 1716232347
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In research study, a mother and her infant are alone in a room. A stranger enters and the mother leaves the room. When the mother returns to the room, the infant begins to cry and initially continues to do so even after being picked up by the mother. Eventually the infant settles down and returns to playing, apparently happily, with the toys provided. Which attachment classification is most likely to be appropriate for this infant"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Disorganized"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Anxious resistant"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Avoidant"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Secure"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id248"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Disorganized",
+        "B": "Anxious resistant",
+        "C": "Avoidant",
+        "D": "Secure"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: In research study, a mother and her infant are alone in a room. A stranger enters and the mother leaves the room. When the mother returns to the room, the infant begins to cry and initially continues to do so even after being picked up by the mother. Eventually the infant settles down and returns to playing, apparently happily, with the toys provided. Which attachment classification is most likely to be appropriate for this infant\nA. Disorganized\nB. Anxious resistant\nC. Avoidant\nD. Secure\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " C",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 20.68476176261902,
+        "request_datetime": 1716232348
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Asking the \u201cmiracle question\u201d is an initial intervention in which type of therapy?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "transtheoretical"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "interpersonal"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "REBT"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "solution-focused"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id332"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "transtheoretical",
+        "B": "interpersonal",
+        "C": "REBT",
+        "D": "solution-focused"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: Asking the \u201cmiracle question\u201d is an initial intervention in which type of therapy?\nA. transtheoretical\nB. interpersonal\nC. REBT\nD. solution-focused\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " D",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 19.387532234191895,
+        "request_datetime": 1716232349
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Experimental studies of the relation between level of motivation and level of performance have shown that"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "the higher the intensity or degree of motivation, the better the level of performance"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "for a given task, there is an optimal level of motivation"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "motivation is important to learning but not to performance"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "optimal performance is obtained relatively more often by internalizers than by externalizers"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id73"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "the higher the intensity or degree of motivation, the better the level of performance",
+        "B": "for a given task, there is an optimal level of motivation",
+        "C": "motivation is important to learning but not to performance",
+        "D": "optimal performance is obtained relatively more often by internalizers than by externalizers"
+      },
+      "request": {
+        "model_deployment": "huggingface/Meta-Llama-3-8B",
+        "model": "huggingface/Meta-Llama-3-8B",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about professional psychology.\n\nQuestion: Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.\nAnswer: D\n\nQuestion: In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.\nAnswer: A\n\nQuestion: In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other\nAnswer: A\n\nQuestion: There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number\nAnswer: D\n\nQuestion: One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program\nAnswer: D\n\nQuestion: Experimental studies of the relation between level of motivation and level of performance have shown that\nA. the higher the intensity or degree of motivation, the better the level of performance\nB. for a given task, there is an optimal level of motivation\nC. motivation is important to learning but not to performance\nD. optimal performance is obtained relatively more often by internalizers than by externalizers\nAnswer:",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 1,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": " B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": " B",
+                "logprob": 0.0
+              }
+            ]
+          }
+        ],
+        "cached": false,
+        "request_time": 17.229849100112915,
+        "request_datetime": 1716232352
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

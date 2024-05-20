@@ -1,0 +1,1712 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about human aging.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "groq/llama3-70b-8192",
+    "model": "groq/llama3-70b-8192",
+    "temperature": 0.0,
+    "max_tokens": 20,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "The cause of Alzheimer's appears to be"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Mostly environmental"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Aluminum"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Mostly genetic"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Apo-E 4"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id94"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Mostly environmental",
+        "B": "Aluminum",
+        "C": "Mostly genetic",
+        "D": "Apo-E 4"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: The cause of Alzheimer's appears to be\nA. Mostly environmental\nB. Aluminum\nC. Mostly genetic\nD. Apo-E 4\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8433454036712646,
+        "request_datetime": 1716205159
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "One of the most important points made in this chapter is that physical changes"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Occur for everyone"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Occur more for some and less for others and, within the same person, more for some systems and less for others"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Usually occur for very old people but not for very young people"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Can be totally avoided if one learns enough about gerontology"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id113"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Occur for everyone",
+        "B": "Occur more for some and less for others and, within the same person, more for some systems and less for others",
+        "C": "Usually occur for very old people but not for very young people",
+        "D": "Can be totally avoided if one learns enough about gerontology"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: One of the most important points made in this chapter is that physical changes\nA. Occur for everyone\nB. Occur more for some and less for others and, within the same person, more for some systems and less for others\nC. Usually occur for very old people but not for very young people\nD. Can be totally avoided if one learns enough about gerontology\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 28.141250610351562,
+        "request_datetime": 1716205086
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Quantitative analyses of TV shows have shown that"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Older adults are almost always portrayed in a negative way"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The more positive portrayals occur during commercials"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The proportion of older men is particularly low"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The proportion of older women is particularly low"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id79"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Older adults are almost always portrayed in a negative way",
+        "B": "The more positive portrayals occur during commercials",
+        "C": "The proportion of older men is particularly low",
+        "D": "The proportion of older women is particularly low"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Quantitative analyses of TV shows have shown that\nA. Older adults are almost always portrayed in a negative way\nB. The more positive portrayals occur during commercials\nC. The proportion of older men is particularly low\nD. The proportion of older women is particularly low\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 9.988657236099243,
+        "request_datetime": 1716205129
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following forms of dementia has the highest prevalence rate?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Alzheimer's"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Vascular"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Parkinson's"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Fronto-temporal lobe"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id114"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Alzheimer's",
+        "B": "Vascular",
+        "C": "Parkinson's",
+        "D": "Fronto-temporal lobe"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following forms of dementia has the highest prevalence rate?\nA. Alzheimer's\nB. Vascular\nC. Parkinson's\nD. Fronto-temporal lobe\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 6.8724541664123535,
+        "request_datetime": 1716205159
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following hormones has not yet been claimed to ward off senescence?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "DHEA"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Human growth hormone"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Melatonin"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Viasterol"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id76"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "DHEA",
+        "B": "Human growth hormone",
+        "C": "Melatonin",
+        "D": "Viasterol"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following hormones has not yet been claimed to ward off senescence?\nA. DHEA\nB. Human growth hormone\nC. Melatonin\nD. Viasterol\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 6.932801961898804,
+        "request_datetime": 1716205114
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Socioemotional selectivity theory says that older adults have smaller social networks because they"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Are more concerned with those closest to them"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Select new network members based on emotional factors"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Can no longer get out to select new network members"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Are too emotionally involved to spend time with others"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id131"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Are more concerned with those closest to them",
+        "B": "Select new network members based on emotional factors",
+        "C": "Can no longer get out to select new network members",
+        "D": "Are too emotionally involved to spend time with others"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Socioemotional selectivity theory says that older adults have smaller social networks because they\nA. Are more concerned with those closest to them\nB. Select new network members based on emotional factors\nC. Can no longer get out to select new network members\nD. Are too emotionally involved to spend time with others\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 4.682201862335205,
+        "request_datetime": 1716205121
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Hypokinesia refers to"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Severe obesity"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Loss of muscle strength and bone density"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Increased sensitivity to stress"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Social isolation and lack of support"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id109"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Severe obesity",
+        "B": "Loss of muscle strength and bone density",
+        "C": "Increased sensitivity to stress",
+        "D": "Social isolation and lack of support"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Hypokinesia refers to\nA. Severe obesity\nB. Loss of muscle strength and bone density\nC. Increased sensitivity to stress\nD. Social isolation and lack of support\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 6.845755338668823,
+        "request_datetime": 1716205126
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "As working people get closer to retirement they are more likely to"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Be absent from work"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Invest in craft and hobby books"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Do some informal planning"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Become irritated and anxious"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id143"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Be absent from work",
+        "B": "Invest in craft and hobby books",
+        "C": "Do some informal planning",
+        "D": "Become irritated and anxious"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: As working people get closer to retirement they are more likely to\nA. Be absent from work\nB. Invest in craft and hobby books\nC. Do some informal planning\nD. Become irritated and anxious\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "C",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 13.979348421096802,
+        "request_datetime": 1716205133
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "After losing a spouse, the surviving spouse often dies within the first year because of"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Stress and loss of social support"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Having the same disorder as the deceased"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The inability to remarry quickly"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "They have the same defective genes"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id159"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Stress and loss of social support",
+        "B": "Having the same disorder as the deceased",
+        "C": "The inability to remarry quickly",
+        "D": "They have the same defective genes"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: After losing a spouse, the surviving spouse often dies within the first year because of\nA. Stress and loss of social support\nB. Having the same disorder as the deceased\nC. The inability to remarry quickly\nD. They have the same defective genes\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 14.353366613388062,
+        "request_datetime": 1716205139
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Life stories are more likely for people who have a sense of"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Well being"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Personal control"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Generativity"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Humor"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id204"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Well being",
+        "B": "Personal control",
+        "C": "Generativity",
+        "D": "Humor"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Life stories are more likely for people who have a sense of\nA. Well being\nB. Personal control\nC. Generativity\nD. Humor\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "C",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 13.7497079372406,
+        "request_datetime": 1716205200
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A disadvantage of institutional care is that the staff frequently teach older residents to be"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Rude"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Dependent"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Independent"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Selfish"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id238"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Rude",
+        "B": "Dependent",
+        "C": "Independent",
+        "D": "Selfish"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: A disadvantage of institutional care is that the staff frequently teach older residents to be\nA. Rude\nB. Dependent\nC. Independent\nD. Selfish\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 10.906195640563965,
+        "request_datetime": 1716205176
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following does NOT increase the risk of falling?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Taking many prescription medications"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Visual impairment"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Having no emotional support"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "A change in walking style or gait"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id187"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Taking many prescription medications",
+        "B": "Visual impairment",
+        "C": "Having no emotional support",
+        "D": "A change in walking style or gait"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following does NOT increase the risk of falling?\nA. Taking many prescription medications\nB. Visual impairment\nC. Having no emotional support\nD. A change in walking style or gait\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "C",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 13.77014684677124,
+        "request_datetime": 1716205160
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Our social network refers to"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Everyone we know"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Those who are closest to us"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Those who we have not yet met"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Family members"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id128"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Everyone we know",
+        "B": "Those who are closest to us",
+        "C": "Those who we have not yet met",
+        "D": "Family members"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Our social network refers to\nA. Everyone we know\nB. Those who are closest to us\nC. Those who we have not yet met\nD. Family members\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 14.285818099975586,
+        "request_datetime": 1716205166
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following is more likely to be a cohort, rather than an age, difference?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "A higher proportion of older women have completed menopause"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A smaller proportion of older women report dreams about sex"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "A higher proportion of older men are bald"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A higher proportion of older men and women are victims of cancer"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id50"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "A higher proportion of older women have completed menopause",
+        "B": "A smaller proportion of older women report dreams about sex",
+        "C": "A higher proportion of older men are bald",
+        "D": "A higher proportion of older men and women are victims of cancer"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following is more likely to be a cohort, rather than an age, difference?\nA. A higher proportion of older women have completed menopause\nB. A smaller proportion of older women report dreams about sex\nC. A higher proportion of older men are bald\nD. A higher proportion of older men and women are victims of cancer\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "A",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.5444719791412354,
+        "request_datetime": 1716205226
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The idea that the ability to complete a task depends on the fit between the environment and the person undertaking the task is a basic tenet of which of the following theories of aging?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Environmental"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Ecological"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Fitness"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Congruence"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id205"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Environmental",
+        "B": "Ecological",
+        "C": "Fitness",
+        "D": "Congruence"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: The idea that the ability to complete a task depends on the fit between the environment and the person undertaking the task is a basic tenet of which of the following theories of aging?\nA. Environmental\nB. Ecological\nC. Fitness\nD. Congruence\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 12.092466115951538,
+        "request_datetime": 1716205181
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The insurance program for poor people of all ages is called"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Hospice"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Medicaid"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Medicare"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Respite"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id199"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Hospice",
+        "B": "Medicaid",
+        "C": "Medicare",
+        "D": "Respite"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: The insurance program for poor people of all ages is called\nA. Hospice\nB. Medicaid\nC. Medicare\nD. Respite\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.1176567077636719,
+        "request_datetime": 1716205239
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following has NOT been shown to be an effective treatment for depression in older adults?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Rigorous exercise"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Life review"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Mental stimulation"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Anti-depressant drugs"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id242"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Rigorous exercise",
+        "B": "Life review",
+        "C": "Mental stimulation",
+        "D": "Anti-depressant drugs"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following has NOT been shown to be an effective treatment for depression in older adults?\nA. Rigorous exercise\nB. Life review\nC. Mental stimulation\nD. Anti-depressant drugs\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "C",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 6.620541095733643,
+        "request_datetime": 1716205193
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A shortage of these two vitamins can produce symptoms that mimic dementia:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "A and C"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "B6 and B12"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "B6 and D"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "B12 and E"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id42"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "A and C",
+        "B": "B6 and B12",
+        "C": "B6 and D",
+        "D": "B12 and E"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: A shortage of these two vitamins can produce symptoms that mimic dementia:\nA. A and C\nB. B6 and B12\nC. B6 and D\nD. B12 and E\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 6.905964136123657,
+        "request_datetime": 1716205199
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following groups of Americans have the lowest rate of alcohol abuse?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "African-American"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "White"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Native-American"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Asian-American"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id80"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "African-American",
+        "B": "White",
+        "C": "Native-American",
+        "D": "Asian-American"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Which of the following groups of Americans have the lowest rate of alcohol abuse?\nA. African-American\nB. White\nC. Native-American\nD. Asian-American\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "D",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 9.156009674072266,
+        "request_datetime": 1716205229
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Some work on age stereotypes suggests that"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Positive ones are stronger"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Negative ones are stronger"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "They never last very long"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "They are very rare"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id68"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Positive ones are stronger",
+        "B": "Negative ones are stronger",
+        "C": "They never last very long",
+        "D": "They are very rare"
+      },
+      "request": {
+        "model_deployment": "groq/llama3-70b-8192",
+        "model": "groq/llama3-70b-8192",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about human aging.\n\nQuestion: The finding that adults tend to remember events from their adolescence better than from other periods in their lives is referred to as the\nA. Adolescence advantage\nB. Reminiscence bump\nC. Memorial memorial\nD. Quadratic retrieval spike\nAnswer: B\n\nQuestion: All other things being equal, which of the following persons is more likely to show osteoporosis?\nA. An older Hispanic American woman\nB. An older African American woman\nC. An older Asian American woman\nD. An older Native American woman\nAnswer: C\n\nQuestion: Which of the following persons is more likely to remain at home alone, as of 2019?\nA. An Asian man or woman\nB. A Hispanic man\nC. An African American woman\nD. A white man or woman\nAnswer: C\n\nQuestion: When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont\nAnswer: A\n\nQuestion: Which element in tobacco smoke is responsible for cancers?\nA. Nicotine\nB. Tar\nC. Carbon monoxide\nD. Smoke particles\nAnswer: B\n\nQuestion: Some work on age stereotypes suggests that\nA. Positive ones are stronger\nB. Negative ones are stronger\nC. They never last very long\nD. They are very rare\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0.0,
+            "tokens": [
+              {
+                "text": "B",
+                "logprob": 0.0
+              }
+            ],
+            "finish_reason": {
+              "reason": "endoftext"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 5.734817743301392,
+        "request_datetime": 1716205213
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

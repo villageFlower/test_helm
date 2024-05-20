@@ -1,0 +1,382 @@
+[
+  {
+    "instance_id": "id157",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which of the following countries is situated in the region of tectonic activity known as the Pacific Ring of Fire?\nA. Brazil\nB. Australia\nC. Chile\nD. India\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which of the following U.S. main immigration flow associations is NOT correct?\nA. Pioneer settlement to 1870\u2014Germans, British, Scotch-Irish, Africans\nB. 1870\u20131914\u2014Asians\nC. 1870\u20131914\u2014Eastern and southern Europeans\nD. 1965\u2013present\u2014Hispanics\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id76",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: In which of the following regions is subsistence agriculture being replaced by large-scale commercial development?\nA. The Swiss Alps\nB. The Amazon Basin\nC. North Africa\nD. The Alaskan tundra\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id166",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which of the following items below is an absolute location?\nA. 10 miles east of Pittsburgh\nB. Washington\nC. 3 degrees south\nD. 479 Elm Street, Muncie, Indiana\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id167",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which one of the following groups is excluded from the caste system of Hinduism?\nA. Scholar-priests\nB. Warrior-landowners\nC. Businessmen and farmers\nD. Untouchables\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id148",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which one of the following statements does NOT correctly describe the Green Revolution?\nA. It changed centuries-old methods of farming.\nB. It was an attempt to feed a growing world population.\nC. It centered on increased rice, wheat, and maize yields.\nD. It greatly improved crop yields in sub-Saharan Africa.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id68",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: The process whereby immigrants learn the values, language, and customs of their new country is called\nA. assimilation.\nB. acculturation.\nC. adaptation.\nD. amalgamation.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id158",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which one of the following statements is NOT true of the \"core\" countries?\nA. They are technologically advanced.\nB. They are wealthy.\nC. They are powerful.\nD. They are less developed.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id224",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: The official languages of Guyana, Suriname, and French Guiana are English, Dutch, and French, respectively. On what continent are those countries located?\nA. North America\nB. South America\nC. Africa\nD. Asia\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id140",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Shifting cultivation is most often practiced in\nA. alpine tundra.\nB. tropical forests.\nC. flood plains.\nD. deserts.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id154",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?\nA. Rostow\nB. Ravenstein\nC. Von Th\u00fcnen\nD. Burgess\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: A society in which two or more population groups coexist while maintaining their unique culture demonstrates\nA. racial segregation.\nB. miscegenation.\nC. cultural pluralism.\nD. cultural segregation.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id95",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which of the following is NOT an example of syncretism?\nA. Halloween\nB. Foreign cuisine changed to suit American tastes\nC. Hasidic Judaism\nD. Catholicism in Louisiana\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id173",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Opponents of genetically modified organisms (GMOs) in food are afraid that the GMOs\nA. will hinder global trade.\nB. make plants more resistant to disease.\nC. may cause irreversible changes in humans.\nD. make plants more resistant to drought.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id207",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which of the following industries does NOT need to be close to its markets?\nA. Dairy foods\nB. Bulk-gaining products\nC. Single-market products\nD. Bulk-reducing products\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id196",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: What condition occurs when the people of one state want to annex a territory whose population is ethnically related to that state's population but now under the rule of another state?\nA. Nationalism\nB. Resource dispute\nC. Irredentism\nD. Positional dispute\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id206",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: In which of the following Asian countries would one find special economic zones (SEZs)?\nA. Japan\nB. South Korea\nC. China\nD. Vietnam\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id101",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which of the following countries is actively trying to preserve the purity of their native language from contamination by English or other languages?\nA. Italy\nB. Russia\nC. Japan\nD. Brazil\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id111",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard?\nA. European\nB. Muslim\nC. Sub-Saharan African\nD. Latin American\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id80",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "groq/llama3-70b-8192",
+      "model": "groq/llama3-70b-8192",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about high school geography.\n\nQuestion: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?\nA. Duplication of efforts occurs often.\nB. Social problems of the central city spill over into the surrounding residential suburbs.\nC. Inefficiency in providing services occurs often.\nD. One neighborhood's efforts to reduce pollution are always supported by neighboring communities.\nAnswer: D\n\nQuestion: Which one of the following items is an example of nonmaterial culture?\nA. Dove soap\nB. Dove candy bar\nC. Dove symbol\nD. A dove (bird)\nAnswer: C\n\nQuestion: During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.\nAnswer: B\n\nQuestion: The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.\nAnswer: B\n\nQuestion: The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.\nAnswer: A\n\nQuestion: Which one of the statements below is characteristic of most African cities?\nA. They have thriving, clean residential areas.\nB. There are jobs for most rural-to-urban migrants.\nC. They have three separate business districts.\nD. They have a well-developed infrastructure.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

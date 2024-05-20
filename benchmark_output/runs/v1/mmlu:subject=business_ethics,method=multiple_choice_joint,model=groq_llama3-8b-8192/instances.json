@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "_______ is a system of exchange based on guaranteeing producers in developing countries a living wage, decent working conditions and opportunities for community development."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Sustainable sourcing"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Fair trade"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Ethical sourcing"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Supply chain responsibility"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id104"
+  },
+  {
+    "input": {
+      "text": "______, ________ and _______ are all factors which can impinge upon stakeholder communication and collaboration."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Resource intensity, Culture clash, Accountability"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Resource clash, Culture intensity, Accountability"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Resource intensity, Culture clash, Coordinative fluidity"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Resource clash, Culture clash, Coordinative fluidity"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "Replacing supply chains with _______ enhances the importance of product _______as well as a fundamental redesign of every activity a firm engages in that produces _______."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Supply loops, Recapture, Waste"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Supply loops, Redesign, Profit"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Global production networks, Recapture, Waste"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Global production networks, Redesign, Profit"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id81"
+  },
+  {
+    "input": {
+      "text": "Ethics of duty is a principle based ethical theory attributed to Emmanuel Kant."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1,3"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "2,3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1,2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1,2,3"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "When the true cost an item is deliberately obscured by a company this is known as?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Predatory pricing"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Deceptive pricing"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Price fixing"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Skimming"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "The purposes for which the information is used is in the public's interest."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1,2"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1,3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2,3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1,2,3"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id107"
+  },
+  {
+    "input": {
+      "text": "Pick the correct description of the following term: Utilitarianism is\u2026"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A theory which states that an action is morally incorrect if it promotes the greatest good for the greatest number"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A theory which states that an action is morally right if it promotes the greatest good for the decision maker"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A theory which states that an action is morally right if it promotes the greatest good for the smallest number"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A theory which states that an action is morally right if it promotes the greatest good for the greatest number"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "The recent global sustainability agenda has been dominated by which of the following organisations sustainability goals?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Marks & Spencer's 'Plan A'"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "United Nations 'Sustainable Development Goals'"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The Alibaba Group's 'Sustainability Initiatives'"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Unilever's 'Sustainable Living Plan'"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "________, where for example one party possess more resources, unfair distribution of ________, where one party gains more from the relationship, and CSOs being ________, are all limitations and risks of business-CSO collaborations."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Power imbalance, Benefits, Hoodwinked"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Power imbalance, Resources, Co-opted"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Informational asymmetries, Benefits, Hoodwinked"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Informational asymmetries, Resources, Co-opted"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "Businesses engage in social accounting due to demands from _________, in order to identify ________, to improve ___________ and to encourage _________ and ___________"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Stakeholders, Risks, Stakeholder management, Accountability, Transparency"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Stakeholders, Accountability, Transparency, Risks, Stakeholder Management"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Stakeholders, Accountability, Risks, Stakeholders, Stakeholder Management"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Stakeholders, Stakeholder Management, Transparency, Risks, Accountability"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "What are, according to Wood (1991), the three outcomes of CSR?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Social policies, Social programmes and Social impacts"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Social evaluations, Social programmes and Social impacts"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Social policies, Social evidencing and Social impacts"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Social policies, Social programmes and Social analysis"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id94"
+  },
+  {
+    "input": {
+      "text": "A corporation is ________ from its managers, employees, investors and customers. It therefore has _______ succession and also ________."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Indistinguishable, Perpetual, Does not own its own assets"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Independent, Limited, Owns its own assets"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Independent, Perpetual, Owns its own assets"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Indistinguishable, Perpetual, Owns its own assets"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "Predatory pricing."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1,2,4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1,2,3,4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1,2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1,4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "Demand reduction."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1,3,4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2,3,4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1,2,3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1,2,4"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  },
+  {
+    "input": {
+      "text": "Affirmative action involves ________ attempts to target ______ who are _________ within an organisation's workforce, for instance by trying to ______ the proportion of women, disabled or racial minorities in senior management positions."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Proactive, Groups, Under-represented, Increase"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Passive, Groups, Under-represented, Retain"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Proactive, Individuals, Represented, Increase"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Passive, Individuals, Represented, Retain"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id66"
+  },
+  {
+    "input": {
+      "text": "When negotiating using unethical practices, businesses can risk _______, if the negotiations are part of a longer-term business association, as well as a ___________ and __________, as negotiations can impact company image and stymy progress."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Rigid negotiations, Enhanced reputation, Greater opportunities"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Damaged relationships, Sullied reputation, Lost opportunities"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Rigid negotiations, Sullied Reputation, Lost opportunities"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Damaged relationships, Rigid negotiations, Lost opportunities"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  },
+  {
+    "input": {
+      "text": "______ are the obligations of workers towards their employer, based on individual contracts and wider employment laws."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Employee rights"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Employee rights"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Employer duties"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Employee duties"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "The race to the ______ is when, due to increased ________, countries compete for foreign investment through companies' relocation decisions by weakening their ______ and _____ standards."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Bottom, Globalisation, Social, Environmental"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Top, Globalisation, Political, Environmental"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Bottom, Standardisation, Social, Economic"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Top, Standardisation, Political, Economic"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "The focus on issues, the intended audience extending beyond shareholders and the voluntary nature of ___________ distinguish it from _________."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Financial accounting, Environmental management initiatives"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Financial accounting, Social accounting."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Social accounting, Financial accounting."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Annual report publication, Social accounting"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id97"
+  },
+  {
+    "input": {
+      "text": "According Carroll what four categories or aspects can corporate social responsibility be broken down into?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Political, Legal, Ethical and Philanthropic"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Economic, Legal, Ethical and Philanthropic"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Economic, Legal, Cultural and Philanthropic"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Economic, Legal, Ethical and Environmental"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  }
+]

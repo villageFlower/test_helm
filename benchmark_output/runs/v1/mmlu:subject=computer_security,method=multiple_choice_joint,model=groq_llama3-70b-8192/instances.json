@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "Can a stream cipher have perfect secrecy?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes, if the PRG is really \u201csecure\u201d"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No, there are no ciphers with perfect secrecy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Yes, every cipher has perfect secrecy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No, since the key is shorter than the message"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id104"
+  },
+  {
+    "input": {
+      "text": "___________ is a process of wireless traffic analysis that may be helpful for forensic investigations or during troubleshooting any wireless issue."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Wireless Traffic Sniffing"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "WiFi Traffic Sniffing"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Wireless Traffic Checking"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Wireless Transmission Sniffing"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "Statement 1| A U2F USB dongle prevents malware on the user\u2019s computer from stealing the user\u2019s second factor to authenticate as that user even when the user\u2019s computer is turned off. Statement 2| A server using U2F can reliably determine that the user who is attempting to login is indeed behind the computer that sent the login request."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "True, True"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "False, False"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "True, False"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "False, True"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id81"
+  },
+  {
+    "input": {
+      "text": "Why is it that anti-virus scanners would not have found an exploitation of Heartbleed?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "It's a vacuous question: Heartbleed only reads outside a buffer, so there is no possible exploit "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Anti-virus scanners tend to look for viruses and other malicious"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Heartbleed attacks the anti-virus scanner itself"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Anti-virus scanners tend to look for viruses and other malicious code, but Heartbleed exploits steal secrets without injecting any code "
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "The AH Protocol provides source authentication and data integrity, but not"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Integrity"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Privacy"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Nonrepudiation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Both A & C"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "A _________________ may be a hidden part of a program, a separate infected program a Trojan in disguise of an executable or code in the firmware of any system\u2019s hardware."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "crypter"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "virus"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "backdoor"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "key-logger"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id107"
+  },
+  {
+    "input": {
+      "text": "Which of the following is an authentication method?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Secret question"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Biometric"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "SMS code"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of the above"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "A hash function guarantees the integrity of a message. It guarantees that the message has not be"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Replaced"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Overview"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Changed"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Violated"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "______________ is a widespread app\u2019s coding mistake made by developers which could be exploited by an attacker for gaining access or malfunctioning your system."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Memory leakage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Buffer-overrun"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Less processing power"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Inefficient programming"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "___________________ is alike as that of Access Point (AP) from 802.11, & the mobile operators uses it for offering signal coverage."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Base Signal Station"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Base Transmitter Station"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Base Transceiver Station"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Transceiver Station"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "_______________ is a popular tool used for network analysis in multiprotocol diverse network."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Snort"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "SuperScan"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Burp Suit"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "EtterPeak"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id94"
+  },
+  {
+    "input": {
+      "text": "Let HH be a Merkle-Damgard hash function is H:X^{\\leq L} \\to TH:X^\u2264L  \u2192T. Construct a MAC from this HH as follows: \\ \\ S(k,m) = H(k \\| m)  S(k,m)=H(k\u2225m). This mac is insecure because:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Given H(k \\| m)H(k\u2225m) anyone can compute H(w \\| k \\| m \\| \\text{PB})H(w\u2225k\u2225m\u2225PB) for any ww"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Given H(k \\| m)H(k\u2225m) anyone can compute H(k \\| m \\| w)H(k\u2225m\u2225w) for any ww"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Given H(k \\| m)H(k\u2225m) anyone can compute H(k \\| m \\| \\text{PB} \\| w)H(k\u2225m\u2225PB\u2225w) for any ww"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Anyone can compute H( k \\| m )H(k\u2225m) for any mm"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "Suppose Unix did not provide a way of passing file descriptors between processes, but still allowed inheriting file descriptors from a parent on fork and exec. What aspects of the OKWS design would break without file descriptor passing?\n1. It would be impossible for services to get a TCP connection to the client web browser.\n2. It would be impossible for okd to run as a non-root user."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "True, True"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "False, False"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "True, False"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "False, True"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "The Message condentiality or privacy means that the sender and the receiver expect"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Integrity"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Condentiality"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Authentication"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Nonrepudiation"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  },
+  {
+    "input": {
+      "text": "Applications developed by programming languages like ____ and ______ have this common buffer-overflow error."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "C, Ruby"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Python, Ruby"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C, C++"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Tcl, C#"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id66"
+  },
+  {
+    "input": {
+      "text": "Which of the following are most vulnerable to injection attacks?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Session IDs"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Registry keys"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Network communications"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "SQL queries based on user input"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  },
+  {
+    "input": {
+      "text": "MIT\u2019s Kerberos KDC server has a maximum ticket lifetime of 24 hours (for most user principals). What ensures that an expired Kerberos ticket can no longer be used?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The Kerberos server (KDC) refuses to establish new connections between clients and servers for expired tickets."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "When a client connects to a server, the server sets a 24-hour timer to terminate the connection, which ensures a client cannot remain connected past the ticket\u2019s maximum lifetime."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "When a client connects to a server, the server compares the ticket\u2019s expiration time to the server\u2019s current clock, and refuses to authenticate the user if the ticket expiration time is in the past."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "When a client connects to a server, the server sends a query to the KDC to check if the ticket is still valid with respect to the KDC\u2019s clock, and refuses to authenticate the user if the KDC reports that the ticket is expired."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "Old operating systems like _______ and NT-based systems have buffer-overflow attack a common vulnerability."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Windows 7"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Chrome"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "IOS12"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "UNIX"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "Which form of encryption does WPA use?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Shared key"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "LEAP"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "TKIP"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "AES"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id97"
+  },
+  {
+    "input": {
+      "text": "Buffer-overflow may remain as a bug in apps if __________ are not done fully."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "boundary hacks"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "memory checks"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "boundary checks"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "buffer checks"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id50",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Invalid. Counterexample when M and O are true and N is false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 611.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id64",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Bc \u2261 (Pm \u2228 Gm)",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 573.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Consistent. Consistent valuation when A and B are true and C is false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 609.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id55",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Invalid. Counterexample when T and W are true and U is false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 610.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id97",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Consistent. Consistent valuation when E and H are true and F, G, I, and J are false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 652.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id32",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Invalid. Counterexample when E and F are true and G is false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 609.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id136",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "(\u2200x)(Rx \u2283 Ax)",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 548.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id142",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Invalid. Counterexample when M is true and N is false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 603.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id127",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Invalid. Counterexample when I, H, and K are true and J is false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 622.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id13",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Consistent. Consistent valuation when L and M are true and J and K are false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 623.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id116",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Invalid. Counterexample when L, M, O, Q, and R are true and N and P are false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 656.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id21",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Some large houses are bigger than some apartments.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 602.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id68",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "If my headache is dualist state, then your tickle is not a physical state. Everything is either physical or mental. But my broken toe is not a mental state. So my headache is not a dualist state.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 729.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id81",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Emily stops working unless Russell makes dinner.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 598.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id128",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Neither logically equivalent nor contradictory, but consistent",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 585.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id102",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "The sacrifices of even large numbers of other people are outweighed by the gains of the utility monster.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 660.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id109",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Invalid. Counterexample when Q and S are true and R is false",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 613.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id115",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "H \u2228 ~R",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 546.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id38",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "(\u2200x)(Ax \u2283 ~Px)",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 540.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id96",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "(\u2203x)[(Ax \u2022 Cx) \u2022 (\u2203y)(Py \u2022 Nyx)]",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 627.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  }
+]

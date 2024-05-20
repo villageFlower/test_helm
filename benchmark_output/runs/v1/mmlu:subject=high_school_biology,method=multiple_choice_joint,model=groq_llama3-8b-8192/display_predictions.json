@@ -1,0 +1,301 @@
+[
+  {
+    "instance_id": "id97",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The predictable rate of mutation results in ongoing variability in a gene pool.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 573.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id285",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Mitochondria are derived from ancient aerobic bacteria, and chloroplasts are derived from ancient photosynthetic bacteria.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 614.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id137",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "5-\u2032U-A-C-3\u2032",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 591.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id284",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Gene flow",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 526.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id11",
+    "train_trial_index": 0,
+    "predicted_text": "B. 0.49",
+    "base64_images": [],
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 566.0,
+      "num_output_tokens": 6.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id306",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Selection favors some phenotypes over others.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 605.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id252",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "lysosomes",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 526.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id60",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "positive feedback.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 540.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id233",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "they should share fewer homologous structures than two more closely related organisms.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 540.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id42",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "longitudinal section of a shoot tip",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 533.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id70",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "sexual selection.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 560.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id184",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "The most energy is released during oxidative phosphorylation because in addition to the phosphorylation of ADP into ATP, all the potential energy held in NADH and FADH is transferred to ATP.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 657.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id172",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "our ability to measure the rate of evolution.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 522.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id107",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "geographic variation within the population.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 542.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id20",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "O2 is a product of the light-dependent reactions.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 543.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id194",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "humans are related to chimpanzees but not to dogs",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 570.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id201",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Alzheimer's disease is caused by the buildup of plaque within the brain, causing brain cells to die.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 578.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id171",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "H+ would increase in the matrix (inside mitochondrial inner membrane).",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 574.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id338",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Coevolution",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 523.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id31",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Genes mutate faster in whales than in humans or bats.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 610.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  }
+]

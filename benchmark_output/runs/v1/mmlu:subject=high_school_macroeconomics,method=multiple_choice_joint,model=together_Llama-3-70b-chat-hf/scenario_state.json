@@ -1,0 +1,1692 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about high school macroeconomics.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "together/Llama-3-70b-chat-hf",
+    "model": "together/Llama-3-70b-chat-hf",
+    "temperature": 0.0,
+    "max_tokens": 20,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "Suppose taxes are cut in an economy that is in equilibrium at full employment. In the long run the tax cut will"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "raise real output and raise the price level."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "lower real output and raise the price level."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "raise real output and lower the price level."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "raise the price level."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id371"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "raise real output and raise the price level.",
+        "B": "lower real output and raise the price level.",
+        "C": "raise real output and lower the price level.",
+        "D": "raise the price level."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Suppose taxes are cut in an economy that is in equilibrium at full employment. In the long run the tax cut will\nA. raise real output and raise the price level.\nB. lower real output and raise the price level.\nC. raise real output and lower the price level.\nD. raise the price level.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>D</RESULT>assistant\n\n<RESULT>D</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8653883934020996
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The international value of the dollar will appreciate if"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "American income falls relative to the rest of the world."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "American interest rates fall relative to interest rates in other countries."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "American prices rise."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "foreigners boycott American products."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id118"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "American income falls relative to the rest of the world.",
+        "B": "American interest rates fall relative to interest rates in other countries.",
+        "C": "American prices rise.",
+        "D": "foreigners boycott American products."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: The international value of the dollar will appreciate if\nA. American income falls relative to the rest of the world.\nB. American interest rates fall relative to interest rates in other countries.\nC. American prices rise.\nD. foreigners boycott American products.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>A</RESULT>assistant\n\n<RESULT>A</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7234292030334473
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Monetary tools of the Federal Reserve do not include which of the following choices?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Buying Treasury securities from commercial banks"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Changing tariffs and quotas on imported goods"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Changing the reserve ratio"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Changing the discount rate"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id430"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Buying Treasury securities from commercial banks",
+        "B": "Changing tariffs and quotas on imported goods",
+        "C": "Changing the reserve ratio",
+        "D": "Changing the discount rate"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Monetary tools of the Federal Reserve do not include which of the following choices?\nA. Buying Treasury securities from commercial banks\nB. Changing tariffs and quotas on imported goods\nC. Changing the reserve ratio\nD. Changing the discount rate\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>B</RESULT>assistant\n\n<RESULT>B</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6719911098480225
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "What will happen to the equilibrium price level and the equilibrium quantity of output if a major earthquake destroys much of the plant and equipment on the West Coast? Assume an upward sloping aggregate supply curve."
+        },
+        "references": [
+          {
+            "output": {
+              "text": "The equilibrium price level increases while the equilibrium quantity of output decreases."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "The equilibrium price level decreases while the equilibrium quantity of output increases."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The equilibrium price level and quantity of output increase."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The equilibrium price level and quantity of output decrease."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id325"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "The equilibrium price level increases while the equilibrium quantity of output decreases.",
+        "B": "The equilibrium price level decreases while the equilibrium quantity of output increases.",
+        "C": "The equilibrium price level and quantity of output increase.",
+        "D": "The equilibrium price level and quantity of output decrease."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: What will happen to the equilibrium price level and the equilibrium quantity of output if a major earthquake destroys much of the plant and equipment on the West Coast? Assume an upward sloping aggregate supply curve.\nA. The equilibrium price level increases while the equilibrium quantity of output decreases.\nB. The equilibrium price level decreases while the equilibrium quantity of output increases.\nC. The equilibrium price level and quantity of output increase.\nD. The equilibrium price level and quantity of output decrease.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>A</RESULT>assistant\n\n<RESULT>A</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.9023849964141846
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following is a direct accurate link within the circular flow?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Goods and services are exchanged for inputs via the factor markets."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Wages and rents are exchanged for income via the product markets."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Household expenditures result in revenues for firms via the product markets."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Household income results in revenues via the factor markets."
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id15"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Goods and services are exchanged for inputs via the factor markets.",
+        "B": "Wages and rents are exchanged for income via the product markets.",
+        "C": "Household expenditures result in revenues for firms via the product markets.",
+        "D": "Household income results in revenues via the factor markets."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Which of the following is a direct accurate link within the circular flow?\nA. Goods and services are exchanged for inputs via the factor markets.\nB. Wages and rents are exchanged for income via the product markets.\nC. Household expenditures result in revenues for firms via the product markets.\nD. Household income results in revenues via the factor markets.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>C</RESULT>assistant\n\n<RESULT>C</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.9123356342315674
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "If the cost of the basket of goods and services the Bureau of Labor Statistics uses to calculate the consumer price index rises from $200 in the base period to $400 in the current period then the consumer price index"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "equals 0.5 in the current period."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "has risen 5 percent from the base to the current period."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "equals 50 in the current period."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "equals 200 in the current period."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id204"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "equals 0.5 in the current period.",
+        "B": "has risen 5 percent from the base to the current period.",
+        "C": "equals 50 in the current period.",
+        "D": "equals 200 in the current period."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: If the cost of the basket of goods and services the Bureau of Labor Statistics uses to calculate the consumer price index rises from $200 in the base period to $400 in the current period then the consumer price index\nA. equals 0.5 in the current period.\nB. has risen 5 percent from the base to the current period.\nC. equals 50 in the current period.\nD. equals 200 in the current period.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>C</RESULT>assistant\n\n<RESULT>C</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7690567970275879
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The appropriate fiscal policy to remedy a recession"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "calls for the federal government to run a deficit."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "calls for the federal government to run a surplus."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "is increased taxes and government spending."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "is decreased government spending and taxes."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id155"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "calls for the federal government to run a deficit.",
+        "B": "calls for the federal government to run a surplus.",
+        "C": "is increased taxes and government spending.",
+        "D": "is decreased government spending and taxes."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: The appropriate fiscal policy to remedy a recession\nA. calls for the federal government to run a deficit.\nB. calls for the federal government to run a surplus.\nC. is increased taxes and government spending.\nD. is decreased government spending and taxes.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>A</RESULT>assistant\n\n<RESULT>A</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7315983772277832
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following would likely slow a nation's economic growth?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Guaranteed low-interest loans for college students"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Removal of a tax on income earned on saving"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Removal of the investment tax credit"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "More research grants given to medical schools"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id396"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Guaranteed low-interest loans for college students",
+        "B": "Removal of a tax on income earned on saving",
+        "C": "Removal of the investment tax credit",
+        "D": "More research grants given to medical schools"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Which of the following would likely slow a nation's economic growth?\nA. Guaranteed low-interest loans for college students\nB. Removal of a tax on income earned on saving\nC. Removal of the investment tax credit\nD. More research grants given to medical schools\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>C</RESULT>assistant\n\n<RESULT>C</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.032249927520752
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which group of people will suffer the most from a rising price level?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "debtors with fixed interest rates"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "people with fixed money incomes"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "investors in gems coins and stamps"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "property owners"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id107"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "debtors with fixed interest rates",
+        "B": "people with fixed money incomes",
+        "C": "investors in gems coins and stamps",
+        "D": "property owners"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Which group of people will suffer the most from a rising price level?\nA. debtors with fixed interest rates\nB. people with fixed money incomes\nC. investors in gems coins and stamps\nD. property owners\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>B</RESULT>assistant\n\n<RESULT>B</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7419755458831787
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "If households are more optimistic about the future how would the consumption function be affected?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "The marginal propensity to consume would increase increasing the slope of the consumption function."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The entire consumption function would shift downward."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "The entire consumption function would shift upward."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "The marginal propensity to consume would decrease increasing the slope of the consumption function."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id259"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "The marginal propensity to consume would increase increasing the slope of the consumption function.",
+        "B": "The entire consumption function would shift downward.",
+        "C": "The entire consumption function would shift upward.",
+        "D": "The marginal propensity to consume would decrease increasing the slope of the consumption function."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: If households are more optimistic about the future how would the consumption function be affected?\nA. The marginal propensity to consume would increase increasing the slope of the consumption function.\nB. The entire consumption function would shift downward.\nC. The entire consumption function would shift upward.\nD. The marginal propensity to consume would decrease increasing the slope of the consumption function.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>C</RESULT>assistant\n\n<RESULT>C</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7132258415222168
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Expansionary monetary policy is designed to"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "decrease the interest rate increase private investment increase aggregate demand and increase domestic output."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "decrease the interest rate increase private investment increase aggregate demand and increase the unemployment rate."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "increase the interest rate increase private investment increase aggregate demand and increase domestic output."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "increase the interest rate decrease private investment increase aggregate demand and increase domestic output."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id199"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "decrease the interest rate increase private investment increase aggregate demand and increase domestic output.",
+        "B": "decrease the interest rate increase private investment increase aggregate demand and increase the unemployment rate.",
+        "C": "increase the interest rate increase private investment increase aggregate demand and increase domestic output.",
+        "D": "increase the interest rate decrease private investment increase aggregate demand and increase domestic output."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Expansionary monetary policy is designed to\nA. decrease the interest rate increase private investment increase aggregate demand and increase domestic output.\nB. decrease the interest rate increase private investment increase aggregate demand and increase the unemployment rate.\nC. increase the interest rate increase private investment increase aggregate demand and increase domestic output.\nD. increase the interest rate decrease private investment increase aggregate demand and increase domestic output.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>A</RESULT>assistant\n\n<RESULT>A</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7751269340515137
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Expansionary fiscal policy would best be prescribed to"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "eliminate a recessionary gap"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "reduce inflation"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "reduce the interest rate"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "eliminate an inflationary gap"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id238"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "eliminate a recessionary gap",
+        "B": "reduce inflation",
+        "C": "reduce the interest rate",
+        "D": "eliminate an inflationary gap"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Expansionary fiscal policy would best be prescribed to\nA. eliminate a recessionary gap\nB. reduce inflation\nC. reduce the interest rate\nD. eliminate an inflationary gap\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>A</RESULT>assistant\n\n<RESULT>A</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6959452629089355
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The velocity of money"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "cannot be calculated for an actual economy."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "is how fast money can be transferred."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "is required to calculate the money multiplier."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "is the number of times a typical dollar is used to make a purchase in a year."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id349"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "cannot be calculated for an actual economy.",
+        "B": "is how fast money can be transferred.",
+        "C": "is required to calculate the money multiplier.",
+        "D": "is the number of times a typical dollar is used to make a purchase in a year."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: The velocity of money\nA. cannot be calculated for an actual economy.\nB. is how fast money can be transferred.\nC. is required to calculate the money multiplier.\nD. is the number of times a typical dollar is used to make a purchase in a year.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>D</RESULT>assistant\n\n<RESULT>D</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7000043392181396
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following is likely to shift the long-run aggregate supply curve to the right?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "A nation that devotes more resources to nondurable consumption goods rather than durable capital goods"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Research that improves the productivity of labor and capital"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "More restrictive trade policies"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Annual limits to immigration of foreign citizens"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id203"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "A nation that devotes more resources to nondurable consumption goods rather than durable capital goods",
+        "B": "Research that improves the productivity of labor and capital",
+        "C": "More restrictive trade policies",
+        "D": "Annual limits to immigration of foreign citizens"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Which of the following is likely to shift the long-run aggregate supply curve to the right?\nA. A nation that devotes more resources to nondurable consumption goods rather than durable capital goods\nB. Research that improves the productivity of labor and capital\nC. More restrictive trade policies\nD. Annual limits to immigration of foreign citizens\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>B</RESULT>assistant\n\n<RESULT>B</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.76137375831604
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Suppose that the unemployment rate falls from 6 percent to 5 percent and the inflation rate falls from 3 percent to 2 percent. Which of the following best explains these trends?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "An increase in aggregate demand."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A decrease in both aggregate demand and aggregate supply."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "An increase in both aggregate demand and aggregate supply."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "An increase in aggregate supply."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id269"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "An increase in aggregate demand.",
+        "B": "A decrease in both aggregate demand and aggregate supply.",
+        "C": "An increase in both aggregate demand and aggregate supply.",
+        "D": "An increase in aggregate supply."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Suppose that the unemployment rate falls from 6 percent to 5 percent and the inflation rate falls from 3 percent to 2 percent. Which of the following best explains these trends?\nA. An increase in aggregate demand.\nB. A decrease in both aggregate demand and aggregate supply.\nC. An increase in both aggregate demand and aggregate supply.\nD. An increase in aggregate supply.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>D</RESULT>assistant\n\n<RESULT>D</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.9087882041931152
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "According to Keynesian theory"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "the FED should not conduct monetary policy."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "changes in the money supply have significant effects."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "fiscal policy is the preferred way of shifting the aggregate demand curve."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "the FED should allow the money supply to grow at a constant rate."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id146"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "the FED should not conduct monetary policy.",
+        "B": "changes in the money supply have significant effects.",
+        "C": "fiscal policy is the preferred way of shifting the aggregate demand curve.",
+        "D": "the FED should allow the money supply to grow at a constant rate."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: According to Keynesian theory\nA. the FED should not conduct monetary policy.\nB. changes in the money supply have significant effects.\nC. fiscal policy is the preferred way of shifting the aggregate demand curve.\nD. the FED should allow the money supply to grow at a constant rate.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>C</RESULT>assistant\n\n<RESULT>C</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6794590950012207
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following events most likely increases real GDP?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "An increase in the real rate of interest"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "An increase in taxes"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A decrease in net exports"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "An increase in government spending"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id324"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "An increase in the real rate of interest",
+        "B": "An increase in taxes",
+        "C": "A decrease in net exports",
+        "D": "An increase in government spending"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Which of the following events most likely increases real GDP?\nA. An increase in the real rate of interest\nB. An increase in taxes\nC. A decrease in net exports\nD. An increase in government spending\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>D</RESULT>assistant\n\n<RESULT>D</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7549428939819336
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In the United States over the years V and Q"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "have not changed significantly."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "are perfectly constant."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "have decreased significantly."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "have increased significantly."
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id191"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "have not changed significantly.",
+        "B": "are perfectly constant.",
+        "C": "have decreased significantly.",
+        "D": "have increased significantly."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: In the United States over the years V and Q\nA. have not changed significantly.\nB. are perfectly constant.\nC. have decreased significantly.\nD. have increased significantly.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>D</RESULT>assistant\n\n<RESULT>D</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 5.950697183609009
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which is the best way to describe the AS curve in the long run?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Always vertical in the long run."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "Always upward sloping because it follows the Law of Supply."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Always horizontal."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Always downward sloping."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id184"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Always vertical in the long run.",
+        "B": "Always upward sloping because it follows the Law of Supply.",
+        "C": "Always horizontal.",
+        "D": "Always downward sloping."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Which is the best way to describe the AS curve in the long run?\nA. Always vertical in the long run.\nB. Always upward sloping because it follows the Law of Supply.\nC. Always horizontal.\nD. Always downward sloping.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>A</RESULT>assistant\n\n<RESULT>A</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7672252655029297
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Milton Friedman"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "never won a Nobel Prize despite his contributions to economic analysis."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "is a Monetarist."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "is a Keynesian."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "won a Nobel Prize for his contributions to Classical economic analysis."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id127"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "never won a Nobel Prize despite his contributions to economic analysis.",
+        "B": "is a Monetarist.",
+        "C": "is a Keynesian.",
+        "D": "won a Nobel Prize for his contributions to Classical economic analysis."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-70b-chat-hf",
+        "model": "together/Llama-3-70b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\nQuestion: Which of the following policies best describes supply-side fiscal policy?\nA. An increase in the money supply\nB. Increased government spending\nC. Lower taxes on research and development of new technology\nD. Higher taxes on household income\nAnswer: C\n\nQuestion: Holding all else equal which of the following monetary policies would be used to boost U.S. exports?\nA. Increasing the discount rate\nB. Increasing the reserve ratio\nC. Buying government securities\nD. Lowering tariffs\nAnswer: C\n\nQuestion: Which of the following is not included in the U.S. GDP?\nA. The U.S. military opens a new base in a foreign country with 1000 U.S. personnel.\nB. Japanese consumers buy thousands of CDs produced in the United States.\nC. An American pop singer performs a sold-out concert in Paris.\nD. A French theatrical production tours dozens of American cities.\nAnswer: C\n\nQuestion: The short-run Phillips curve indicates a\nA. direct relation between unemployment and inflation\nB. direct relation between price and quantity demanded\nC. inverse relation between price and quantity demanded\nD. inverse relation between unemployment and inflation\nAnswer: D\n\nQuestion: A federal deficit occurs when\nA. exports exceed imports.\nB. imports exceed exports.\nC. federal tax collections exceed spending.\nD. federal spending exceeds federal tax revenues.\nAnswer: D\n\nQuestion: Milton Friedman\nA. never won a Nobel Prize despite his contributions to economic analysis.\nB. is a Monetarist.\nC. is a Keynesian.\nD. won a Nobel Prize for his contributions to Classical economic analysis.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " \n\n<RESULT>B</RESULT>assistant\n\n<RESULT>B</RESULT>",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.859412431716919
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

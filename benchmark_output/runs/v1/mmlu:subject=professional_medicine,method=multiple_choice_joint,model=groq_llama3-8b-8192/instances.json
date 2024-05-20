@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "A 16-month-old girl is brought to the emergency department by emergency medical technicians because of a generalized tonic-clonic seizure that began 25 minutes ago and has continued despite administration of 0.5 mg/kg rectal diazepam 10 minutes ago. The patient was at home at the time of the seizure. In the emergency department, she is given an additional 0.5 mg/kg dose of diazepam intravenously and the convulsion terminates. Within 2 minutes, her oxygen saturation drops to 75% and she appears cyanotic. Respirations are 10/min and shallow. She receives bag-valve-mask ventilation, followed by intubation and mechanical ventilation. Medical history is unremarkable. She takes no medications. Temperature is 39.1\u00b0C (102.5\u00b0F). Which of the following is the most likely underlying cause of the patient's respiratory insufficiency?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Airway occlusion"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Encephalitis"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Medication-induced suppression of central respiratory drive"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Meningitis"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id230"
+  },
+  {
+    "input": {
+      "text": "An 8-year-old boy is brought to the office by his mother because of a 3-day history of fever, sore throat, and itchy eyes. He just returned from a weeklong summer camp that included hiking trips and swimming lessons in the camp-owned swimming pool. He has no history of major medical illness and receives no medications. He appears tired. His temperature is 39.4\u00b0C (102.9\u00b0F); other vital signs are within normal limits. Physical examination shows conjunctival injection and discharge and oropharyngeal erythema. The public health department reports an outbreak of similar symptoms among the other campers and camp volunteers. Which of the following is the most likely cause of this patient\u2019s symptoms?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Adenovirus"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Cytomegalovirus"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Epstein-Barr virus"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Influenza virus"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id157"
+  },
+  {
+    "input": {
+      "text": "A 55-year-old man has had crushing substernal chest pain on exertion over the past 6 weeks. He had a myocardial infarction 2 months ago. He takes nitroglycerin as needed and one aspirin daily. He has smoked two packs of cigarettes daily for 30 years. Examination shows normal heart sounds and no carotid or femoral bruits. Treatment with a \u03b2-adrenergic blocking agent is most likely to improve his symptoms due to which of the following mechanisms?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Decreasing myocardial contractility"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Dilating the coronary arteries"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Peripheral vasodilation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Preventing fibrin and platelet plugs"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id233"
+  },
+  {
+    "input": {
+      "text": "An 87-year-old woman is brought to the physician by her son because of progressive memory loss over the past 2 years. Her son says that she repeats herself frequently and has been forgetting to take her routine medications. She takes hydrochlorothiazide for mild systolic hypertension and levothyroxine for hypothyroidism. She had vulvar cancer 10 years ago treated with wide excision. Her blood pressure is 138/78 mm Hg. Physical examination is within normal limits for her age. Mini-Mental State Examination score is 23/30. Laboratory studies, including serum vitamin B12 (cyanocobalamin), thyroxine (T4), and thyroid-stimulating hormone concentrations, are within normal limits. A CT scan of the head shows mild volume loss. Which of the following is the most appropriate pharmacotherapy?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "\u03b2-Adrenergic agonist"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Cholinesterase inhibitor"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Dopamine agonist"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Prednisone"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id206"
+  },
+  {
+    "input": {
+      "text": "A 42-year-old woman comes to the physician because of a 1-year history of vaginal bleeding for 2 to 5 days every 2 weeks. The flow varies from light to heavy with passage of clots. Menses previously occurred at regular 25- to 29-day intervals and lasted for 5 days with normal flow. She has no history of serious illness and takes no medications. She is sexually active with one male partner, and they use condoms inconsistently. Her mother died of colon cancer, and her maternal grandmother died of breast cancer. She is 163 cm (5 ft 4 in) tall and weighs 77 kg (170 lb); BMI is 29 kg/m2 . Her temperature is 36.6\u00b0C (97.8\u00b0F), pulse is 90/min, respirations are 12/min, and blood pressure is 100/60 mm Hg. The uterus is normal sized. The ovaries cannot be palpated. The remainder of the examination shows no abnormalities. Test of the stool for occult blood is negative. Which of the following is the most appropriate next step in diagnosis?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Progesterone challenge test"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Colposcopy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Cystoscopy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Endometrial biopsy"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id57"
+  },
+  {
+    "input": {
+      "text": "A 32-year-old man and his 29-year-old wife come to the office for evaluation for infertility. The wife's gynecologist has reported that her anatomic and physiologic evaluation disclosed no abnormalities and that assessment of potential male factors is needed. The husband is 188 cm (6 ft 3 in) tall with fair skin and little facial hair. He has mild gynecomastia and small, firm testicles. No sperm are seen on semen analysis. Which of the following tests is most likely to establish the underlying cause of this couple's infertility?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Karyotype from peripheral leukocytes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Serum estrogen and testosterone concentrations"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Serum follicle-stimulating hormone and luteinizing hormone concentrations"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Serum prolactin concentration"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id250"
+  },
+  {
+    "input": {
+      "text": "A 54-year-old woman comes to the office because she has had intermittent shooting pain over her right cheek and jaw during the past 3 weeks. Each episode of pain lasts for 1 second or less. The pain is often triggered by cold air, chewing, tactile stimulation, and brushing her teeth. She has had no trauma to the face or head. Medical history is remarkable for tension headaches, obesity, and gastric bypass surgery. She is 165 cm (5 ft 5 in) tall and weighs 62 kg (137 lb); BMI is 23 kg/m2 . Vital signs are normal. The patient cannot tolerate touch over the right side of the face. There is no facial weakness or loss of sensation. The remainder of the physical examination shows no abnormalities. CT scan of the head with and without contrast shows no abnormalities. Which of the following is the most appropriate pharmacotherapy at this time?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Carbamazepine"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Lamotrigine"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Levetiracetam"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Topiramate"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id180"
+  },
+  {
+    "input": {
+      "text": "A 14-year-old girl is brought to the physician after her mother learned that she began having sexual intercourse with various partners 1 month ago. She does not use condoms or other contraception. The mother is concerned about her behavior. The patient's parents separated 3 months ago. She had been an honor student and excelled in sports and leadership positions at school before the separation. Since the separation, however, she has become sullen, defiant, and rebellious. She has begun smoking cigarettes, disobeying her curfew, and being truant from school. This patient is most likely using which of the following defense mechanisms?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Acting out"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Displacement"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Projection"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Reaction formation"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id173"
+  },
+  {
+    "input": {
+      "text": "A 33-year-old woman comes to the physician because of a 2-day history of mild nausea, increased urinary urgency and frequency, and constipation. She also has had a 4.5-kg (10-lb) weight loss during the past 2 weeks and a 3-week history of vaginal bleeding. Pelvic examination shows a nodular cervix with an irregular, friable posterior lip, and a rock-hard, irregular, immobile pelvic mass that extends across the pelvis. Examination of biopsy specimens from the cervix and anterior wall of the vagina show well-differentiated keratinizing squamous cell carcinoma. Which of the following best describes the pathogenesis of this patient's disease?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Inactivation of cellular p53"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Insertion of viral promotors adjacent to cellular growth factor genes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Specialized transduction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Transactivation of cellular growth factor genes by TAX"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id228"
+  },
+  {
+    "input": {
+      "text": "A 34-year-old woman comes to the office because of a 3- to 4-week history of swelling of her legs and a 9-kg (20-lb) weight gain. Medical history is significant for sickle cell trait and mild anemia. She has been taking 800 mg of ibuprofen three times daily for Achilles tendinitis diagnosed 1 month ago. She has smoked five cigarettes daily for the past 15 years, and she drinks one to five beers on weekends. She experimented with cocaine briefly 16 years ago, but she has never used intravenous drugs. She has been in a monogamous sexual relationship for the past 12 years. Today, vital signs are temperature 37.2\u00b0C (99.0\u00b0F), pulse 88/min, respirations 16/min, and blood pressure 145/95 mm Hg. Physical examination discloses periorbital edema but no jugular venous distention. Lungs are clear to auscultation. Cardiac examination discloses an S1 and S2 without murmurs or gallops. Abdominal examination discloses bulging flanks and shifting dullness to percussion. Examination of the lower extremities shows pitting edema from the mid thigh to the ankles bilaterally. Results of which of the following studies are most likely to be abnormal in this patient?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "HIV antibody study"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Serum B-type natriuretic peptide concentration"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Toxicology screening of the urine"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Urine protein concentration"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id222"
+  },
+  {
+    "input": {
+      "text": "A previously healthy 37-year-old woman comes to the physician because of a 3-month history of episodes of severe anxiety, shortness of breath, palpitations, and numbness in her hands and feet. Her vital signs are within normal limits. Physical examination shows no abnormalities. Thyroid function studies and an ECG show no abnormalities. Which of the following is the most appropriate pharmacotherapy?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Lithium carbonate"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Methylphenidate"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Olanzapine"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Paroxetine"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id116"
+  },
+  {
+    "input": {
+      "text": "A 26-year-old woman is brought to the emergency department because of an 8-hour history of severe back and abdominal pain and mild but persistent vaginal bleeding. Ultrasonography of the abdomen shows a 2-cm ectopic pregnancy in the ampulla. The ampulla has ruptured into the surrounding tissue. Fluid from this rupture will most likely be found in which of the following locations?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Lesser peritoneal cavity"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mesometrium"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Pouch of Douglas"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Uterine cavity"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id140"
+  },
+  {
+    "input": {
+      "text": "A 31-year-old man with a 5-year history of HIV infection comes to the office because of anal pain, particularly on defecation, for the past 4 months. He says he has seen spots of blood on the toilet tissue but has not had any other noticeable bleeding. He reports no change in bowel habits and has not had recent fever, chills, or rectal drainage. He says he and his partner engage in anal-receptive intercourse. His most recent CD4+ T-lymphocyte count 2 months ago was 350/mm3 ; HIV viral load at that time was undetectable. He currently is being treated with antiretroviral therapy. He has had no opportunistic infections. Medical history is also significant for syphilis and genital herpes treated with penicillin and acyclovir, respectively. He does not smoke cigarettes or drink alcoholic beverages. Vital signs are normal. Physical examination shows small bilateral inguinal lymph nodes, but respiratory, cardiac, and abdominal examinations disclose no abnormalities. There are several tender fleshy lesions around the perianal area. Rectal examination produces tenderness, but there is no rectal discharge. Test of the stool for occult blood is trace positive. Which of the following is the most appropriate pharmacotherapy at this time?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Acyclovir"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Imiquimod"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Levofloxacin"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Metronidazole"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id223"
+  },
+  {
+    "input": {
+      "text": "A 24-year-old woman comes to the office for a routine health maintenance examination. She has been generally healthy for the past year. She is 155 cm (5 ft 1 in) tall and weighs 68 kg (150 lb); BMI is 28 kg/m2 . Vital signs are temperature 37.0\u00b0C (98.6\u00b0F), pulse 60/min, respirations 18/min, and blood pressure 118/54 mm Hg. Physical examination shows several small (<1 cm), smooth, slightly irregular, mobile, mildly tender lymph nodes palpable in her left groin just below the inguinal ligament. The most likely source of this lymphadenopathy will be found in which of the following?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Bone marrow"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Lateral thigh"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Lower abdomen"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Vulva"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id17"
+  },
+  {
+    "input": {
+      "text": "A 21-year-old woman comes to the physician for preconceptional advice. She is recently married and would like to conceive within the next year. She does not eat meat, fish, or dairy products and wishes to decrease the risks of her diet on her baby. Menses occur at regular 28-day intervals and last 5 days. She does not smoke or drink alcohol. She takes no medications. She is 157 cm (5 ft 2 in) tall and weighs 50 kg (110 lb); BMI is 20 kg/m2 . Physical examination shows no abnormalities. Pelvic examination shows a normal appearing vagina, cervix, uterus, and adnexa. Which of the following is most likely to decrease the risk of fetal anomalies in this patient?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Adjusting diet to include more sources of protein during the first trimester"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Beginning folic acid supplementation prior to conception"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Calcium supplementation during the first trimester"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Iron supplementation during the first trimester"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id20"
+  },
+  {
+    "input": {
+      "text": "A 64-year-old woman comes to the physician because of a 5-month history of increasing shortness of breath, sore throat, and a cough productive of a small amount of white phlegm. Over the past week, she has had nausea related to excess coughing. Over the past year, she has had a 3.2-kg (7-lb) weight loss. She has asthma treated with theophylline and inhaled \u03b2-adrenergic agonists and corticosteroids. She has smoked one pack of cigarettes daily for 44 years and drinks one alcoholic beverage daily. She appears thin. Examination shows a 2-cm, nontender lymph node in the right supraclavicular area. Examination shows no other abnormalities. An x-ray of the chest shows a large right lower lobe density. A CT scan of the chest shows a 7.5 x 7.5 x 6-cm right lower lobe mass with some scattered calcifications. The lesion abuts the posterior chest wall without clear invasion. There are right lower peritracheal, precarinal, right hilar, and subcarinal lymph nodes. There is a 1.5-cm mass in the right adrenal gland. A biopsy specimen of the lung mass is most likely to show which of the following?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Mesothelioma"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Metastatic adenocarcinoma of the breast"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Multiple endocrine neoplasia"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Non-small cell lung carcinoma"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id71"
+  },
+  {
+    "input": {
+      "text": "A 52-year-old man is admitted to the hospital because of severe dyspnea and cough productive of tenacious, brownishyellow sputum for the past 3 weeks. He has a 15-year career history of sandblasting old buildings. He has smoked two packs of cigarettes daily for the past 30 years. The patient is 168 cm (5 ft 6 in) tall and weighs 59 kg (130 lb); BMI is 21 kg/m2 . Vital signs are temperature 36.8\u00b0C (98.2\u00b0F), pulse 94/min, and blood pressure 150/92 mm Hg. Pulse oximetry on room air shows an oxygen saturation of 70%. On physical examination he is in moderately severe distress with pursed lips and cyanotic nail beds. Chest has an increased anteroposterior diameter. Auscultation of the chest discloses scattered wheezes and rhonchi over all lung fields. Cardiac examination discloses muffled heart sounds and an S4. Fingers are clubbed. Chest x-ray shows hyperinflated lungs, flattened diaphragm, large, irregular opacities in the upper lobes, and eggshell calcifications of the hilar lymph nodes. In addition to antibiotic therapy, which of the following is the most appropriate intervention?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Azathioprine therapy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Bronchoscopy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Continuous humidified oxygen"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Nocturnal continuous positive airway pressure (CPAP)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id102"
+  },
+  {
+    "input": {
+      "text": "A 6-month-old male Hispanic infant is brought to the office by his parents because of intermittent swelling of his right scrotum that is more pronounced when he cries. The swelling has never been red or \"stuck.\" Vital signs are normal. A right inguinal hernia is confirmed on physical examination. In discussing repair of the hernia with the parents, it is most appropriate to inform them of which of the following?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Herniorrhaphy can be postponed until age 2 years because many hernias close spontaneously"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Herniorrhaphy can be postponed until age 12 years because oligospermia does not develop before age 12"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Herniorrhaphy should be scheduled at the earliest convenient time"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Herniorrhaphy should be scheduled as an emergency operation"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "A 10-month-old boy is brought to the physician because of a 4-day history of fever and cough. His illness began with lowgrade fever and copious, clear nasal discharge. Two days ago he developed a moist, nonproductive cough and rapid breathing. He has received all scheduled childhood immunizations. He attends a large day-care center and has three schoolaged siblings. His temperature is 38\u00b0C (100.4\u00b0F), pulse is 101/min, respirations are 38/min, and blood pressure is 85/60 mm Hg. Physical examination shows nasal flaring and rhinorrhea. Chest examination shows intercostal retractions along with bilateral, diffuse wheezes and expiratory rhonchi. The infectious agent of this patient's condition most likely has which of the following properties?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "DNA genome"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Double-stranded nucleic acid genome"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mature virion lacking viral polymerase"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Mediation of cell entry via a fusion protein"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id203"
+  },
+  {
+    "input": {
+      "text": "A 31-year-old woman with type 2 diabetes mellitus comes to the physician because of an oozing, foul-smelling wound on her foot for 2 days. Physical examination shows a 4-cm, necrotizing wound with a purplish black discoloration over the heel. Crepitant bullae producing profuse amounts of serous drainage are seen. A Gram stain of a tissue biopsy specimen shows gram-positive rods. The causal organism most likely produces which of the following virulence factors?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Fimbriae"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Pneumolysin"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Polysaccharide capsule"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "\u03b1-Toxin"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id108"
+  }
+]

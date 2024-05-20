@@ -1,0 +1,1694 @@
+{
+  "adapter_spec": {
+    "method": "multiple_choice_joint",
+    "global_prefix": "",
+    "global_suffix": "",
+    "instructions": "The following are multiple choice questions (with answers) about sociology.\n",
+    "input_prefix": "Question: ",
+    "input_suffix": "\n",
+    "reference_prefix": "A. ",
+    "reference_suffix": "\n",
+    "output_prefix": "Answer: ",
+    "output_suffix": "\n",
+    "instance_prefix": "\n",
+    "substitutions": [],
+    "max_train_instances": 5,
+    "max_eval_instances": 20,
+    "num_outputs": 5,
+    "num_train_trials": 1,
+    "num_trials": 1,
+    "sample_train": true,
+    "model_deployment": "together/Llama-3-8b-chat-hf",
+    "model": "together/Llama-3-8b-chat-hf",
+    "temperature": 0.0,
+    "max_tokens": 20,
+    "stop_sequences": [
+      "\n"
+    ],
+    "multi_label": false
+  },
+  "request_states": [
+    {
+      "instance": {
+        "input": {
+          "text": "In Marx's theory, the 'mode of production' means:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "the way in which products are made in a factory"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the average measure of productivity under capitalism"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the organization of a society's technical and human resources"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "an integral part of the superstructure of a society"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id101"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "the way in which products are made in a factory",
+        "B": "the average measure of productivity under capitalism",
+        "C": "the organization of a society's technical and human resources",
+        "D": "an integral part of the superstructure of a society"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: In Marx's theory, the 'mode of production' means:\nA. the way in which products are made in a factory\nB. the average measure of productivity under capitalism\nC. the organization of a society's technical and human resources\nD. an integral part of the superstructure of a society\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nFinal Answer: <RESULT>C</RESULT> \n```\nThis",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.291386365890503
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following is not a characteristic of totalitarian societies?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "indoctrination and propaganda"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "freedom of movement for citizens"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "one-party rule"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a centrally planned economy"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id207"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "indoctrination and propaganda",
+        "B": "freedom of movement for citizens",
+        "C": "one-party rule",
+        "D": "a centrally planned economy"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Which of the following is not a characteristic of totalitarian societies?\nA. indoctrination and propaganda\nB. freedom of movement for citizens\nC. one-party rule\nD. a centrally planned economy\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: The final answer is B. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.741539716720581
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Cultural restructuring has involved:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "regenerating cities in economic decline"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "turning industrial landscapes into tourist attractions"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "selling sites and images through the 'symbolic economy' of media advertising"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "all of the above"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id174"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "regenerating cities in economic decline",
+        "B": "turning industrial landscapes into tourist attractions",
+        "C": "selling sites and images through the 'symbolic economy' of media advertising",
+        "D": "all of the above"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Cultural restructuring has involved:\nA. regenerating cities in economic decline\nB. turning industrial landscapes into tourist attractions\nC. selling sites and images through the 'symbolic economy' of media advertising\nD. all of the above\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5200810432434082
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The print revolution of the nineteenth century resulted in:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "mass production, mass circulation, and the decline of serious content"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "the public ownership of newspapers as a shared resource"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "more people going to the cinema as a new leisure activity"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a reduction of 'virtual communities' on the Internet"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id141"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "mass production, mass circulation, and the decline of serious content",
+        "B": "the public ownership of newspapers as a shared resource",
+        "C": "more people going to the cinema as a new leisure activity",
+        "D": "a reduction of 'virtual communities' on the Internet"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: The print revolution of the nineteenth century resulted in:\nA. mass production, mass circulation, and the decline of serious content\nB. the public ownership of newspapers as a shared resource\nC. more people going to the cinema as a new leisure activity\nD. a reduction of 'virtual communities' on the Internet\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nI hope this helps. Let me know if you have any further",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5040252208709717
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of these was not one of Townsend's (1979) indicators of relative deprivation?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "lacking exclusive use of a bath or shower"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "living in housing with serious structural defects"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "buying fewer than twenty DVDs in the previous year"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "going without a week's holiday in the previous year"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id187"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "lacking exclusive use of a bath or shower",
+        "B": "living in housing with serious structural defects",
+        "C": "buying fewer than twenty DVDs in the previous year",
+        "D": "going without a week's holiday in the previous year"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Which of these was not one of Townsend's (1979) indicators of relative deprivation?\nA. lacking exclusive use of a bath or shower\nB. living in housing with serious structural defects\nC. buying fewer than twenty DVDs in the previous year\nD. going without a week's holiday in the previous year\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5519156455993652
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Smith & Tomlinson argued that:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "differences in ethnic background were more significant than class or gender in predicting educational achievement"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "racism in schools undermined the move towards equality of opportunity for children from ethnic minorites"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "school character far outweighed ethnic background in determining educational success"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "gender differences in educational achievement could be attributed to inequalities of class"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id155"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "differences in ethnic background were more significant than class or gender in predicting educational achievement",
+        "B": "racism in schools undermined the move towards equality of opportunity for children from ethnic minorites",
+        "C": "school character far outweighed ethnic background in determining educational success",
+        "D": "gender differences in educational achievement could be attributed to inequalities of class"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Smith & Tomlinson argued that:\nA. differences in ethnic background were more significant than class or gender in predicting educational achievement\nB. racism in schools undermined the move towards equality of opportunity for children from ethnic minorites\nC. school character far outweighed ethnic background in determining educational success\nD. gender differences in educational achievement could be attributed to inequalities of class\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: <RESULT>D</RESULT> \n```\nThis",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.70540452003479
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Statistics about rural, suburban, and urban patterns of development and mobility are almost always reported based on a geographical area labeled as Metropolitan Statistical Areas (MSA). What constitutes an MSA?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "It includes only the 10 largest cities in the United States."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "It is composed of at least one central city with a population of at least 50,000 and it surrounds densely urbanized counties."
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "It is an area that experiences strong storms at least 50 percent of the year."
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "It is a large city with a population of at least 1 million and is immediately surrounded by suburbs."
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id49"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "It includes only the 10 largest cities in the United States.",
+        "B": "It is composed of at least one central city with a population of at least 50,000 and it surrounds densely urbanized counties.",
+        "C": "It is an area that experiences strong storms at least 50 percent of the year.",
+        "D": "It is a large city with a population of at least 1 million and is immediately surrounded by suburbs."
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Statistics about rural, suburban, and urban patterns of development and mobility are almost always reported based on a geographical area labeled as Metropolitan Statistical Areas (MSA). What constitutes an MSA?\nA. It includes only the 10 largest cities in the United States.\nB. It is composed of at least one central city with a population of at least 50,000 and it surrounds densely urbanized counties.\nC. It is an area that experiences strong storms at least 50 percent of the year.\nD. It is a large city with a population of at least 1 million and is immediately surrounded by suburbs.\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: <RESULT>B</RESULT> \n```\nThis",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7055130004882812
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Industrial production in the nineteenth century was characterized by:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "increasing numbers of women in high status positions"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "cottage industries and homeworkers doing piecework in the domestic sphere"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the 'managerial revolution' by which ownership and control became separate"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "power-driven machinery and the concentration of workers in large workplaces"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id202"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "increasing numbers of women in high status positions",
+        "B": "cottage industries and homeworkers doing piecework in the domestic sphere",
+        "C": "the 'managerial revolution' by which ownership and control became separate",
+        "D": "power-driven machinery and the concentration of workers in large workplaces"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Industrial production in the nineteenth century was characterized by:\nA. increasing numbers of women in high status positions\nB. cottage industries and homeworkers doing piecework in the domestic sphere\nC. the 'managerial revolution' by which ownership and control became separate\nD. power-driven machinery and the concentration of workers in large workplaces\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: D\n```\nI hope this helps! Let",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.633617639541626
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Seven people standing silently while waiting for a bus at a bus stop is an example of which of the following?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "A primary group"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "A secondary group"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "An aggregate"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "A social category"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id69"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "A primary group",
+        "B": "A secondary group",
+        "C": "An aggregate",
+        "D": "A social category"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Seven people standing silently while waiting for a bus at a bus stop is an example of which of the following?\nA. A primary group\nB. A secondary group\nC. An aggregate\nD. A social category\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nI hope this helps. Let me know if you have any other",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.49274396896362305
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Foucault's term 'biopolitics' refers to:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "forms of power over the body, such as physical training, as a means of disciplining the mind"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "forms of knowledge such as demographic statistics, which allow us to map and measure populations"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "public health measures, such as improved sanitation and freshwater schemes"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "intervention by the state to regulate sexual behaviour"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id13"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "forms of power over the body, such as physical training, as a means of disciplining the mind",
+        "B": "forms of knowledge such as demographic statistics, which allow us to map and measure populations",
+        "C": "public health measures, such as improved sanitation and freshwater schemes",
+        "D": "intervention by the state to regulate sexual behaviour"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Foucault's term 'biopolitics' refers to:\nA. forms of power over the body, such as physical training, as a means of disciplining the mind\nB. forms of knowledge such as demographic statistics, which allow us to map and measure populations\nC. public health measures, such as improved sanitation and freshwater schemes\nD. intervention by the state to regulate sexual behaviour\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: <RESULT>D</RESULT> \n```\nThis",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5001559257507324
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "In the traditional hierarchy of status and precedence, which of these members of the upper class are in the right order (from highest to lowest status)?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "Prime Minister, Archbishop of York, Viscounts of England"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Marquesses of England, Earls of Great Britain, King's Brothers"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "Esquires, Serjeants of Law, Dukes' Eldest Sons"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "King's Grandsons, Lord High Treasurer, Companions of the Bath"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id112"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "Prime Minister, Archbishop of York, Viscounts of England",
+        "B": "Marquesses of England, Earls of Great Britain, King's Brothers",
+        "C": "Esquires, Serjeants of Law, Dukes' Eldest Sons",
+        "D": "King's Grandsons, Lord High Treasurer, Companions of the Bath"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: In the traditional hierarchy of status and precedence, which of these members of the upper class are in the right order (from highest to lowest status)?\nA. Prime Minister, Archbishop of York, Viscounts of England\nB. Marquesses of England, Earls of Great Britain, King's Brothers\nC. Esquires, Serjeants of Law, Dukes' Eldest Sons\nD. King's Grandsons, Lord High Treasurer, Companions of the Bath\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: The final answer is D. I hope it is",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.542156457901001
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "When sociologists study the structure of layers in society and people's movement between them, they call this:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "social stratification"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "social control"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "social conflict"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "social solidarity"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id42"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "social stratification",
+        "B": "social control",
+        "C": "social conflict",
+        "D": "social solidarity"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: When sociologists study the structure of layers in society and people's movement between them, they call this:\nA. social stratification\nB. social control\nC. social conflict\nD. social solidarity\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nI hope this helps. Let me know if you have any other",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5106823444366455
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Wirth (1938) said that social relationships in the urban way of life were 'segmental' because:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "they were confined to particular areas of the city"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "people knew each other only through specific, situational roles, and not as whole, rounded individuals"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "there were distinctive patterns of activity for each social class"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "they were based on face to face interaction with close friends and family"
+            },
+            "tags": []
+          }
+        ],
+        "split": "valid",
+        "id": "id10"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "they were confined to particular areas of the city",
+        "B": "people knew each other only through specific, situational roles, and not as whole, rounded individuals",
+        "C": "there were distinctive patterns of activity for each social class",
+        "D": "they were based on face to face interaction with close friends and family"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Wirth (1938) said that social relationships in the urban way of life were 'segmental' because:\nA. they were confined to particular areas of the city\nB. people knew each other only through specific, situational roles, and not as whole, rounded individuals\nC. there were distinctive patterns of activity for each social class\nD. they were based on face to face interaction with close friends and family\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: <RESULT>B</RESULT> \n```\nThis",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.6915268898010254
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Sociology differs from common sense in that:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "it focuses on the researchers' own experiences"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "it makes little distinction between the way the world is and the way it ought to be"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "its knowledge is accumulated from many different research contexts"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "it is subjective and biased"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id150"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "it focuses on the researchers' own experiences",
+        "B": "it makes little distinction between the way the world is and the way it ought to be",
+        "C": "its knowledge is accumulated from many different research contexts",
+        "D": "it is subjective and biased"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Sociology differs from common sense in that:\nA. it focuses on the researchers' own experiences\nB. it makes little distinction between the way the world is and the way it ought to be\nC. its knowledge is accumulated from many different research contexts\nD. it is subjective and biased\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "C",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>C</RESULT> \n\nFinal Answer: <RESULT>C</RESULT> \n```\nThis",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.679192304611206
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The Macpherson Report highlighted the increasing problem of:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "hate crimes: violence against ethnic minorities simply because of their race"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "institutional racism: systematic forms of disadvantage built into the routines and practices of social institutions"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "overt racism in the police force that must be tackled by institutional reforms"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "growing numbers of asylum seekers in need of long term accommodation"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id68"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "hate crimes: violence against ethnic minorities simply because of their race",
+        "B": "institutional racism: systematic forms of disadvantage built into the routines and practices of social institutions",
+        "C": "overt racism in the police force that must be tackled by institutional reforms",
+        "D": "growing numbers of asylum seekers in need of long term accommodation"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: The Macpherson Report highlighted the increasing problem of:\nA. hate crimes: violence against ethnic minorities simply because of their race\nB. institutional racism: systematic forms of disadvantage built into the routines and practices of social institutions\nC. overt racism in the police force that must be tackled by institutional reforms\nD. growing numbers of asylum seekers in need of long term accommodation\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: <RESULT>B</RESULT> \n```\nThis",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8636472225189209
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "The concept of political culture refers to the"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "way that cultural products, such as novels or paintings, reflect the political ideologies of their creators"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "basic beliefs and orientation toward politics that are shared widely by the members of a culture"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "political beliefs and attitudes shared by people in public offices"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "ideological biases of the mass media"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id189"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "way that cultural products, such as novels or paintings, reflect the political ideologies of their creators",
+        "B": "basic beliefs and orientation toward politics that are shared widely by the members of a culture",
+        "C": "political beliefs and attitudes shared by people in public offices",
+        "D": "ideological biases of the mass media"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: The concept of political culture refers to the\nA. way that cultural products, such as novels or paintings, reflect the political ideologies of their creators\nB. basic beliefs and orientation toward politics that are shared widely by the members of a culture\nC. political beliefs and attitudes shared by people in public offices\nD. ideological biases of the mass media\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: <RESULT>B</RESULT> \n```\nThis",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.5135128498077393
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Marx proclaimed that religion would disappear when:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "a new trend of moral individualism became established"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "a socialist revolution removed the need for capitalist ideology"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "church attendance dropped below 15%"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "people came to believe more in science and technology"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id144"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "a new trend of moral individualism became established",
+        "B": "a socialist revolution removed the need for capitalist ideology",
+        "C": "church attendance dropped below 15%",
+        "D": "people came to believe more in science and technology"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Marx proclaimed that religion would disappear when:\nA. a new trend of moral individualism became established\nB. a socialist revolution removed the need for capitalist ideology\nC. church attendance dropped below 15%\nD. people came to believe more in science and technology\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nFinal Answer: <RESULT>B</RESULT> \n```\nI",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.7224273681640625
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Which of the following is a personal document with closed access?"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "government 'white paper'"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "confidential medical records"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "household account book"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "the shares register of a business"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id210"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "government 'white paper'",
+        "B": "confidential medical records",
+        "C": "household account book",
+        "D": "the shares register of a business"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Which of the following is a personal document with closed access?\nA. government 'white paper'\nB. confidential medical records\nC. household account book\nD. the shares register of a business\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "B",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>B</RESULT> \n\nI hope this helps. Let me know if you have any other",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.8905551433563232
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "Economic aid has largely failed to promote modernization in the developing countries because:"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "there are no clearly defined projects into which the money can be directed"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "the United Nations has refused to call on rich countries to provide it"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "debt repayments with interest can be greater than the amount of money received"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "debt repayments with interest can be greater than the amount of money received"
+            },
+            "tags": [
+              "correct"
+            ]
+          }
+        ],
+        "split": "test",
+        "id": "id224"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "there are no clearly defined projects into which the money can be directed",
+        "B": "the United Nations has refused to call on rich countries to provide it",
+        "C": "debt repayments with interest can be greater than the amount of money received",
+        "D": "debt repayments with interest can be greater than the amount of money received"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: Economic aid has largely failed to promote modernization in the developing countries because:\nA. there are no clearly defined projects into which the money can be directed\nB. the United Nations has refused to call on rich countries to provide it\nC. debt repayments with interest can be greater than the amount of money received\nD. debt repayments with interest can be greater than the amount of money received\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "D",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>D</RESULT> \n\nFinal Answer: <RESULT>D</RESULT> \n```\nI",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 0.47238802909851074
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    },
+    {
+      "instance": {
+        "input": {
+          "text": "A researcher mailed 1,000 questionnaires to members of a labor union and received 300 back. Most of those who returned the questionnaires indicated that they were dissatisfied with the union. Results based only on the returned questionnaires are most likely contaminated by"
+        },
+        "references": [
+          {
+            "output": {
+              "text": "response rate bias"
+            },
+            "tags": [
+              "correct"
+            ]
+          },
+          {
+            "output": {
+              "text": "researcher bias"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "confusing correlation and causation"
+            },
+            "tags": []
+          },
+          {
+            "output": {
+              "text": "statistical regression"
+            },
+            "tags": []
+          }
+        ],
+        "split": "test",
+        "id": "id95"
+      },
+      "train_trial_index": 0,
+      "output_mapping": {
+        "A": "response rate bias",
+        "B": "researcher bias",
+        "C": "confusing correlation and causation",
+        "D": "statistical regression"
+      },
+      "request": {
+        "model_deployment": "together/Llama-3-8b-chat-hf",
+        "model": "together/Llama-3-8b-chat-hf",
+        "embedding": false,
+        "prompt": "The following are multiple choice questions (with answers) about sociology.\n\nQuestion: What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet\nAnswer: C\n\nQuestion: Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare\nAnswer: B\n\nQuestion: The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary\nAnswer: B\n\nQuestion: Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways\nAnswer: A\n\nQuestion: The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings\nAnswer: B\n\nQuestion: A researcher mailed 1,000 questionnaires to members of a labor union and received 300 back. Most of those who returned the questionnaires indicated that they were dissatisfied with the union. Results based only on the returned questionnaires are most likely contaminated by\nA. response rate bias\nB. researcher bias\nC. confusing correlation and causation\nD. statistical regression\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+        "temperature": 0.0,
+        "num_completions": 1,
+        "top_k_per_token": 5,
+        "max_tokens": 20,
+        "stop_sequences": [],
+        "echo_prompt": false,
+        "top_p": 1,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+      },
+      "result": {
+        "success": true,
+        "embedding": [],
+        "completions": [
+          {
+            "text": "A",
+            "logprob": 0,
+            "tokens": [
+              {
+                "text": " <RESULT>A</RESULT> \n\nFinal Answer: <RESULT>A</RESULT> \n```\nI",
+                "logprob": 0
+              }
+            ],
+            "finish_reason": {
+              "reason": "length"
+            }
+          }
+        ],
+        "cached": false,
+        "request_time": 1.2039849758148193
+      },
+      "num_train_instances": 5,
+      "prompt_truncated": false,
+      "num_conditioning_tokens": 0
+    }
+  ]
+}

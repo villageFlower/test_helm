@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "Which of the following countries is situated in the region of tectonic activity known as the Pacific Ring of Fire?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Brazil"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Australia"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Chile"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "India"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id157"
+  },
+  {
+    "input": {
+      "text": "Which of the following U.S. main immigration flow associations is NOT correct?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Pioneer settlement to 1870\u2014Germans, British, Scotch-Irish, Africans"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1870\u20131914\u2014Asians"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1870\u20131914\u2014Eastern and southern Europeans"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1965\u2013present\u2014Hispanics"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "In which of the following regions is subsistence agriculture being replaced by large-scale commercial development?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The Swiss Alps"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The Amazon Basin"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "North Africa"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The Alaskan tundra"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id76"
+  },
+  {
+    "input": {
+      "text": "Which of the following items below is an absolute location?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "10 miles east of Pittsburgh"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Washington"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3 degrees south"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "479 Elm Street, Muncie, Indiana"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id166"
+  },
+  {
+    "input": {
+      "text": "Which one of the following groups is excluded from the caste system of Hinduism?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Scholar-priests"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Warrior-landowners"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Businessmen and farmers"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Untouchables"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id167"
+  },
+  {
+    "input": {
+      "text": "Which one of the following statements does NOT correctly describe the Green Revolution?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "It changed centuries-old methods of farming."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It was an attempt to feed a growing world population."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It centered on increased rice, wheat, and maize yields."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It greatly improved crop yields in sub-Saharan Africa."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id148"
+  },
+  {
+    "input": {
+      "text": "The process whereby immigrants learn the values, language, and customs of their new country is called"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "assimilation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "acculturation."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "adaptation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "amalgamation."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id68"
+  },
+  {
+    "input": {
+      "text": "Which one of the following statements is NOT true of the \"core\" countries?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "They are technologically advanced."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "They are wealthy."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "They are powerful."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "They are less developed."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id158"
+  },
+  {
+    "input": {
+      "text": "The official languages of Guyana, Suriname, and French Guiana are English, Dutch, and French, respectively. On what continent are those countries located?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "North America"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "South America"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Africa"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Asia"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id224"
+  },
+  {
+    "input": {
+      "text": "Shifting cultivation is most often practiced in"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "alpine tundra."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "tropical forests."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "flood plains."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "deserts."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id140"
+  },
+  {
+    "input": {
+      "text": "Which theorist(s) tried to explain the prices of farm products as they relate to patterns of land use?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Rostow"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Ravenstein"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Von Th\u00fcnen"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Burgess"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id154"
+  },
+  {
+    "input": {
+      "text": "A society in which two or more population groups coexist while maintaining their unique culture demonstrates"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "racial segregation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "miscegenation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "cultural pluralism."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "cultural segregation."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "Which of the following is NOT an example of syncretism?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Halloween"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Foreign cuisine changed to suit American tastes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Hasidic Judaism"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Catholicism in Louisiana"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "Opponents of genetically modified organisms (GMOs) in food are afraid that the GMOs"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "will hinder global trade."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "make plants more resistant to disease."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "may cause irreversible changes in humans."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "make plants more resistant to drought."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id173"
+  },
+  {
+    "input": {
+      "text": "Which of the following industries does NOT need to be close to its markets?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Dairy foods"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Bulk-gaining products"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Single-market products"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Bulk-reducing products"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id207"
+  },
+  {
+    "input": {
+      "text": "What condition occurs when the people of one state want to annex a territory whose population is ethnically related to that state's population but now under the rule of another state?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Nationalism"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Resource dispute"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Irredentism"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Positional dispute"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id196"
+  },
+  {
+    "input": {
+      "text": "In which of the following Asian countries would one find special economic zones (SEZs)?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Japan"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "South Korea"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "China"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Vietnam"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id206"
+  },
+  {
+    "input": {
+      "text": "Which of the following countries is actively trying to preserve the purity of their native language from contamination by English or other languages?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Italy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Russia"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Japan"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Brazil"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id101"
+  },
+  {
+    "input": {
+      "text": "Which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "European"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Muslim"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Sub-Saharan African"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Latin American"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id111"
+  },
+  {
+    "input": {
+      "text": "Which one of the statements below is characteristic of most African cities?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "They have thriving, clean residential areas."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "There are jobs for most rural-to-urban migrants."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "They have three separate business districts."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "They have a well-developed infrastructure."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id80"
+  }
+]

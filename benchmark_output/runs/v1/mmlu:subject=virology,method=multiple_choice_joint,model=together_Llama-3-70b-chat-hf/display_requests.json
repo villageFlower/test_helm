@@ -1,0 +1,382 @@
+[
+  {
+    "instance_id": "id144",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: The major beneficiary of Medicaid in the U.S. is:\nA. Single men\nB. The elderly\nC. Women and children\nD. Undocumented residents\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id111",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: In HIV-associated tuberculosis cases, treatment with antiretrovirals should begin:\nA. Before antiretroviral drugs are started\nB. After antiretroviral drugs are started\nC. Concurrently with antiretroviral drugs\nD. Doesn\u2019t make any difference\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id12",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: The primary goal of public health is to:\nA. Protect the uninfected\nB. Protect the infected\nC. Protect the identity of those who have died from an infectious disease\nD. a. and c. above\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id112",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: A \u201cbenefit\u201d of research may accrue:\nA. To the participant\nB. To his/her family\nC. To society\nD. All of the above\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id65",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: Which of the following drugs inhibit herpes viruses?\nA. Amantadine\nB. Acyclovir\nC. Oseltamivir\nD. Azidothymidine\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id102",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: How do viruses of the calcivirus family replicate?\nA. As negative strand RNA viruses\nB. As positive strand RNA viruses\nC. Retroviruses\nD. Using genetic reassortment\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id66",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: The three countries with the most drug injectors are:\nA. Bolivia, Argentina, Thailand\nB. China, the U.S. and Russia\nC. Afghanistan, Iraq and Myanmar\nD. Lithuania, Estonia and Latvia\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id171",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: What is the genetic structure of rotavirus?\nA. Circular DNA containing virus\nB. RNA virus with RT\nC. ds RNA virus\nD. ds RNA virus in segments\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id38",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: How many people globally are currently infected with hepatitis B?\nA. 350 million\nB. 2 billion\nC. 100,000\nD. 1 million\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id175",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: How are herpes infections controlled?\nA. Chemotherapy\nB. Vaccines\nC. Hygiene and social distancing\nD. No method\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id168",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: Randomization of study subjects in a clinical trial is most helpful for controlling for which of the following?\nA. Placebo effect\nB. Recall bias\nC. Non-compliance\nD. Effect modification (interaction)\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id76",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: A case-control study is conducted to assess the association between alcohol consumption and lung cancer patients with lung cancer and 100 controls are asked about their past alcohol consumption. According to the study results, alcohol consumption is strongly associated with lung cancer (OR = 2.5). The researchers then divide the study subjects into two groups: smokers and non-smokers. Subsequent statistical analysis does not reveal any association between alcohol consumption and lung cancer within either group. The scenario described is an example of which of the following?\nA. Observer bias\nB. Confounding\nC. Placebo effect\nD. Nonresponse bias\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: In a survey of 10,000 IV drug users in town A, 1,000 turn out to be infected with hepatitis follow-up, 100 patients with hepatitis C infection die. Also during follow-up, 100 IV drug users acquire hepatitis C. Which of the following is the best estimate of the annual incidence of hepatitis C infection in IV drug users in town A?\nA. 1,000/10,000\nB. 1,100/10,000\nC. 100/10,000\nD. 100/9,000\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id118",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: What is the most important factor for virus classification?\nA. The geometry of the virus\nB. How many proteins the virus has\nC. The disease a virus causes\nD. Chemistry of the DNA and RNA\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id156",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: In a medical class of 147 students, the distribution of scores on a biochemistry final examination has a mean equal to 67, a median equal to 76, a mode equal to 80, a standard deviation equal to 5.5, and a variance equal to 30.25. Three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later. Which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores?\nA. Mean\nB. Median\nC. Mode\nD. Standard deviation\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id151",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: The treatment of hepatitis C has been revolutionised most recently by which of the following?\nA. The use of interferon\nB. A new vaccine\nC. Monoclonal antibodies\nD. Direct-acting Antivirals such as daclatasvir and sofosbuvir\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id23",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: How many human polyomaviruses are known at present?\nA. 100\nB. 1\nC. 10\nD. unknown\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id71",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: There are 57 serotypes of adenovirus currently recognised. Which has the most important clinical impact?\nA. Diarrhoea\nB. Eye infections\nC. Respiratory tract infections\nD. Haemorrhagic cystitis\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id155",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: The surveillance testing strategy associated with the least selection bias is:\nA. Compulsory\nB. Unlinked anonymous\nC. Voluntary anonymous\nD. Voluntary confidential\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "request": {
+      "model_deployment": "together/Llama-3-70b-chat-hf",
+      "model": "together/Llama-3-70b-chat-hf",
+      "embedding": false,
+      "prompt": "The following are multiple choice questions (with answers) about virology.\n\nQuestion: Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses\nAnswer: A\n\nQuestion: A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff\nAnswer: B\n\nQuestion: Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes\nAnswer: A\n\nQuestion: The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change\nAnswer: D\n\nQuestion: The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives\nAnswer: C\n\nQuestion: The risk of perinatal transmission of HIV-1 infection during breast feeding is increased due to:\nA. Mixed feeding\nB. Very early introduction of solids\nC. Both a and b\nD. None of them\nAnswer only the last question with a single letter only and put your final answer between <RESULT></RESULT> tag, output exactly the same as the tag I provided and do not say anything else other than the tag and your answer.",
+      "temperature": 0.0,
+      "num_completions": 1,
+      "top_k_per_token": 5,
+      "max_tokens": 20,
+      "stop_sequences": [],
+      "echo_prompt": false,
+      "top_p": 1.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  }
+]

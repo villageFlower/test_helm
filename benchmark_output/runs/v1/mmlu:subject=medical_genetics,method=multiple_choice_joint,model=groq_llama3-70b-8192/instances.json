@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "The presence of two or more cell lines from different zygotes in a single individual is known as:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "mosaicism."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "diploidy."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "aneuploidy."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "chimaerism."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id104"
+  },
+  {
+    "input": {
+      "text": "Which of the following statements about heritability are true?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "is a measure of the level of heterozygotes in a population"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "is a measure of the proportion of variation that is due to genetic causes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "is a measure of proportion of repeated DNA in an organism"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "is a measure of level of gene linkage"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "Simple tandem repeat polymorphisms in humans are most useful for"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "solving criminal and paternity cases"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "reconstructing the relationships of humans and chimps."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "estimating relationships of humans and Neanderthals"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "transferring disease resistance factors into bone marrow cells"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id81"
+  },
+  {
+    "input": {
+      "text": "Repeat core sequences consisting of 2, 3, or 4 base pairs are known as what?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Single nucleotide polymorphisms (SNPs)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Microsatellites"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Minisatellites"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Satellites"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "The mutation in sickle-cell disease consists of:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a deletion."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a duplication."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "an insertion."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a point mutation."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "Consanguinity shows a strong association with which pattern of inheritance?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Autosomal dominant"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Autosomal recessive"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "X-linked dominant"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "X-linked recessive"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id107"
+  },
+  {
+    "input": {
+      "text": "The proportion of babies that have an abnormality identifiable at birth is _____."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1 in 10"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1 in 40"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1 in 100"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1 in 500"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "Assuming that the level of glucose is low, a mutation in the repressor of the lac operon in E. coli, preventing binding of the repressor to the operator, should result in:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "constitutive expression of the lac operon genes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "lack of expression or reduced expression of the lac operon genes under all circumstances"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "expression of the genes only when lactose is present"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "expression of the genes only when lactose is absent"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "Mapping of human chromosomes:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "has been restricted to the sex chromosomes because of small family sizes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "proceeded much more successfully as large numbers of DNA markers became available."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "has determined that the number of linkage groups is about twice the number of chromosomes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "has demonstrated that almost all of the DNA is involved in coding for genes"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "Which of the following is not a recognized complication of cystic fibrosis?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Cancer of the oesophagus"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Congenital absence of the vas deferens"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Diabetes mellitus"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Liver cirrhosis"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "Which component of transcribed RNA in eukaryotes is present in the initial transcript but is removed before translation occurs?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Intron"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "3\u2019 Poly A tail"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Ribosome binding site"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "5\u2019 cap"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id94"
+  },
+  {
+    "input": {
+      "text": "Normal adult haemoglobin (Hb A) consists of:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "two \u03b1 (alpha) and two \u03b2 (beta) chains."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "two \u03b1 and two \u03b3 (gamma) chains."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "two \u03b1 and two \u03b4 (delta) chains."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "four \u03b3 chains."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "Familial hypercholesterolaemia is caused by mutations in the gene which encodes what?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "High density lipoprotein"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "HMG-CoA reductase"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Low density lipoprotein"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Low density lipoprotein receptor"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "Severe anaemia at birth is a feature of what?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Alpha-thalassaemia"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Beta-thalassaemia"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Hereditary persistence of fetal haemoglobin"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Sickle cell disease"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  },
+  {
+    "input": {
+      "text": "Which of the following is a feature of X-linked dominant inheritance?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Parental consanguinity"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Male to male transmission"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Transmission only by females"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Transmitted by males only to females"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id66"
+  },
+  {
+    "input": {
+      "text": "A nonsense mutation involves:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a regulatory sequence."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "an AG splice acceptor site."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the creation of a different amino acid."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the creation of a stop codon."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  },
+  {
+    "input": {
+      "text": "If the frequency of males affected with an X-linked recessive condition in a human population is .10 (one in ten), what will be the expected frequency of affected females?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "0.01"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "0.001"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.02"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "0.0001"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "An Hfr strain of E. coli contains:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a vector of yeast or bacterial origin which is used to make many copies of a particular DNA sequence"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a bacterial chromosome with a human gene inserted"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a bacterial chromosome with the F factor inserted"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "a human chromosome with a transposable element inserted"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "Which of the following conditions is a peroxisomal disorder?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Acute intermittent porphyria"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Maple syrup urine disease"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Medium chain acyl-CoA dehydrogenase deficiency"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Zellweger syndrome"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id97"
+  },
+  {
+    "input": {
+      "text": "Which of the following is not a tumour suppressor gene?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "APC"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "NF1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "RB1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "RET"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  }
+]

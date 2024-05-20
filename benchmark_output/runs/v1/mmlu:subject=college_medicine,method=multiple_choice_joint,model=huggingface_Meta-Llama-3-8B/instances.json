@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "In order to determine the doppler shift in perceived sound frequency, the following variables must be known:\nI. speed of sound in medium\nII. Time of interaction between sound source and detector\nIII. distance between source and detector\nIV. frequency of emitted sound"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "I only"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "I and III"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "II and IV"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "I and IV"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id88"
+  },
+  {
+    "input": {
+      "text": "Cystic Fibrosis (CF) patients often have a loss of pancreas activity during their adolescent years. Loss of which enzyme, if isolated would lead to the most extensive effects on nutrient absorption?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Lipase"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Elastinogen"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Trypsinogen"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Carboxypeptidase"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id17"
+  },
+  {
+    "input": {
+      "text": "A descript amount of 2-bromobutane is placed into a strong solution of ethanol and allowed to complete a reaction. The result of this reaction produces a major product of 2-butene and a minor product of 1-butene. Which of the following descriptions of the starting compound explains why 2-butene is the major product?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Carbon 3 has less hydrogen atoms"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1-butene rearranges to 2-butene in solution"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Ethanol prefers the second carbon in any chain"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Cyclic aromatization"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id38"
+  },
+  {
+    "input": {
+      "text": "What type of covalent bonds link the amino acids in a protein?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Peptide bonds"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Hydrogen bonds"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Ionic bonds"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Glycosidic bonds"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id118"
+  },
+  {
+    "input": {
+      "text": "Creatine is synthesized from:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "amino acids in the muscles."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "amino acids in the liver."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "amino acids in the kidneys."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "creatinine in the kidneys."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id176"
+  },
+  {
+    "input": {
+      "text": "Assuming the circulatory system in humans obeys Bernoulli\u2019s principle of fluid dynamics, which of the statements most accurately compares the blood pressure in a capillary of the neck to a capillary with an equal crosssectional area in the right knee?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The pressure in the neck is greater than the pressure in the knee because of the increase in pressure head"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The pressure in the neck is equal to the pressure in the knee because of the equal dynamic pressure according to the continuity equation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The pressure in the knee is greater than the pressure in the neck because of the increase in pressure head"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "An accurate comparison cannot be given without knowledge of the fluid\u2019s density and viscosity"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id139"
+  },
+  {
+    "input": {
+      "text": "A study examined admissions to exceptionally selective colleges. When examining the correlates of admission acceptance, two obvious factors that strongly correlated with admissions were GPA and standardized test scores, with correlation values of +0.41 and +0.55 respectively. However, the study also demonstrated that those students who had social networks that overlapped with the alumni networks of the selective colleges were even more likely to be admitted, with a correlation between social network and alumni network of +0.61. This correlation demonstrates:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the value of cultural capital."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a meritocracy. "
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "he value of social capital."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "a false association."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id168"
+  },
+  {
+    "input": {
+      "text": "Oxygen is used:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "in glycolysis."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "in the conversion of fatty acids to acetyl CoA."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "in the tricarboxylic acid cycle (Krebs' cycle)."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "in glycogenolysis."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id129"
+  },
+  {
+    "input": {
+      "text": "Approximately how many kJ of energy are expended if an athlete's steady-rate oxygen uptake averages 3.0 l/min for 5 minutes of exercise?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "60 kJ"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "150 kJ"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "300 kJ"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "500 kJ"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "An allele that is masked is referred to as:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "recessive."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "redundant."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "repressed."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "reclusive."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id23"
+  },
+  {
+    "input": {
+      "text": "During exercise, adrenaline secretion from the adrenal glands is stimulated by:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "increased plasma glucose."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "increased plasma fatty acids."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "increased plasma ACTH."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "increased sympathetic nerve activity."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "Which of the following would be the most accurate definition of Nietzsche\u2019s Will to Truth?\""
+    },
+    "references": [
+      {
+        "output": {
+          "text": "An intrinsic desire to know the truth."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Moral drive to act toward what is good."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A subset of our ego that acts towards what is right."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Our desire for love."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "Mutations are errors in DNA that:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "are always harmful."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "only occur in the presence of carcinogens."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "increase tumour growth."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "occur spontaneously at a low rate."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id130"
+  },
+  {
+    "input": {
+      "text": "Lactate and hydrogen ions leave the muscle:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "via a cotransport mechanism with carnosine."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "via an active transport mechanism."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "via a protein transporter molecule."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "by simple diffusion."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id166"
+  },
+  {
+    "input": {
+      "text": "According to attachment theory, which of the following children is most likely to attach to a male psychologist, previously unknown to the child, in the course of a psychological study?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A two month old female infant raised in a safe, stable environment"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "A five month old male infant raised in a safe, stable environment"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "An eight month old male infant raised by a single caregiver who frequently neglect the child"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A thirteen month old female infant raised by two caregivers who occasionally neglect the child"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id175"
+  },
+  {
+    "input": {
+      "text": "Anaerobic metabolism refers to the generation of ATP:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "without the involvement of ADP."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "without the use of glycogen."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "without the use of oxygen."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "in the absence of available oxygen."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id186"
+  },
+  {
+    "input": {
+      "text": "Alterations in which neurotransmitters in the brain by pharmacological agents has been shown to influence fatigue development?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Acetyl choline and noradrenaline."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Dopamine and acetyl choline."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Glutamate and serotonin."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Dopamine and serotonin."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id128"
+  },
+  {
+    "input": {
+      "text": "During muscular contraction, interactions between myosin and actin allow for shortening of each sarcomere. In addition to the power stroke, what other process of muscle contraction requires ATP?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Tropomyosin-troponin interaction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Myosin-actin interaction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Calcium-troponin interaction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Myosin-actin detachment"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  },
+  {
+    "input": {
+      "text": "Which of the following factors can affect enzyme activity?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Temperature."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "pH."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The presence of certain metal ions."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of the above."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "Codons are composed of:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "triplet sequences of nucleotide bases in mRNA or DNA ."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "quadruplet sequences of nucleotide bases in mRNA or DNA."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "triplet sequences of amino acids in polypeptide chains."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "triplet sequences of deoxyribose sugars in DNA."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id146"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "Which form of communication is most effective in forming or changing predispositions toward an issue?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Interpersonal"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Media"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Group"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Public"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id89"
+  },
+  {
+    "input": {
+      "text": "Emma is browsing a popular website when she runs across the story of a well-known actor who was recently pulled over for speeding and driving down the wrong side of the street. It turns out he had been drinking, and the arresting police officer found drugs in the car. The actor's publicist issued a statement claiming the actor was just tired and that the drugs belonged to someone else. Emma can't help having the impression that all public relations are ________ and occur only after something negative has occurred."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "proactive"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "reactive"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "manipulative"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "manipulative"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id102"
+  },
+  {
+    "input": {
+      "text": "What inspired Solis and Breakenridge to coin the term PR 2.0?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the static nature of PR as a result of traditional media"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the influence of one-way communication on the field of PR"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the reinvention of PR as a result of new media"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "the reinvention of PR as a result of advertising"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "Which traditional news criterion would you expect to be most important in public relations messages distributed through the mass media?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Proximity"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Timeliness"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Prominence"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Impact"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id76"
+  },
+  {
+    "input": {
+      "text": "To celebrate its 100th anniversary, your company wants to publish a coffee-table book of photos depicting the company's history. You dig through the files and old annual reports and find many photos, some of which have never been published. Some of the unpublished photos are dated and stamped on the back with the name of a photography studio that has been out of business for 20 years. When you consult with your publisher about the most effective way to reproduce these particular prints, the publisher says they cannot reprint them without the original photographer's permission. You are unable to find the original contract between the company and the photographer. Can you reprint the photos without the original photographer's permission?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Yes, if you pay the publisher a fee to reproduce the photos."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Yes, the company paid for the photography and therefore owns the prints."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Yes, you can reproduce the photos if you give proper credit to the photographer."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "No, the photographer or heirs own the copyright and must grant permission to reproduce the unpublished photographs."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "Internet traffic is expected to grow by 400% in the next few years. What is predicted to be the main driver of this?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Online consumer goods purchases"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Video"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Music"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Online auctions"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "How much has the number of practitioners working in consultancies in the UK grown since 25 years ago?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "It hasn't"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Doubled"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Tripled"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Quadrupled"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "Where was the first British newspaper printed?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "London"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Oxford"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Manchester"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Edinburgh"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "Which communication model describes the encoding and decoding of messages?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Shannon and Weaver model"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Osgood and Schramm model"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Westley and MacLean model"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Maletzke model"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id66"
+  },
+  {
+    "input": {
+      "text": "A(n) ________ campaign is a paid form of impersonal communication, concerned with selling specific products, services, brands, images, and lifestyles to the public."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "public persuasive"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "public relations"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "advertising"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "consumerism"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "Which type of measurement is the most effective choice for evaluating a campaign's impact on audience attitudes?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "preparing a content analysis of media coverage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "studying the content of blog postings about your issue"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "analyzing pre and post sales reports for changes in sales"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "conducting a pre and post analysis of constituents' opinions"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id91"
+  },
+  {
+    "input": {
+      "text": "According to Russian philosopher Mikhail Bakhtin, in order to create ________, or a well-informed public, all communication about an issue must be ________, or take the form of a dialogue."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "intelligentsia, democratic"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "democracy, dialogic"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "democracy, logical"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "democracy, bipartisan"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id114"
+  },
+  {
+    "input": {
+      "text": "During which step of the Chase Jones model of issues management should the strengths and weaknesses of the organisation be reviewed?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Identification"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Analysis"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Strategy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Evaluation"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id38"
+  },
+  {
+    "input": {
+      "text": "Publishing and selling the creative work of others and protecting property rights of one's own creative work is regulated by"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "libel and publication regulations"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "access and deregulation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Securities and Exchange Commission"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "copyright and trademark law"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id71"
+  },
+  {
+    "input": {
+      "text": "What is the primary public relations activity in financial relations?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Measuring investor opinions toward the company"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Producing the annual report"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Making arrangements and preparing materials for financial meetings"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Writing and disseminating financial news releases"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "Leslie is a disgruntled employee who walks into her place of employment and shoots three people, killing two and critically injuring the other. What is Leslie's behavior an example of?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "workplace violence"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "organizational misdeeds"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "megadamage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "crisis management"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id83"
+  },
+  {
+    "input": {
+      "text": "The ________ phase of the PR model consists of primary and secondary research about a client, identifying the target audiences for the campaign, proposing channels of communication and strategies to be used in the campaign, and constructing goals, objectives, messages, and themes."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "identification"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "evaluation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "implementation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "planning"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id104"
+  },
+  {
+    "input": {
+      "text": "In what year did the BBC start broadcasting radio?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1917"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1922"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1925"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1927"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "Which common public relations tactic can provide a 'halo effect'?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Placement on TV or radio"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Stunts"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Third parties"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Sponsorship"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id126"
+  },
+  {
+    "input": {
+      "text": "Which statement is true about focus group research?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The participants should be selected at random."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It is an example of a formal research tool for practitioners."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The information can be generalized to describe a larger population."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The findings generate qualitative data that can be used to develop surveys."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id35"
+  }
+]

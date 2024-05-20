@@ -1,0 +1,16 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Model/adapter & EM & EM (Robustness) & EM (Fairness) & # eval & # train & truncated & # prompt tokens & # output tokens & # trials \\
+\midrule
+Together AI Llama 3 (8B) & 0.3684210526315789 & 0.3684210526315789 & 0.3684210526315789 & 19.0 & 5.0 &  & 469.63157894736844 & 1.0 & 1.0 \\
+Together AI Llama 3 (70B) & 0.7368421052631579 & 0.7368421052631579 & 0.7368421052631579 & 19.0 & 5.0 &  & 469.63157894736844 & 1.0 & 1.0 \\
+Groq LLaMA 3 (8B) & 0.2631578947368421 & 0.2631578947368421 & 0.2631578947368421 & 19.0 & 5.0 &  & 469.63157894736844 & 1.0 & 1.0 \\
+Groq LLaMA 3 (70B) & 0.5263157894736842 & 0.5263157894736842 & 0.5263157894736842 & 19.0 & 5.0 &  & 469.63157894736844 & 1.0 & 1.0 \\
+Hugging face LLaMA 3 (8B)(original) & 0.5789473684210527 & 0.5789473684210527 & 0.5789473684210527 & 19.0 & 5.0 &  & 425.63157894736844 & 1.0 & 1.0 \\
+\bottomrule
+\end{tabular}}
+\caption{Results for mmlu_subject:electrical_engineering (mmlu)}
+\label{fig:mmlu_subject:electrical_engineering (mmlu)}
+\end{table*}

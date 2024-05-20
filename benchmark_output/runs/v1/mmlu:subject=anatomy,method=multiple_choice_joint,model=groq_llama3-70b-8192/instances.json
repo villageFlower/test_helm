@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "Which one of the following brain areas is supplied by branches of the subclavian arteries?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The frontal lobe"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The parietal lobe"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The hypothalamus"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The cerebellum"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id138"
+  },
+  {
+    "input": {
+      "text": "The phrenic nerves innervate the"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "diaphragm."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "diaphragm and parietal pleura."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "diaphragm, parietal pleura and pericardium."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "diaphragm, parietal pleura, pericardium and intercostals muscles."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id114"
+  },
+  {
+    "input": {
+      "text": "The bones of the viscerocranium develop initially by"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "endochondral ossification and follow the somatic growth pattern."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "endochondral ossification and follow the neural growth pattern."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "intramembranous ossification and follow the somatic growth pattern."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "intramembranous ossification and follow the neural growth pattern."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id64"
+  },
+  {
+    "input": {
+      "text": "Which of the following best describes the location where the carotid pulse can be found?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "In front of the ears and just above eye level"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "In the antecubital space"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "In the middle of the groin"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "On the anterior side of the neck"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id85"
+  },
+  {
+    "input": {
+      "text": "Emissary veins connect the intracranial venous sinuses to"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "veins draining the scalp."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "veins draining the eye."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the pterygoid venous plexus."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of the above areas."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "Palatine shelf elevation is due to the effect of"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "descent of the tongue."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "changes in flexure of the developing brain."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "hydrophilic molecules increasing turgor pressure in the palatine shelves."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a combination of these three processes."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id109"
+  },
+  {
+    "input": {
+      "text": "Which of the following cranial nerves is related to the sense of smell?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Abducens"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Hypoglossal"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Olfactory"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Trochlear"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id145"
+  },
+  {
+    "input": {
+      "text": "When an emergency opening into the airway is required, the cricothyroid membrane should be pierced immediately"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "superior to the thyroid cartilage."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "inferior to the thyroid cartilage."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "inferior to the cricoid cartilage."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "superior to the thyroid isthmus."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id100"
+  },
+  {
+    "input": {
+      "text": "The mucosa of the hard palate is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "keratinised and has submucosa and minor salivary glands posterolaterally."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "non-keratinised and has submucosa and minor salivary glands posteromedially."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "keratinised and lacks submucosa and minor salivary glands."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "non-keratinised and lacks submucosa and minor salivary glands."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id123"
+  },
+  {
+    "input": {
+      "text": "The major concentrations of proprioceptive receptors providing information about position of the TMJ are located in"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the capsule and ligaments of the TMJ and the medial pterygoid muscle."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the capsule and ligaments of the TMJ and the lateral pterygoid muscle."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "the articular disc of the TMJ and the medial pterygoid muscle."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the articular disc of the TMJ and the lateral pterygoid muscle."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id89"
+  },
+  {
+    "input": {
+      "text": "Which of the following allows air to pass into the lungs?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Aorta"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Esophagus"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Trachea"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Pancreas"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id38"
+  },
+  {
+    "input": {
+      "text": "Which of the following terms describes the motion of bending the forearm toward the body?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Abduction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Eversion"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Flexion"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Pronation"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "Which of the following conditions is characterized by incompetence of the esophageal sphincter?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Crohn's disease"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Esophageal varices"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Gastroesophageal reflux disease"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Pyloric stenosis"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  },
+  {
+    "input": {
+      "text": "You notice that your patient's submandibular lymph nodes are enlarged. You would look for potential infection sites in the"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "hard palate."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "hard palate and upper lip."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "hard palate, upper lip and upper central incisor."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "hard palate, upper lip, upper central incisor and lower first molar."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "Gastrulation is the process of"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "mesoderm formation and occurs after neurulation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "ectomesenchyme formation and occurs before neurulation."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "mesoderm formation and occurs before neurulation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "ectomesenchyme formation and occurs after neurulation."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "Which of the following options completes the following statement? \"The right atrioventricular valve\u2026\""
+    },
+    "references": [
+      {
+        "output": {
+          "text": "is a semilunar valve"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "is prevented from everting by papillary muscles."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "is open during systole."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "prevents blood returning from the pulmonary trunk as the heart relaxes."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id137"
+  },
+  {
+    "input": {
+      "text": "In a patient with a normal healthy mouth, you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "light pink in colour on both sides of the mucogingigival junction."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "light pink below the mucogingival junction and red above it."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "red below the mucogingival junction and light pink above it."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "red on both sides of the mucogingival junction."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id116"
+  },
+  {
+    "input": {
+      "text": "Which of the following muscles initiates elevation of the mandible?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Masseter"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Temporalis"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Lateral pterygoid"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Medial pterygoid."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id78"
+  },
+  {
+    "input": {
+      "text": "Which of the following best describes the structure that collects urine in the body?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Bladder"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Kidney"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Ureter"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Urethra"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "Food is prevented from entering the larynx during the pharyngeal phase of swallowing by"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "constriction of the laryngeal entrance."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "upward movement of the epiglottis."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "downward movement of the larynx."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "increase in respiratory rate."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  }
+]

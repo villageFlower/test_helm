@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id135",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Iraqi dictator Saddam Hussein's conquest of Kuwait",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1661.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id88",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Plessy v. Ferguson",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1583.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id163",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Efforts by Alexander Hamilton to stabilize the national economy",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1738.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id189",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "The rise of the United States to the status of a great power",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1744.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id81",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "Martin Luther King, Jr.'s \"I Have a Dream\u201d speech",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1629.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id176",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "states' rights",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 2045.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id139",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "middle-class college students.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1688.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id79",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "cultural and intellectual arguments justified the success of those at the top of the socioeconomic structure as both appropriate and inevitable.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1733.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id213",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "The Aztec Empire had to give way to the superior civilization of Spain.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1892.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id174",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "ratification of the Fourteenth Amendment (1868).",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1737.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id149",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "many Vietnamese viewed the United States as a colonial influence",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1674.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id102",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Continuing white resistance slowed efforts at desegregation, sparking a series of social conflicts throughout the South.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1632.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id69",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "most English Puritans were imprisoned for heresy",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1700.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id13",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "Women's rights movements flourished in response to inconsistent legislation and unequal distributions of power throughout the nation.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1951.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id158",
+    "train_trial_index": 0,
+    "predicted_text": " D",
+    "base64_images": [],
+    "mapped_output": "the provision for land sales in the Northwest that would benefit the entire nation",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1613.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id193",
+    "train_trial_index": 0,
+    "predicted_text": " C",
+    "base64_images": [],
+    "mapped_output": "The Spanish\u2013American War",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1724.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id146",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "James K. Polk",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1637.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id10",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "The debate over whether to count slaves in the census for purposes of representation.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1797.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id49",
+    "train_trial_index": 0,
+    "predicted_text": " B",
+    "base64_images": [],
+    "mapped_output": "Enactment of laws regulating railroads.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1592.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id212",
+    "train_trial_index": 0,
+    "predicted_text": " A",
+    "base64_images": [],
+    "mapped_output": "Support for Manifest Destiny",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1861.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 4.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  }
+]

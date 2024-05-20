@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "Hypochlorous acid is an unstable compound, and one of the decomposition products is chlorine gas, Cl2. The decomposition of the acid lowers its concentration over time. What effect will the decomposition of one-fourth of the acid have on the agreement between the endpoint of the titration and the equivalence point during a titration with standard sodium hydroxide?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The endpoint would still remain near the ideal equivalence point."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The endpoint would be after the ideal equivalence point."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The endpoint would be before the ideal equivalence point."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "It is impossible to determine."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id116"
+  },
+  {
+    "input": {
+      "text": "What is the conjugate acid of the H2PO4- ion?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "HPO42-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "H2PO4-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "H3PO4"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "PO43-"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id106"
+  },
+  {
+    "input": {
+      "text": "Consider the Lewis structures for the following molecules: CO2, CO32-, NO2-, and NO3-. Which molecules are best represented by multiple resonance structures?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "CO2 and CO32-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "NO2- and NO3-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "CO32- and NO3-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "CO32-, NO2- and NO3-"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id202"
+  },
+  {
+    "input": {
+      "text": "Neutral atoms of chlorine are bombarded by high-energy photons, causing the ejection of electrons from the various filled subshells. Electrons originally from which subshell would have the highest velocity after being ejected?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1s"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2p"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3p"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "3d"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id188"
+  },
+  {
+    "input": {
+      "text": "Consider the Lewis structures for the following molecules: CO2, CO32-, NO2-, and NO3-. Which molecule or molecules exhibit sp2 hybridization around the central atom?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "CO2 and CO32-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "NO2- and NO3-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "CO32- and NO3-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "CO32-, NO2- and NO3-"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id80"
+  },
+  {
+    "input": {
+      "text": "Which of the following pair of liquids is expected to be immiscible?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "H2O and CH3OH"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C6H6 and C5H12"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "C10H22 and CH2CH2CH2OH"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "CH3CH2NH2 and CH3CH2CH2OH"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id69"
+  },
+  {
+    "input": {
+      "text": "Which of the following should be named using Roman numerals after the cation?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "CaCl2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "CuCl2"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "AlBr3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "K2Cr2O7"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id150"
+  },
+  {
+    "input": {
+      "text": "Nitrogen's electronegativity value is between those of phosphorus and oxygen. Which of the following correctly describes the relationship between the three values?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The value for nitrogen is less than that of phosphorus because nitrogen is larger, but greater than that of oxygen because nitrogen has a greater effective nuclear charge."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The value for nitrogen is less than that of phosphorus because nitrogen has fewer protons but greater than that of oxygen because nitrogen has less valence electrons."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The value for nitrogen is greater than that of phosphorus because nitrogen has less electrons, but less than that of oxygen because nitrogen is smaller."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The value for nitrogen is greater than that of phosphorus because nitrogen is smaller, but less than that of oxygen because nitrogen has a smaller effective nuclear charge."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id142"
+  },
+  {
+    "input": {
+      "text": "What is the pH of a solution made by dissolving 0.0300 mol of sodium ethanoate in enough water to make 50 mL of solution (Ka for ethanoic acid is 1.8 \u00d7 10^-5)?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "9.26"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "4.74"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "11.02"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id212"
+  },
+  {
+    "input": {
+      "text": "During a chemical reaction, NO(g) gets reduced and no nitrogen-containing compound is oxidized. Which of the following is a possible product of this reaction?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "NO2(g)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "N2(g)"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "NO3-(aq)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "NO2-(aq)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id173"
+  },
+  {
+    "input": {
+      "text": "A 50.0 mL sample of 0.0025 M HBr is mixed with 50.0 mL of 0.0023 M KOH. What is the pH of the resulting mixture?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "11"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id148"
+  },
+  {
+    "input": {
+      "text": "The first ionization energy for a neutral atom of chlorine is 1.25 MJ/mol and the first ionization energy for a neutral atom of argon is 1.52 MJ/mol. How would the first ionization energy value for a neutral atom of potassum compare to those values?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "It would be greater than both because potassium carries a greater nuclear charge then either chlorine or argon."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It would be greater than both because the size of a potassium atom is smaller than an atom of either chlorine or argon."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It would be less than both because there are more electrons in potassium, meaning they repel each other more effectively and less energy is needed to remove one."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It would be less than both because a valence electron of potassium is farther from the nucleus than one of either chlorine or argon."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id171"
+  },
+  {
+    "input": {
+      "text": "Consider the Lewis structures for the following molecules: CO2, CO32-, NO2-, and NO3-. Which molecule would have the shortest bonds?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "CO2"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "CO32-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "NO2-"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "NO3-"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id112"
+  },
+  {
+    "input": {
+      "text": "The average mass, in grams, of one mole of carbon atoms is equal to"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the average mass of a single carbon atom, measured in amus."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "the ratio of the number of carbon atoms to the mass of a single carbon atom."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the number of carbon atoms in one amu of carbon."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the mass, in grams, of the most abundant isotope of carbon."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "Atoms of four elements are examined: carbon, nitrogen, neon, and sulfur. Which element would have a photoelectron spectra in which the peak representing electrons with the lowest ionization energy would be three times higher than all other peaks?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Carbon"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Nitrogen"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Neon"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Sulfur"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id131"
+  },
+  {
+    "input": {
+      "text": "Which is correct about the calcium atom?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "It contains 20 protons and neutrons"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It contains 20 protons and 20 electrons"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "It contains 20 protons, neutrons, and electrons"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All atoms of calcium have a mass of 40.078 u"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id161"
+  },
+  {
+    "input": {
+      "text": "In determining the order for reactant A in a certain reaction, the concentrations of all other reactants are held constant while the concentration of A is tripled from one experiment to another. The reaction rate is found to triple. The appropriate exponent for A in the rate law is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "3"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id113"
+  },
+  {
+    "input": {
+      "text": "Which of the following lists the electromagnetic spectral regions in order of decreasing wavelength?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "ultraviolet, visible, infrared, X-ray"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "X-ray, visible, ultraviolet, infrared"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "X-ray, ultraviolet, visible, infrared"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "infrared, visible, ultraviolet, X-ray"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "Which pair of reactants will have no net ionic equation (that is, all the ions cancel)?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Na2SO3 + FeCl2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "CaCl2 + MnSO4"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "NH4I + Pb(NO3)2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "KOH + HClO4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "The dimerization of NO2(g) to N2O4(g) is an endothermic process. Which of the following will, according to Le Ch\u00e2telier's principle, increase the amount of N2O4 in a reaction vessel?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Decreasing the temperature"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Increasing the size of the reaction vessel"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Adding a selective catalyst"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Making the reaction vessel smaller"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id144"
+  }
+]

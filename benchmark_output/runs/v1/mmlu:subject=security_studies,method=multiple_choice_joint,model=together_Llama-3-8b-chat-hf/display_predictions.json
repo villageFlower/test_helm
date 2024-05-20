@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "id222",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "All of these options.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1223.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id263",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Revolutionary uprisings are likely to occur; people of the world who have been left behind by neoliberal globalisation can become radicalised and rebel against those who have benefitted from the economic policies that have failed them.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1189.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id206",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "All of these options.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1137.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id116",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Pervasive violence.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1096.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id242",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "During the 20th century, security analysts were predisposed to focus on the potential threat of nuclear confrontation and military combat. Since the reduction in these threats, there has emerged a series of pandemic diseases, and a sense of growing unease at the future impact of more serious outbreaks in an increasingly globalised population.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1274.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id166",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Actors form their identity through interaction, which in turn defines the types of relationship formed between these actors.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1187.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id94",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The impact of environmental problems seems unlikely to diminish so that the relevance of environmental security for policy will likely increase, particularly multilateral action on common security concerns to achieve forms of social organization that are ecologically sustainable. In some sense, current practices of national security are an impediment to achieving environmental security for all people.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1285.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id187",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "All of these options.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1191.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id60",
+    "train_trial_index": 0,
+    "predicted_text": "A",
+    "base64_images": [],
+    "mapped_output": "Although often missing from the traditional literature on war and security, women frequently serve the purposes of nationalise causes, with nationalism often presented in highly gendered and female terms, where women are symbols of statehood.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1266.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id249",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "All of these options.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1146.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id215",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Whilst forecasts predict that energy consumption in the industrialised states of the North will continue to increase, the major increase in demand will come from the developing states of the South, posing major challenges to global energy security.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1247.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id178",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "The national security perspective on environmental issues has undermined the utility of the concept of environmental security. The militarization of environmental problems has decreased the ability of policymakers to 'capture' the critical nature of environmental problems and the environmental dimensions to social vulnerability. The reconciliation of environmental security with national security, and global levels of international change cannot be made without trading in the security interests of the state.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1332.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id214",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "All of these options.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1107.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id131",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Materialism refers to the roots of HM in the postmodern schools of thought.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1193.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id102",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "A watershed in technological advancement which alters the fundamental characteristics of war.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1123.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id20",
+    "train_trial_index": 0,
+    "predicted_text": "C",
+    "base64_images": [],
+    "mapped_output": "Traditional security studies adopt a positivist approach, based in scientific objectivism that pursues the definition of specific 'truths' that can be empirically tested and validated.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1231.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 1.0
+    }
+  },
+  {
+    "instance_id": "id13",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "'Security seeker' states are those interested in achieving security in the international system, whilst 'greedy states' are interested only in amassing power, land, and other resources.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1250.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id157",
+    "train_trial_index": 0,
+    "predicted_text": "B",
+    "base64_images": [],
+    "mapped_output": "Military security has emerged since the Cold War as the dominant sector within security analysis; both scholars and practitioners recognise the paramount importance of pursuing military security, based on the idea that military capabilities pose the greatest threat to human and state survival.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1302.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id64",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "All of these options.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1282.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  },
+  {
+    "instance_id": "id181",
+    "train_trial_index": 0,
+    "predicted_text": "D",
+    "base64_images": [],
+    "mapped_output": "Contemporary processes of globalization and societal conflict required the development of new conceptual tools beyond the state as the referent object. Security was dependent on factors beyond geographically conceived survival: survival of the state was superseded by survival of the nation (ethnic) state.",
+    "stats": {
+      "num_train_trials": 1.0,
+      "num_prompt_tokens": 1279.0,
+      "num_output_tokens": 1.0,
+      "num_train_instances": 5.0,
+      "prompt_truncated": 0.0,
+      "exact_match": 0.0
+    }
+  }
+]

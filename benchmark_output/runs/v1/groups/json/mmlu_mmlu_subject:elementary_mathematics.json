@@ -1,0 +1,510 @@
+{
+  "title": "subject: elementary_mathematics",
+  "header": [
+    {
+      "value": "Model/adapter",
+      "markdown": false,
+      "metadata": {}
+    },
+    {
+      "value": "EM",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "ECE (10-bin)",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\n10-bin expected calibration error: The average difference between the model's confidence and accuracy, averaged across 10 bins where each bin contains an equal number of points (only computed for classification tasks). Warning - not reliable for small datasets (e.g., with < 300 examples) because each bin will have very few examples.",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "ECE (10-bin)",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "EM (Robustness)",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.\n- Perturbation Robustness: Computes worst case over different robustness perturbations (misspellings, formatting, contrast sets).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "MMLU",
+        "perturbation": "Robustness"
+      }
+    },
+    {
+      "value": "EM (Fairness)",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\nExact match: Fraction of instances that the predicted output matches a correct reference exactly.\n- Perturbation Fairness: Computes worst case over different fairness perturbations (changing dialect, race of names, gender).",
+      "markdown": false,
+      "lower_is_better": false,
+      "metadata": {
+        "metric": "EM",
+        "run_group": "MMLU",
+        "perturbation": "Fairness"
+      }
+    },
+    {
+      "value": "Denoised inference time (s)",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\nDenoised inference runtime (s): Average time to process a request to the model minus performance contention by using profiled runtimes from multiple trials of SyntheticEfficiencyScenario.",
+      "markdown": false,
+      "lower_is_better": true,
+      "metadata": {
+        "metric": "Denoised inference time (s)",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "# eval",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\n# eval: Number of evaluation instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# eval",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "# train",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\n# train: Number of training instances (e.g., in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "# train",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "truncated",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\ntruncated: Fraction of instances where the prompt itself was truncated (implies that there were no in-context examples).",
+      "markdown": false,
+      "metadata": {
+        "metric": "truncated",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "# prompt tokens",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\n# prompt tokens: Number of tokens in the prompt.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# prompt tokens",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "# output tokens",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\n# output tokens: Actual number of output tokens.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# output tokens",
+        "run_group": "MMLU"
+      }
+    },
+    {
+      "value": "# trials",
+      "description": "The Massive Multitask Language Understanding (MMLU) benchmark for knowledge-intensive question answering across 57 domains [(Hendrycks et al., 2021)](https://openreview.net/forum?id=d7KBjmI3GmQ).\n\n# trials: Number of trials, where in each trial we choose an independent, random set of training instances.",
+      "markdown": false,
+      "metadata": {
+        "metric": "# trials",
+        "run_group": "MMLU"
+      }
+    }
+  ],
+  "rows": [
+    [
+      {
+        "value": "Together AI Llama 3 (8B)",
+        "description": "",
+        "href": "?group=mmlu&subgroup=subject%3A%20elementary_mathematics&runSpecs=%5B%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dtogether_Llama-3-8b-chat-hf%22%5D",
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=together_Llama-3-8b-chat-hf"
+        ]
+      },
+      {
+        "value": 0.3888888888888889,
+        "description": "min=0.389, mean=0.389, max=0.389, sum=0.389 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 0.3888888888888889,
+        "description": "min=0.389, mean=0.389, max=0.389, sum=0.389 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.3888888888888889,
+        "description": "min=0.389, mean=0.389, max=0.389, sum=0.389 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 18.0,
+        "description": "min=18, mean=18, max=18, sum=18 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 5.0,
+        "description": "min=5, mean=5, max=5, sum=5 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 571.5555555555555,
+        "description": "min=571.556, mean=571.556, max=571.556, sum=571.556 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      }
+    ],
+    [
+      {
+        "value": "Together AI Llama 3 (70B)",
+        "description": "",
+        "href": "?group=mmlu&subgroup=subject%3A%20elementary_mathematics&runSpecs=%5B%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dtogether_Llama-3-70b-chat-hf%22%5D",
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=together_Llama-3-70b-chat-hf"
+        ]
+      },
+      {
+        "value": 0.7222222222222222,
+        "description": "min=0.722, mean=0.722, max=0.722, sum=0.722 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 0.7222222222222222,
+        "description": "min=0.722, mean=0.722, max=0.722, sum=0.722 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "value": 0.7222222222222222,
+        "description": "min=0.722, mean=0.722, max=0.722, sum=0.722 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 18.0,
+        "description": "min=18, mean=18, max=18, sum=18 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 5.0,
+        "description": "min=5, mean=5, max=5, sum=5 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 571.5555555555555,
+        "description": "min=571.556, mean=571.556, max=571.556, sum=571.556 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      }
+    ],
+    [
+      {
+        "value": "Groq LLaMA 3 (8B)",
+        "description": "",
+        "href": "?group=mmlu&subgroup=subject%3A%20elementary_mathematics&runSpecs=%5B%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dgroq_llama3-8b-8192%22%5D",
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=groq_llama3-8b-8192"
+        ]
+      },
+      {
+        "value": 0.2777777777777778,
+        "description": "min=0.278, mean=0.278, max=0.278, sum=0.278 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 0.2777777777777778,
+        "description": "min=0.278, mean=0.278, max=0.278, sum=0.278 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.2777777777777778,
+        "description": "min=0.278, mean=0.278, max=0.278, sum=0.278 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 18.0,
+        "description": "min=18, mean=18, max=18, sum=18 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 5.0,
+        "description": "min=5, mean=5, max=5, sum=5 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 571.5555555555555,
+        "description": "min=571.556, mean=571.556, max=571.556, sum=571.556 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.3888888888888888,
+        "description": "min=1.389, mean=1.389, max=1.389, sum=1.389 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      }
+    ],
+    [
+      {
+        "value": "Groq LLaMA 3 (70B)",
+        "description": "",
+        "href": "?group=mmlu&subgroup=subject%3A%20elementary_mathematics&runSpecs=%5B%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dgroq_llama3-70b-8192%22%5D",
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=groq_llama3-70b-8192"
+        ]
+      },
+      {
+        "value": 0.7222222222222222,
+        "description": "min=0.722, mean=0.722, max=0.722, sum=0.722 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 0.7222222222222222,
+        "description": "min=0.722, mean=0.722, max=0.722, sum=0.722 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "value": 0.7222222222222222,
+        "description": "min=0.722, mean=0.722, max=0.722, sum=0.722 (1)",
+        "style": {
+          "font-weight": "bold"
+        },
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 18.0,
+        "description": "min=18, mean=18, max=18, sum=18 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 5.0,
+        "description": "min=5, mean=5, max=5, sum=5 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 571.5555555555555,
+        "description": "min=571.556, mean=571.556, max=571.556, sum=571.556 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      }
+    ],
+    [
+      {
+        "value": "Hugging face LLaMA 3 (8B)(original)",
+        "description": "",
+        "href": "?group=mmlu&subgroup=subject%3A%20elementary_mathematics&runSpecs=%5B%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dhuggingface_Meta-Llama-3-8B%22%5D",
+        "markdown": false,
+        "run_spec_names": [
+          "mmlu:subject=elementary_mathematics,method=multiple_choice_joint,model=huggingface_Meta-Llama-3-8B"
+        ]
+      },
+      {
+        "value": 0.5555555555555556,
+        "description": "min=0.556, mean=0.556, max=0.556, sum=0.556 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 0.5555555555555556,
+        "description": "min=0.556, mean=0.556, max=0.556, sum=0.556 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.5555555555555556,
+        "description": "min=0.556, mean=0.556, max=0.556, sum=0.556 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "description": "1 matching runs, but no matching metrics",
+        "markdown": false
+      },
+      {
+        "value": 18.0,
+        "description": "min=18, mean=18, max=18, sum=18 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 5.0,
+        "description": "min=5, mean=5, max=5, sum=5 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 0.0,
+        "description": "min=0, mean=0, max=0, sum=0 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 527.5555555555555,
+        "description": "min=527.556, mean=527.556, max=527.556, sum=527.556 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      },
+      {
+        "value": 1.0,
+        "description": "min=1, mean=1, max=1, sum=1 (1)",
+        "style": {},
+        "markdown": false
+      }
+    ]
+  ],
+  "links": [
+    {
+      "text": "compare all",
+      "href": "?group=mmlu&subgroup=subject%3A%20elementary_mathematics&runSpecs=%5B%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dgroq_llama3-70b-8192%22%2C%20%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dgroq_llama3-8b-8192%22%2C%20%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dhuggingface_Meta-Llama-3-8B%22%2C%20%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dtogether_Llama-3-70b-chat-hf%22%2C%20%22mmlu%3Asubject%3Delementary_mathematics%2Cmethod%3Dmultiple_choice_joint%2Cmodel%3Dtogether_Llama-3-8b-chat-hf%22%5D"
+    },
+    {
+      "text": "LaTeX",
+      "href": "benchmark_output/runs/v1/groups/latex/mmlu_mmlu_subject:elementary_mathematics.tex"
+    },
+    {
+      "text": "JSON",
+      "href": "benchmark_output/runs/v1/groups/json/mmlu_mmlu_subject:elementary_mathematics.json"
+    }
+  ],
+  "name": "mmlu_subject:elementary_mathematics"
+}

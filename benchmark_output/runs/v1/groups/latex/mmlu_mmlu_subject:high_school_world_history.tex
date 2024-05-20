@@ -1,0 +1,15 @@
+\begin{table*}[htp]
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Model/adapter & EM & EM (Robustness) & EM (Fairness) & # eval & # train & truncated & # prompt tokens & # output tokens & # trials \\
+\midrule
+Together AI Llama 3 (8B) & 0.631578947368421 & 0.631578947368421 & 0.631578947368421 & 19.0 & 5.0 &  & 1477.3684210526317 & 1.0 & 1.0 \\
+Together AI Llama 3 (70B) & 0.8421052631578947 & 0.8421052631578947 & 0.8421052631578947 & 19.0 & 5.0 &  & 1477.3684210526317 & 1.0 & 1.0 \\
+Groq LLaMA 3 (8B) & 0.42105263157894735 & 0.42105263157894735 & 0.42105263157894735 & 19.0 & 5.0 &  & 1477.3684210526317 & 1.0 & 1.0 \\
+Hugging face LLaMA 3 (8B)(original) & 0.7894736842105263 & 0.7894736842105263 & 0.7894736842105263 & 19.0 & 5.0 &  & 1433.3684210526317 & 1.0 & 1.0 \\
+\bottomrule
+\end{tabular}}
+\caption{Results for mmlu_subject:high_school_world_history (mmlu)}
+\label{fig:mmlu_subject:high_school_world_history (mmlu)}
+\end{table*}

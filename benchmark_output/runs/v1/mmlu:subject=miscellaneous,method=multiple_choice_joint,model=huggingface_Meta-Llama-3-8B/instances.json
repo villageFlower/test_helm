@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "What does the Yiddish word\"'meshuga' mean?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "crazy"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "sacred"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "stingy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "sweet"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id266"
+  },
+  {
+    "input": {
+      "text": "Which of the following digital camera settings can be used to keep colors accurate under a variety of light conditions?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "White balance"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Aperture"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "ISO speed"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Shutter speed"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id825"
+  },
+  {
+    "input": {
+      "text": "What are the dimensions of a 'letter size' piece of paper?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "3 1/2  5 inches"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "5  10 inches"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "8 1/2  11 inches"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "11 17 inches"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id82"
+  },
+  {
+    "input": {
+      "text": "What are the Smothers Brothers'(first names?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Frank and Bill"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Tom and Dick"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Dave and George"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Ed and Pete"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id458"
+  },
+  {
+    "input": {
+      "text": "Which color is not considered to be one of the primary colors of light?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "red"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "yellow"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "green"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "blue"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id576"
+  },
+  {
+    "input": {
+      "text": "Who was the first American in space?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "John Glenn"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Buzz Aldrin"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Alan Shepard"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Neil Armstrong"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id754"
+  },
+  {
+    "input": {
+      "text": "Which of the following has provided evidence that the Sun's atmosphere contains sodium atoms?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Absorption lines in the solar spectrum are consistent with the presence of sodium."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Stars with the same spectral class as the Sun are made mostly of sodium."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Solar samples returned to Earth by the Voyager spacecraft contained sodium."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The Sun gives off energy produced by the nuclear fusion of sodium in its core"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id283"
+  },
+  {
+    "input": {
+      "text": "A research report states that a special education program for children aged 3-5 under study increases their chances of success in future schooling. Therefore, implementing a similar education program for all children will improve them in the future opportunities for success in school education. Which of the following best illustrates the logical loopholes summarized above?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Children's cognitive abilities are constantly changing at the age of 3-5"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Establishing such education and training programs on a national basis requires a special public expenditure"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Many parents mistakenly believe that early formal education will occupy the time that children would have been able to better explore the world independently"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Investigators are unaware that they include a large group of children who have previously received another education"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id696"
+  },
+  {
+    "input": {
+      "text": "What is the name of Raggedy Ann's doll brother?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Red"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Freckles"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Randy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Andy"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id849"
+  },
+  {
+    "input": {
+      "text": "Which of these is not one of the 3 methods of heat transfer?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Conduction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Radiation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Convection"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Induction"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id350"
+  },
+  {
+    "input": {
+      "text": "In 1909 Frederick Cook claimed to be the first explorer to reach what location?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Mount Everest"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Bermuda Triangle"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Atlantis"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "North Pole"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id220"
+  },
+  {
+    "input": {
+      "text": "What quantity of oxygen, O_2 , contains very nearly the same number of molecules as 36.0 grams of water, H_2O ?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "64.0 grams"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "32.0 grams"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "16.0 grams"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "8.0 grams"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id792"
+  },
+  {
+    "input": {
+      "text": "What city's residents are known as 'Knickerbockers'?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Boston"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Philadelphia"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "New York City"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "London"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id368"
+  },
+  {
+    "input": {
+      "text": "What is the art of elegant handwriting called?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "calligraphy"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "engraving"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "decoupage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "lithography"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id526"
+  },
+  {
+    "input": {
+      "text": "A business teacher has students analyze a scenario in which a few firms in the gas industry produce a homogeneous product and dominate the market. This situation would primarily produce a market structure representative of"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "an oligopoly"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "a pure monopoly"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "monopolistic competition"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "pure competition"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id146"
+  },
+  {
+    "input": {
+      "text": "What letters are on the '3' button of a touch-tone telephone?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "ABC"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "DEF"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "GHI"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "WXY"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id284"
+  },
+  {
+    "input": {
+      "text": "Which of the following terms refers to pottery that has not been bisque fired?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Raku"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Greenware"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Terracotta"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Stoneware"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id814"
+  },
+  {
+    "input": {
+      "text": "What force causes an ice cream cone to fly off of a spinning merry-go-round?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "centrifugal"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Vehicular"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Gravitational"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Torsal"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id387"
+  },
+  {
+    "input": {
+      "text": "How many keys are on a Standard piano?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "20"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "54"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "88"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "100"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id411"
+  },
+  {
+    "input": {
+      "text": "Who was president of the United States when Bill Clinton was born?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Herbert Hoover"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Harry S Truman"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Franklin Roosevelt"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Dwight Eisenhower"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id102"
+  }
+]

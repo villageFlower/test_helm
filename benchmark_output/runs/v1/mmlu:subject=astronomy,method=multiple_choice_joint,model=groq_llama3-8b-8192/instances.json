@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "From shortest to longest wavelength which of the following correctly orders the different categories of electromagnetic radiation?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "infrared visible light ultraviolet X rays gamma rays radio"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "radio infrared visible light ultraviolet X rays gamma rays"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "gamma rays X rays visible light ultraviolet infrared radio"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "gamma rays X rays ultraviolet visible light infrared radio"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id156"
+  },
+  {
+    "input": {
+      "text": "Which of the following is not one of nor follows directly from Kepler's laws?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "As a planet moves around its orbit it sweeps out equal areas in equal times."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The orbit of each planet about the Sun is an ellipse with the Sun at one focus."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The force of attraction between any two objects decreases with the square of the distance between their centers."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "A planet travels faster when it is nearer to the Sun and slower when it is farther from the Sun."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id61"
+  },
+  {
+    "input": {
+      "text": "What would weigh the most on the moon?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A kilogram of feathers"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Five pounds of bricks as measured on Earth"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Five kilograms of feathers"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "A kilogram of bricks"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id128"
+  },
+  {
+    "input": {
+      "text": "We were first able to accurately measure the diameter of Pluto from:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a New Horizons flyby in the 1990s"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Hubble Space Telescope images that resolved Pluto's disk"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "brightness measurements made during mutual eclipses of Pluto and Charon"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "radar observations made by the Arecibo telescope"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  },
+  {
+    "input": {
+      "text": "Which factor s most important in determining the history of volanism and tectonism on a planet?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "size of the planet"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "presence of an atmosphere"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "distance from the sun"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "rotation period"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id105"
+  },
+  {
+    "input": {
+      "text": "What is not true of Jupiter's magnetic field?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "it is about 20000 times stronger than Earth's magnetic field"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "it traps charged particles from Io's volcanoes in a \"plasma torus\" around the planet"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "it causes spectacular auroral displays at Jupiter's north and south poles"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "it switches polarity every 11 years"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  },
+  {
+    "input": {
+      "text": "What dangers are currently faced by each Mars Exploration Rover?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit's instruments are being corroded by the acidic hot spring environment it is exploring."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Opportunity may not be able to move its arm again; Spirit may not be able to drive out of Victoria Crater due to its broken sixth wheel."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit may not get enough solar power during the winter months immediately ahead."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Opportunity may not be able to move its arm again; Spirit may not get enough solar power during the winter months immediately ahead."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "Which mechanism can NOT explain Mercury's lack of a permanent atmosphere?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Impact Heating"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Volcanic Heating"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Ablation by the solar wind"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Thermal Escape"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "Where is the crater from the impact that is believed to be responsible for the mass extinction of dinosaurs 65 million years ago?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Tunguska Siberia."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Chicxulub Crater Yucatan Peninsula in Mexico."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Quebec Canada."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Meteor Crater in Arizona."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id91"
+  },
+  {
+    "input": {
+      "text": "The distance between the Earth and the star Altair is one million times greater than the distance between the Earth and the Sun. How far is Altair from the Earth?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "9.3 x 1013 meters"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "9.3 x 1010 meters"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1.5 x 1014 meters"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1.5 x 1017 meters"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id140"
+  },
+  {
+    "input": {
+      "text": "How do scientists know that the majority of meteorites come from the asteroid belt?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Bubbles of gas trapped in the crystals within meteorites are identical to the gases trapped in asteroids."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The spectra of some meteorites are similar to the spectra of asteroids in the asteroid belt."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Collisions are common in the asteroid belt and we can track the fragments from their source asteroid to the Earth where they become meteorites."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The asteroid belt is the only possible source of meteorites therefore they must originate there."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  },
+  {
+    "input": {
+      "text": "Pluto's extremely cold (~40 K) surface is composed of:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "mainly water ice which always remains frozen"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "nitrogen methane and carbon monoxide ices which sublimate into an atmosphere near perihelion"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "nitrogen methane and carbon monoxide ices which always remain frozen"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "roughly half ices and half rocky materials"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id99"
+  },
+  {
+    "input": {
+      "text": "Why do jovian planets bulge around the equator that is have a \"squashed\" appearance?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Their large systems of moons and rings gravitationally attract the mass around the equator more."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "They are much more massive than the terrestrial planets."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Their rapid rotation flings the mass near the equator outward."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Their internal heat sources exert a pressure against the sides of the planets."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id162"
+  },
+  {
+    "input": {
+      "text": "The astronomical unit parsec (pc) plays a crucial role in astronomy. One parsec is equal to about 3.26 light-years. How is one parsec defined in astronomy?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Distance at which one astronomical unit measures one arcsecond from Earth."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Orbital distance of the solar system around the center of the Milky Way in one year."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Effective distance of the solar wind (i.e. the radius of the heliosphere)."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Historical distance to the brightest star Sirius."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id106"
+  },
+  {
+    "input": {
+      "text": "Planet X orbits its sun once every 100 Earth days and rotates in the prograde direction around its axis with a sidereal day of 100 Earth days. How long is a solar day on Planet X?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "About 10 earth days"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "About 100 earth days"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "About 200 earth days"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "There is no solar day Planet X is tidally locked"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id78"
+  },
+  {
+    "input": {
+      "text": "The terrestrial planet cores contain mostly metal because"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the entire planets are made mostly of metal."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "metals condensed first in the solar nebula and the rocks then accreted around them."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "metals sank to the center during a time when the interiors were molten throughout."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "radioactivity created metals in the core from the decay of uranium."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "When traveling north from the United States into Canada you\u2019ll see the North Star (Polaris) getting _________."
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Brighter"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Dimmer"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Higher in the sky"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Lower in the sky"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "Which statement about an atom is not true:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The nucleus contains most of the atom\u2019s mass but almost none of its volume."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A neutral atom always has equal numbers of electrons and protons."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A neutral atom always has equal numbers of neutrons and protons."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The electrons can only orbit at particular energy levels."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id102"
+  },
+  {
+    "input": {
+      "text": "The sky is blue because"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the Sun mainly emits blue light."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the atmosphere absorbs mostly blue light."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "molecules scatter red light more effectively than blue light."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "molecules scatter blue light more effectively than red light."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id144"
+  },
+  {
+    "input": {
+      "text": "What is the correct numerical value and unit of the Boltzmann constant?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1.38 \u00d7 10\u221221 m^3 \u00b7 kg \u00b7 s^\u22122 \u00b7 K^\u22121"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1.38 \u00d7 10\u221222 m^2 \u00b7 kg \u00b7 s^\u22123 \u00b7 K^\u22121"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1.38 \u00d7 10\u221223 m^2 \u00b7 kg \u00b7 s^\u22122 \u00b7 K^\u22121"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1.38 \u00d7 10\u221224 m^2 \u00b7 kg \u00b7 s^\u22122 \u00b7 K^\u22122"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id101"
+  }
+]

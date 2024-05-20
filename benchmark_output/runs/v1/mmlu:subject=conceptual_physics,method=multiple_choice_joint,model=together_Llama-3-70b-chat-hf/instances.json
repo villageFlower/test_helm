@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "In both fission and fusion, energy is released while mass"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "decreases"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "remains unchanged; is conserved"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "increases"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "may decrease or increase"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id171"
+  },
+  {
+    "input": {
+      "text": "A capacitor can store"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "charge"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "energy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Both of these"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Neither of these"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id111"
+  },
+  {
+    "input": {
+      "text": "Astrophysicists are able to identify the elements in the outer layers of a star by studying its"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Doppler effect."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "molecular structure."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "temperature."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "spectrum."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id244"
+  },
+  {
+    "input": {
+      "text": "A step-up transformer in an electrical circuit can step up"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "voltage"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "energy"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Both of these"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Neither of these"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id81"
+  },
+  {
+    "input": {
+      "text": "Satellites in circular Earth orbit maintain a constant speed because gravitational force on them is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "zero"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "practically zero"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "appreciably weaker than at Earth\u2019s surface"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "without a component of force along their circular path"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id225"
+  },
+  {
+    "input": {
+      "text": "A galvanometer can be calibrated to read electric"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "current"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "voltage"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Either of these"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Neither of these"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id176"
+  },
+  {
+    "input": {
+      "text": "A machine cannot multiply"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "forces"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "distances"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "energy"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "None of these"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "In a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "hydrogen."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "oxygen."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "nitrogen."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "But all have the same speed on average."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id76"
+  },
+  {
+    "input": {
+      "text": "The surface of planet Earth loses energy to outer space due mostly to"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "conduction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "convection"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "radiation"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "radioactivity"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "Polarization is a property of"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "transverse waves."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "longitudinal waves."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "all waves."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "None of these."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id158"
+  },
+  {
+    "input": {
+      "text": "When the color yellow is seen on your TV screen the phosphors being activated on the screen are"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "mainly yellow."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "blue and red."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "green and yellow."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "red and green."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id184"
+  },
+  {
+    "input": {
+      "text": "Put a saucer of water on your table. A process that then occurs is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "evaporation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "condensation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Both"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Neither"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id60"
+  },
+  {
+    "input": {
+      "text": "When an object is set vibrating by a wave that has a matching frequency, what occurs is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "forced vibration"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "resonance"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "refraction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "amplitude reduction"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id218"
+  },
+  {
+    "input": {
+      "text": "The electric field between a pair of oppositely charged parallel plates"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "gets weaker with distance inside the plates"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "follows the inverse-square law"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Both of these"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Neither of these"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id115"
+  },
+  {
+    "input": {
+      "text": "When a fusion reaction converts a pair of hydrogen isotopes to an alpha particle and a neutron most of the energy released is in the form of"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "gamma radiation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "kinetic energy of the alpha particle."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "kinetic energy of the neutron."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "All of these about equally."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id157"
+  },
+  {
+    "input": {
+      "text": "Polarization is a property of"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "transverse waves"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "longitudinal waves"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "all waves"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "None of these"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "The principal source of Earth\u2019s internal energy is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "tidal friction"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "gravitational pressure"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "radioactivity"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "geothermal heat"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id242"
+  },
+  {
+    "input": {
+      "text": "The magnetic field lines about a current-carrying wire form"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "circles"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "radial lines"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "eddy currents"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "energy loops"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id260"
+  },
+  {
+    "input": {
+      "text": "A diffraction grating relies on light"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "interference"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "amplitudes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "variations in brightness"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "being composed of photons"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id142"
+  },
+  {
+    "input": {
+      "text": "The team that wins in a tug-of-war is the team that"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "produces more tension in the rope than the opponent"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "pushes hardest on the ground"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Both"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Neither"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id149"
+  }
+]

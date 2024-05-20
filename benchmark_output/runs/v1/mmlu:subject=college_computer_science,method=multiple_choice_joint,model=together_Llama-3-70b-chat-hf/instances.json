@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "One approach to handling fuzzy logic data might be to design a computer using ternary (base-3) logic so that data could be stored as \u201ctrue,\u201d \u201cfalse,\u201d and \u201cunknown.\u201d If each ternary logic element is called a flit, how many flits are required to represent at least 256 different values?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "6"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "7"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id104"
+  },
+  {
+    "input": {
+      "text": "Which of the following evaluation strategies must be defined in order to execute a logic program on a sequential machine?\nI. Evaluation order of rules\nII. Evaluation order of clauses\nIII. Evaluation order of arguments in each clause"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "II only"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "I and II only"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "I and III only"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "I, II, and III"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "valid",
+    "id": "id15"
+  },
+  {
+    "input": {
+      "text": "Let T (n) be defined by T(1) = 7 and T(n + 1) = 3n + T(n) for all integers n \u2265 1. Which of the following represents the order of growth of T(n) as a function of n?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "\u0398(n)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "\u0398(n log n)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "\u0398(n^2)"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "\u0398(n^2 log n)"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id81"
+  },
+  {
+    "input": {
+      "text": "Of the following page-replacement policies, which is guaranteed to incur the minimum number of page faults?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Replace the page whose next reference will be the longest time in the future."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Replace the page whose next reference will be the shortest time in the future."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Replace the page whose most recent reference was the shortest time in the past."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Replace the page whose most recent reference was the longest time in the past."
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id7"
+  },
+  {
+    "input": {
+      "text": "TCP protocol is responsible (among other things) for"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Routing packets through the network"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Reliable delivery of packets between directly connected machines"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Reliable delivery of large (multi-packet) messages between machines that are not necessarily directly connected"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Dealing with differences among operating system architectures"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id29"
+  },
+  {
+    "input": {
+      "text": "At time 0, five jobs are available for execution on a single processor, with service times of 25, 15, 5, 3, and 2 time units. Which of the following is the minimum value of the average completion time of these jobs?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "50"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "208/5"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "92/5"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "10"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id107"
+  },
+  {
+    "input": {
+      "text": "Which of the following is usually NOT represented in a subroutine's activation record frame for a stack-based programming language?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Values of local variables"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A heap area"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The return address"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Stack pointer for the calling activation record"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "The main difference between a network operating system and a distributed operating system is that"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A network operating system hides the existence of many machines from the user, but a distributed operating system makes the existence of many machines visible"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A distributed operating system hides the existence of many machines from the user, but a network operating system makes the existence of many machines visible"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "A network operating system uses a local-area network, while a distributed operating system uses a wide-area network"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A distributed operating system uses a local-area network, while a network operating system uses a wide-area network"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id12"
+  },
+  {
+    "input": {
+      "text": "Consider the collection of all undirected graphs with 10 nodes and 6 edges. Let M and m, respectively, be the maximum and minimum number of connected components in any graph in the collection. If a graph has no selfloops and there is at most one edge between any pair of nodes, which of the following is true?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "M = 10, m = 10"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "M = 10, m = 1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "M = 7, m = 4"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "M = 6, m = 4"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id21"
+  },
+  {
+    "input": {
+      "text": "A particular disk unit uses a bit string to record the occupancy or vacancy of its tracks, with O denoting vacant and 1 denoting occupied. A 32-bit segment of this string has the hexadecimal value D4FE2003. The percentage of occupied tracks for the corresponding part of the disk, to the nearest percent, is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "12%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "25%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "38%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "44%"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  },
+  {
+    "input": {
+      "text": "The hit ratio of a cache memory is the percentage of accesses (reads and writes) for which data are found in the cache. Write-through is a policy whereby every write operation updates main memory. Write-back is a policy whereby a write operation to a line found in the cache does not affect main memory until the line is evicted from the cache. Write-allocation is a policy whereby a cache line is allocated and loaded on a write-miss. If it is assumed that write-allocation is always used, which of the following is true?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Write-back usually results in a better hit ratio than write-through."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Write-through usually results in a better hit ratio than write-back."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The percentage of write operations resulting in a main memory operation will never be larger for write-back than for write-through."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The percentage of write operations resulting in a main memory operation will never be larger for writethrough than for write-back."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id94"
+  },
+  {
+    "input": {
+      "text": "If p(x) is the minimal-degree interpolating polynomial for the real-valued function f(x) at the n + 1 distinct real numbers x0, .... xn what is the maximum possible degree of p(x)?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "n"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "n + 1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "n + 2"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "2n"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id27"
+  },
+  {
+    "input": {
+      "text": "Bob writes down a number between 1 and 1,000. Mary must identify that number by asking \"yes/no\" questions of Bob. Mary knows that Bob always tells the truth. If Mary uses an optimal strategy, then she will determine the answer at the end of exactly how many questions in the worst case?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1,000"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "999"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "500"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "10"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id48"
+  },
+  {
+    "input": {
+      "text": "Many cryptographic protocols base their security on assumptions about the computational difficulty of integer factorization. Integer factorization serves this purpose because we believe that"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "integer multiplication is a function whose inverse, factorization, remains difficult for a large class of inputs"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "P = NP"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "even if P = NP, integer factorization is still likely not to be polynomial-time computable"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "testing primality is computationally intractable"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id56"
+  },
+  {
+    "input": {
+      "text": "If a malicious process is granted temporary administrator-level access to a system"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the threat is over as soon as the process is killed"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the threat is over after the operating system is rebooted"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the thread is over after rebooting the machine and replacing files that show a virus infection"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the threat is often permanent until the entire disk is wiped clean"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id66"
+  },
+  {
+    "input": {
+      "text": "Two alternatives for interconnecting a set of processors with bidirectional links are (1) the fully interconnected network, in which each processor is directly connected to every other processor, and (2) the ring network, in which each processor is connected to two other processors. The worst-case path length for a network is the maximum, over all pairs of nodes in the network, of the minimum length paths (measured in number of links) between the nodes. For each type of interconnection of n processors, a figure of merit can be formed as the product of the number of links required for the network times the worst-case path length connecting any two processors. The ratio of this figure of merit for the fully interconnected network compared to that of the ring network, for even n > 2, is"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1/(n^2)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1/(n(n-1))"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1/n"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "(n-1)/n"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id59"
+  },
+  {
+    "input": {
+      "text": "In the NoNicks operating system, the time required by a single file-read operation has four nonoverlapping components:\ndisk seek time-25 msec\ndisk latency time-8 msec\ndisk transfer time- 1 msec per 1,000 bytes\noperating system overhead-1 msec per 1,000 bytes + 10 msec\nIn version 1 of the system, the file read retrieved blocks of 1,000 bytes. In version 2, the file read (along with the underlying layout on disk) was modified to retrieve blocks of 4,000 bytes. The ratio of-the time required to read a large file under version 2 to the time required to read the same large file under version 1 is approximately"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "1:4"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1:3.5"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "1:1"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "1.1:1"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id18"
+  },
+  {
+    "input": {
+      "text": "Which of the following language features requires that stack-based storage allocation be used rather than static allocation?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Recursive procedures"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Arbitrary goto's"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Two-dimensional arrays"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Integer-valued functions"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id79"
+  },
+  {
+    "input": {
+      "text": "Which of the following characteristics of a programming language is best specified using a context-free grammar?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Identifier length"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Maximum level of nesting"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Operator precedence"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Type compatibility"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id97"
+  },
+  {
+    "input": {
+      "text": "In which of the following representations of numbers by 8-bit words is the addition of the integers 109 and -42 within range?\nI. One's complement\nII. Two's complement\nIII. Sign and magnitude"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "I only"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "II only"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "I and II only"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "I, II, and III"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id65"
+  }
+]

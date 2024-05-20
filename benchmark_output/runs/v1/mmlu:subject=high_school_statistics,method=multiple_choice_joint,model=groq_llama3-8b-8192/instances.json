@@ -1,0 +1,702 @@
+[
+  {
+    "input": {
+      "text": "The midterm scores for a statistics course were approximately normally distributed with a mean of 52 points and a standard deviation of 4 points. The final exam scores were approximately normally distributed with a mean of 112 points and a standard deviation of 10 points. One student had a score of 58 points on the midterm. If she had the same standardized score (z-score) on the final exam, what must her score have been?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "15 points"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "58 points"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "118 points"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "127 points"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id183"
+  },
+  {
+    "input": {
+      "text": "The registrar\u2019s office at a university has noticed that a large number of students fail to report a change of address. The registrar decides to take a random sample of 150 students from the current directory of students and determine the number of students with the correct addresses on record. He then uses this information to construct a 95 percent confidence interval. Which of the following statements must be true?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The true proportion of students at this university with the correct address on record is within the confidence interval constructed."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Ninety-five percent of students at this university have the correct address on record."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The true proportion of students at this university with the correct addresses on record is within the confidence interval 95 percent of the time."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The sample proportion of students at this university with the correct address on record is within the confidence interval."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id158"
+  },
+  {
+    "input": {
+      "text": "A study looked at medical records of about 23,000 patients, mostly in Asia. They found that patients who drank at least three cups of green tea per day had a much lower incidence of depression. In an American newspaper article about this study, which of the following statements should not be made?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "It is possible that people who drink green tea also tend to have healthier lifestyles than those who don't."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It is possible that people who drink green tea also tend to have a more positive outlook on life than those who don't."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Because this is observational data, the association between drinking green tea and a lower incidence of depression is not an indication of a causal relationship."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "People who want to avoid depression should consider drinking green tea on a daily basis."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id111"
+  },
+  {
+    "input": {
+      "text": "An experiment is conducted in which the response variable is the average gain in participants' performance in the long jump. A two-sample t-test with a 5% level of significance will be used to analyze the results. If all else is kept the same, which of the following descriptions of a possible change in procedure is true?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Change from equal size treatment groups to very different size treatment groups would increase the power of the test."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Change from a 5% significance level to a 1% significance level would increase the power of the test."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Taking more careful measurements to reduce variability in the response would increase the power of the test."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Increasing the sample size would reduce the probability of a Type I error."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id116"
+  },
+  {
+    "input": {
+      "text": "At a large hospital, the durations of emergency room visits, from check-in to discharge, are approximately normally distributed with a mean of 167 minutes and a standard deviation of 76 minutes. Which interval, to the nearest minute, contains the middle 80% of durations?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "15 minutes to 319 minutes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "53 minutes to 281 minutes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "70 minutes to 264 minutes"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "91 minutes to 243 minutes"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id130"
+  },
+  {
+    "input": {
+      "text": "Self-efficacy (the belief that one has control over one's situation) as it related to job satisfaction was studied. When a group of teachers rated their ability to control their situation and their satisfaction with their job, the two variables had a correlation of 0.30. Which statement follows from this correlation?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "If you want teachers to be happy with their job, give them more control over their situation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "If you want teachers to take more control over their situation, make them happier at their jobs."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Teachers in the study who were more satisfied with their job were less confident in their ability to control their situation."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "9% of the variability in job satisfaction can be explained by the linear model with self-efficacy as a predictor."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id231"
+  },
+  {
+    "input": {
+      "text": "To study the effect of music on piecework output at a clothing manufacturer, two experimental treatments are planned: day-long classical music for one group versus day-long light rock music for another. Which one of the following groups would serve best as a control for this study?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A third group for which no music is played"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "A third group that randomly hears either classical or light rock music each day"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A third group that hears day-long R & B music"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A third group that hears classical music every morning and light rock every afternoon"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id127"
+  },
+  {
+    "input": {
+      "text": "A university sent out a survey to a random sample of 120 recent graduates to see how those graduates feel about the education they received. Thirty-two of the graduates did not respond to the survey. Which of these would be the best way to proceed?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Use the 88 who did respond, using 88 as the sample size in the analysis."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Use the 88 who did respond, using 120 as the sample size in the analysis."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Attempt to contact the 32 who did not respond and get the information from them."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Select 32 more graduates at random and use them to replace the nonresponders."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id220"
+  },
+  {
+    "input": {
+      "text": "Which of the following is least likely to reduce bias in a sample survey?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Following up with those who did not respond to the survey the first time"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Asking questions in a neutral manner to avoid influencing the responses"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Using stratified random sampling rather than simple random sampling"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Selecting samples randomly"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id50"
+  },
+  {
+    "input": {
+      "text": "A town has one high school, which buses students from urban, suburban, and rural communities. Which of the following samples is recommended in studying attitudes toward tracking of students in honors, regular, and below-grade classes?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Convenience sample"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Simple random sample (SRS)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Stratified sample"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Systematic sample"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id199"
+  },
+  {
+    "input": {
+      "text": "Biologists around the world have increased efforts at conservation. Monitoring wildlife populations is important so that appropriate management efforts can be implemented, but such monitoring is often difficult. One study found a cheap and easy way to estimate the number of nesting sites of terns (a type of seabird) by monitoring the number of calls heard per minute. More calls happen when there are more birds, as one would expect. In fact, it turned out that the number of calls explained 71% of the variation in the abundance of nests between breeding sites. Which of the following statements is correct about the correlation between the number of calls and the abundance of nests?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The correlation coefficient is -0.71."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The correlation coefficient is 0.71."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The correlation coefficient is -0.84."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The correlation coefficient is 0.84."
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id123"
+  },
+  {
+    "input": {
+      "text": "Suppose that the weights of trucks traveling on the interstate highway system are normally distributed. If 70% of the trucks weigh more than 12,000 pounds and 80% weigh more than 10,000 pounds, what are the mean and standard deviation for the weights of trucks traveling on the interstate system?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "\u03bc = 14,900; \u03c3 = 6100"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "\u03bc = 15,100; \u03c3 = 6200"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "\u03bc = 15,300; \u03c3 = 6300"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "\u03bc = 15,500; \u03c3 = 6400"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id181"
+  },
+  {
+    "input": {
+      "text": "Which among the following would result in the narrowest confidence interval?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Small sample size and 95% confidence"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Small sample size and 99% confidence"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Large sample size and 95% confidence"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Large sample size and 99% confidence"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id223"
+  },
+  {
+    "input": {
+      "text": "\"A hypothesis test yields a P-value of 0.20.\" Which of the following best describes what is meant by this statement?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The probability of getting a finding at least as extreme as that obtained by chance alone if the null hypothesis is true is 0.20."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The probability of getting a finding as extreme as that obtained by chance alone from repeated random sampling is 0.20."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The probability is 0.20 that our finding is significant."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The probability of getting this finding is 0.20."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id106"
+  },
+  {
+    "input": {
+      "text": "A farmer wants to know whether a new fertilizer has increased the mean weight of his apples. With the old fertilizer, the mean weight was 4.0 ounces per apple. The farmer decides to test H0: \u03bc = 4.0 ounces versus Ha : \u03bc > 4.0 ounces, at a 5 percent level of significance, where \u03bc = the mean weight of apples using the new fertilizer. The weights of apples are approximately normally distributed. The farmer takes a random sample of 16 apples and computes a mean of 4.3 ounces and a standard deviation of 0.6 ounces. Which of the following gives the p-value for this test?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "P(Z > 2)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "P(Z < 2)"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "P(t > 2) with 15 degrees of freedom"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "P(t < 2) with 15 degrees of freedom"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id178"
+  },
+  {
+    "input": {
+      "text": "A botanist is interested in testing H0: \u03bc = 3.5 cm versus Ha: \u03bc > 3.5, where \u03bc = the mean petal length of one variety of flowers. A random sample of 50 petals gives significant results at a 5 percent level of significance. Which of the following statements about the confidence interval to estimate the mean petal length is true?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The specified mean length of 3.5 cm is within a 90 percent confidence interval."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The specified mean length of 3.5 cm is not within a 90 percent confidence interval."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The specified mean length of 3.5 cm is below the lower limit of a 90 percent confidence interval."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The specified mean length of 3.5 cm is below the lower limit of a 95 percent confidence interval."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id159"
+  },
+  {
+    "input": {
+      "text": "Suppose H0: p = 0.6, and the power of the test for Ha: p = 0.7 is 0.8. Which of the following is a valid conclusion?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The probability of committing a Type I error is 0.1."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "If Ha is true, the probability of failing to reject H0 is 0.2."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The probability of committing a Type II error is 0.3."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "All of the above are valid conclusions."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id185"
+  },
+  {
+    "input": {
+      "text": "In an experiment, the control group should receive"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "treatment opposite that given the experimental group."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the same treatment given the experimental group without knowing they are receiving the treatment."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a procedure identical to that given the experimental group except for receiving the treatment under examination."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "a procedure identical to that given the experimental group except for a random decision on receiving the treatment under examination."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id113"
+  },
+  {
+    "input": {
+      "text": "A sports talk show asks people to call in and give their opinion of the officiating in the local basketball team's most recent loss. What will most likely be the typical reaction?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "They will most likely feel that the officiating could have been better, but that it was the team's poor play, not the officiating, that was primarily responsible for the loss."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "They would most likely call for the team to get some new players to replace the current ones."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The team probably wouldn't have lost if the officials had been doing their job."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "Because the team had been foul-plagued all year, the callers would most likely support the officials."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id189"
+  },
+  {
+    "input": {
+      "text": "For which of these is a binomial probability model most reasonable?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "The number of times, out of 10 attempts, that a particular child can throw a ball into a basket from six feet away"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "The colors of the cars in the parking lot of a particular grocery store on a randomly selected Sunday"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The number of times that a randomly selected resident of California has visited a museum in the last 12 months"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "The number of cards drawn from a well-shuffled deck until all four aces are found"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id13"
+  }
+]

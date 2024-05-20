@@ -1,0 +1,704 @@
+[
+  {
+    "input": {
+      "text": "In Marx's theory, the 'mode of production' means:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "the way in which products are made in a factory"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the average measure of productivity under capitalism"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the organization of a society's technical and human resources"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "an integral part of the superstructure of a society"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id101"
+  },
+  {
+    "input": {
+      "text": "Which of the following is not a characteristic of totalitarian societies?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "indoctrination and propaganda"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "freedom of movement for citizens"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "one-party rule"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a centrally planned economy"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id207"
+  },
+  {
+    "input": {
+      "text": "Cultural restructuring has involved:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "regenerating cities in economic decline"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "turning industrial landscapes into tourist attractions"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "selling sites and images through the 'symbolic economy' of media advertising"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "all of the above"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id174"
+  },
+  {
+    "input": {
+      "text": "The print revolution of the nineteenth century resulted in:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "mass production, mass circulation, and the decline of serious content"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "the public ownership of newspapers as a shared resource"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "more people going to the cinema as a new leisure activity"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a reduction of 'virtual communities' on the Internet"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id141"
+  },
+  {
+    "input": {
+      "text": "Which of these was not one of Townsend's (1979) indicators of relative deprivation?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "lacking exclusive use of a bath or shower"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "living in housing with serious structural defects"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "buying fewer than twenty DVDs in the previous year"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "going without a week's holiday in the previous year"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id187"
+  },
+  {
+    "input": {
+      "text": "Smith & Tomlinson argued that:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "differences in ethnic background were more significant than class or gender in predicting educational achievement"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "racism in schools undermined the move towards equality of opportunity for children from ethnic minorites"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "school character far outweighed ethnic background in determining educational success"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "gender differences in educational achievement could be attributed to inequalities of class"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id155"
+  },
+  {
+    "input": {
+      "text": "Statistics about rural, suburban, and urban patterns of development and mobility are almost always reported based on a geographical area labeled as Metropolitan Statistical Areas (MSA). What constitutes an MSA?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "It includes only the 10 largest cities in the United States."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It is composed of at least one central city with a population of at least 50,000 and it surrounds densely urbanized counties."
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "It is an area that experiences strong storms at least 50 percent of the year."
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "It is a large city with a population of at least 1 million and is immediately surrounded by suburbs."
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id49"
+  },
+  {
+    "input": {
+      "text": "Industrial production in the nineteenth century was characterized by:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "increasing numbers of women in high status positions"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "cottage industries and homeworkers doing piecework in the domestic sphere"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the 'managerial revolution' by which ownership and control became separate"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "power-driven machinery and the concentration of workers in large workplaces"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id202"
+  },
+  {
+    "input": {
+      "text": "Seven people standing silently while waiting for a bus at a bus stop is an example of which of the following?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "A primary group"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "A secondary group"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "An aggregate"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "A social category"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id69"
+  },
+  {
+    "input": {
+      "text": "Foucault's term 'biopolitics' refers to:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "forms of power over the body, such as physical training, as a means of disciplining the mind"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "forms of knowledge such as demographic statistics, which allow us to map and measure populations"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "public health measures, such as improved sanitation and freshwater schemes"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "intervention by the state to regulate sexual behaviour"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id13"
+  },
+  {
+    "input": {
+      "text": "In the traditional hierarchy of status and precedence, which of these members of the upper class are in the right order (from highest to lowest status)?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "Prime Minister, Archbishop of York, Viscounts of England"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Marquesses of England, Earls of Great Britain, King's Brothers"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "Esquires, Serjeants of Law, Dukes' Eldest Sons"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "King's Grandsons, Lord High Treasurer, Companions of the Bath"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id112"
+  },
+  {
+    "input": {
+      "text": "When sociologists study the structure of layers in society and people's movement between them, they call this:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "social stratification"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "social control"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "social conflict"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "social solidarity"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id42"
+  },
+  {
+    "input": {
+      "text": "Wirth (1938) said that social relationships in the urban way of life were 'segmental' because:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "they were confined to particular areas of the city"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "people knew each other only through specific, situational roles, and not as whole, rounded individuals"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "there were distinctive patterns of activity for each social class"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "they were based on face to face interaction with close friends and family"
+        },
+        "tags": []
+      }
+    ],
+    "split": "valid",
+    "id": "id10"
+  },
+  {
+    "input": {
+      "text": "Sociology differs from common sense in that:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "it focuses on the researchers' own experiences"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "it makes little distinction between the way the world is and the way it ought to be"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "its knowledge is accumulated from many different research contexts"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "it is subjective and biased"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id150"
+  },
+  {
+    "input": {
+      "text": "The Macpherson Report highlighted the increasing problem of:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "hate crimes: violence against ethnic minorities simply because of their race"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "institutional racism: systematic forms of disadvantage built into the routines and practices of social institutions"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "overt racism in the police force that must be tackled by institutional reforms"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "growing numbers of asylum seekers in need of long term accommodation"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id68"
+  },
+  {
+    "input": {
+      "text": "The concept of political culture refers to the"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "way that cultural products, such as novels or paintings, reflect the political ideologies of their creators"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "basic beliefs and orientation toward politics that are shared widely by the members of a culture"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "political beliefs and attitudes shared by people in public offices"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "ideological biases of the mass media"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id189"
+  },
+  {
+    "input": {
+      "text": "Marx proclaimed that religion would disappear when:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "a new trend of moral individualism became established"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "a socialist revolution removed the need for capitalist ideology"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "church attendance dropped below 15%"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "people came to believe more in science and technology"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id144"
+  },
+  {
+    "input": {
+      "text": "Which of the following is a personal document with closed access?"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "government 'white paper'"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "confidential medical records"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "household account book"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "the shares register of a business"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id210"
+  },
+  {
+    "input": {
+      "text": "Economic aid has largely failed to promote modernization in the developing countries because:"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "there are no clearly defined projects into which the money can be directed"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "the United Nations has refused to call on rich countries to provide it"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "debt repayments with interest can be greater than the amount of money received"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "debt repayments with interest can be greater than the amount of money received"
+        },
+        "tags": [
+          "correct"
+        ]
+      }
+    ],
+    "split": "test",
+    "id": "id224"
+  },
+  {
+    "input": {
+      "text": "A researcher mailed 1,000 questionnaires to members of a labor union and received 300 back. Most of those who returned the questionnaires indicated that they were dissatisfied with the union. Results based only on the returned questionnaires are most likely contaminated by"
+    },
+    "references": [
+      {
+        "output": {
+          "text": "response rate bias"
+        },
+        "tags": [
+          "correct"
+        ]
+      },
+      {
+        "output": {
+          "text": "researcher bias"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "confusing correlation and causation"
+        },
+        "tags": []
+      },
+      {
+        "output": {
+          "text": "statistical regression"
+        },
+        "tags": []
+      }
+    ],
+    "split": "test",
+    "id": "id95"
+  }
+]
