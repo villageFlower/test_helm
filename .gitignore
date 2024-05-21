@@ -68,3 +68,4 @@ prod_env/cache
 benchmark_output/scenarios/mmlu
 .pre-commit-config.yaml
 .readthedocs.yaml
+benchmark_output
